@@ -113,16 +113,18 @@ def build(dati, contenuto, forza_soldout=False):
                            "unita": "a persona",
                            "prezzo": vg["premio_annullamento"], "quota": False})
 
-    # --- chips: solo dati presenti; la durata è sovrascrivibile dal contenuto
-    #     (es. "13 giorni di tour" quando i giorni di viaggio non coincidono) ---
-    chips = []
-    chips.append(contenuto.get("durata_label")
-                 or f"{durata_giorni(vg['data_partenza'], vg['data_rientro'])} giorni")
+    # --- fascia "in breve": coppie etichetta/valore, solo dati presenti; la durata è
+    #     sovrascrivibile dal contenuto (es. "13 giorni di tour" quando i giorni di
+    #     viaggio non coincidono con le date dall'Italia) ---
+    fatti = []
+    fatti.append(("Durata", contenuto.get("durata_label")
+                  or f"{durata_giorni(vg['data_partenza'], vg['data_rientro'])} giorni"))
     if vg.get("aeroporto_partenza"):
-        chips.append(f"Voli da {vg['aeroporto_partenza']}")
+        fatti.append(("Voli", f"da {vg['aeroporto_partenza']}"))
     if vg.get("posti_totali"):
-        chips.append(f"Gruppo di massimo {vg['posti_totali']} partecipanti")
-    chips.extend(contenuto.get("chips_extra") or [])
+        fatti.append(("Gruppo", f"max {vg['posti_totali']} partecipanti"))
+    for f in contenuto.get("fatti_extra") or []:
+        fatti.append((f.get("etichetta") or "In breve", f.get("valore") or ""))
 
     # --- condizioni: parametriche + editoriali ---
     condizioni = []
@@ -171,7 +173,8 @@ def build(dati, contenuto, forza_soldout=False):
         "eyebrow": contenuto.get("eyebrow") or "Partenza di gruppo Kibo",
         "strillo": contenuto.get("strillo") or "",
         "trip_dates": trip_dates(vg["data_partenza"], vg["data_rientro"]),
-        "chips": chips,
+        "fatti": fatti,
+        "area": (contenuto.get("area") or "").strip(),
         "sold_out": sold_out,
         "quota_da": euro(vg["quota_base"]) if vg.get("quota_base") else "",
         "acconto": euro(acconto) if acconto else "",
@@ -200,14 +203,21 @@ def build(dati, contenuto, forza_soldout=False):
 
 
 def render(model):
-    tpl = (REPO / "templates" / "viaggio.html").read_text(encoding="utf-8")
+    # Un template per macro-area (viaggio-oriente.html, viaggio-oceano-indiano.html,
+    # viaggio-americhe.html): finché non esiste, si usa il layout base.
+    area = model.get("area") or ""
+    tpl_area = REPO / "templates" / f"viaggio-{area}.html"
+    tpl_file = tpl_area if area and tpl_area.exists() else REPO / "templates" / "viaggio.html"
+    tpl = tpl_file.read_text(encoding="utf-8")
 
     if model["sold_out"]:
         cta_url, cta_label = model["contact_url"], "Sold out — contattaci"
+        chiusura_titolo = "Questo viaggio è sold out"
         chiusura_testo = ("I posti disponibili sono finiti. Scrivici per la lista d'attesa "
                           "o per la prossima partenza.")
     else:
         cta_url, cta_label = model["cta_url"], "Prenota"
+        chiusura_titolo = "Pronto a partire?"
         chiusura_testo = "La prenotazione si completa online in pochi minuti."
 
     rows = []
@@ -220,8 +230,8 @@ def render(model):
     tappe = []
     for g in model["giorni"]:
         etichetta = f"Giorno {g['giorno']}" if g.get("giorno") else ""
-        tappe.append(f'<div class="tappa"><span class="giorno">{esc(etichetta)}</span>'
-                     f'<h3>{esc(g.get("titolo") or "")}</h3><p>{esc(g.get("testo") or "")}</p></div>')
+        tappe.append(f'<li><span class="punto"></span><span class="giorno">{esc(etichetta)}</span>'
+                     f'<h3>{esc(g.get("titolo") or "")}</h3><p>{esc(g.get("testo") or "")}</p></li>')
 
     conds = "".join(
         f"<details><summary>{esc(t)}</summary><p>{esc(c)}</p></details>"
@@ -236,7 +246,10 @@ def render(model):
         "titolo": model["titolo"],
         "strillo": model["strillo"],
         "trip_dates": model["trip_dates"],
-        "chips_html": "".join(f'<span class="chip">{esc(c)}</span>' for c in model["chips"]),
+        "facts_html": "".join(
+            f'<div class="fatto"><span class="etichetta">{esc(et)}</span>'
+            f'<span class="valore">{esc(va)}</span></div>' for et, va in model["fatti"]),
+        "area_class": f"area-{model['area']}" if model.get("area") else "",
         "quota_da": model["quota_da"],
         "acconto": model["acconto"],
         "saldo_testo": model["saldo_testo"],
@@ -251,6 +264,7 @@ def render(model):
         "sistemazione_titolo": model["sistemazione_titolo"],
         "sistemazione_html": paragrafi_html(model["sistemazione"]),
         "conditions_html": conds,
+        "chiusura_titolo": chiusura_titolo,
         "chiusura_testo": chiusura_testo,
         "updated_at": model["updated_at"],
     }

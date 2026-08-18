@@ -11,8 +11,9 @@
     "Il programma dettagliato giorno per giorno è in preparazione e sarà pubblicato qui."
   ],
   "giorni": [],
+  "area": "",
   "durata_label": "13 giorni di tour",
-  "chips_extra": ["Campo tendato mobile"],
+  "fatti_extra": [{"etichetta": "Formula", "valore": "Campo tendato mobile"}],
   "incluso": [
     "Voli di linea Ethiopian Airlines da Milano Malpensa, andata e ritorno (orari 2027 in via di conferma)",
     "Tour di 13 giorni / 12 notti da Windhoek a Windhoek in campo tendato mobile",

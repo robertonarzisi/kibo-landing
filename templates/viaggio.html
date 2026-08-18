@@ -15,14 +15,12 @@
 <link rel="icon" type="image/png" href="/assets/brand/logo-kibo-colore.png">
 <link rel="stylesheet" href="/assets/kibo.css">
 </head>
-<body>
+<body class="{{area_class}}">
 
 <header class="hero-foto" style="--foto: url('/assets/hero/{{slug}}.jpg')">
   <div class="marchio">
-    <div class="marchio-kibo">
-      <img class="logo-hero" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
-      <span class="sotto-marchio">WHERE&nbsp;DREAMS&nbsp;COME&nbsp;TOURS</span>
-    </div>
+    <img class="logo-hero" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
+    <span class="sotto-marchio">Where dreams come tours</span>
   </div>
 
   <div class="hero-testo">
@@ -34,79 +32,86 @@
     <!--IF:strillo-->
     <p class="strillo">{{strillo}}</p>
     <!--ENDIF:strillo-->
-    <div class="meta">
-      <span class="chip evidenza">{{trip_dates}}</span>
-      {{chips_html}}
-    </div>
   </div>
 </header>
 
-<div class="corpo">
+<div class="in-breve">
+  <div class="in-breve-inner">
+    <div class="fatto"><span class="etichetta">Date</span><span class="valore">{{trip_dates}}</span></div>
+    {{facts_html}}
+    <!--IF:quota_da-->
+    <div class="fatto quota"><span class="etichetta">Quota a persona</span><span class="valore">da {{quota_da}}</span></div>
+    <!--ENDIF:quota_da-->
+    <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+  </div>
+</div>
 
-  <aside class="colonna-card">
-    <div class="card-riepilogo">
-      <span class="etichetta">Quote e supplementi</span>
-      {{price_rows_html}}
-      <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
-      <span class="nota-card">{{chiusura_testo}}</span>
-      <!--IF:acconto-->
-      <span class="nota-card">Alla conferma si versa un acconto di {{acconto}} a persona{{saldo_testo}}.</span>
-      <!--ENDIF:acconto-->
-      <span class="aggiornato">Quote e disponibilità aggiornate al {{updated_at}}.</span>
+<main class="racconto">
+
+  <section>
+    <span class="etichetta">Il viaggio</span>
+    <h2>{{intro_titolo}}</h2>
+    <div class="testo">{{intro_html}}</div>
+  </section>
+
+  <!--IF:itinerario-->
+  <section>
+    <span class="etichetta">Giorno per giorno</span>
+    <h2>L'itinerario</h2>
+    <ol class="timeline">{{itinerario_html}}</ol>
+  </section>
+  <!--ENDIF:itinerario-->
+
+  <section class="larga">
+    <span class="etichetta">Cosa comprende</span>
+    <h2>Incluso e non incluso</h2>
+    <div class="due-colonne">
+      <div class="scheda incluso">
+        <h3>La quota include</h3>
+        <ul>{{included_html}}</ul>
+      </div>
+      <div class="scheda non-incluso">
+        <h3>Non include</h3>
+        <ul>{{excluded_html}}</ul>
+      </div>
     </div>
-  </aside>
+  </section>
 
-  <main class="contenuto">
+  <!--IF:sistemazione-->
+  <section>
+    <span class="etichetta">Dove dormi</span>
+    <h2>{{sistemazione_titolo}}</h2>
+    <div class="testo">{{sistemazione_html}}</div>
+  </section>
+  <!--ENDIF:sistemazione-->
 
-    <section>
-      <span class="etichetta">Il viaggio</span>
-      <h2>{{intro_titolo}}</h2>
-      <div class="testo">{{intro_html}}</div>
-    </section>
+  <section>
+    <span class="etichetta">Quote e supplementi</span>
+    <h2>Quanto costa</h2>
+    <div class="listino">{{price_rows_html}}</div>
+    <p class="nota-listino">Quote e disponibilità aggiornate al {{updated_at}}.
+    <!--IF:acconto-->Alla conferma si versa un acconto di {{acconto}} a persona{{saldo_testo}}.<!--ENDIF:acconto--></p>
+  </section>
 
-    <!--IF:itinerario-->
-    <section>
-      <span class="etichetta">Giorno per giorno</span>
-      <h2>L'itinerario</h2>
-      <div class="itinerario">{{itinerario_html}}</div>
-    </section>
-    <!--ENDIF:itinerario-->
+  <!--IF:condizioni-->
+  <section>
+    <span class="etichetta">Le cose scritte chiare</span>
+    <h2>Condizioni</h2>
+    <div class="condizioni">
+      {{conditions_html}}
+    </div>
+  </section>
+  <!--ENDIF:condizioni-->
 
-    <section>
-      <span class="etichetta">Cosa comprende</span>
-      <h2>Incluso e non incluso</h2>
-      <div class="due-colonne">
-        <div class="scheda incluso">
-          <h3>La quota include</h3>
-          <ul>{{included_html}}</ul>
-        </div>
-        <div class="scheda non-incluso">
-          <h3>Non include</h3>
-          <ul>{{excluded_html}}</ul>
-        </div>
-      </div>
-    </section>
+</main>
 
-    <!--IF:sistemazione-->
-    <section>
-      <span class="etichetta">Dove dormi</span>
-      <h2>{{sistemazione_titolo}}</h2>
-      <div class="testo">{{sistemazione_html}}</div>
-    </section>
-    <!--ENDIF:sistemazione-->
-
-    <!--IF:condizioni-->
-    <section>
-      <span class="etichetta">Le cose scritte chiare</span>
-      <h2>Condizioni</h2>
-      <div class="condizioni">
-        {{conditions_html}}
-      </div>
-    </section>
-    <!--ENDIF:condizioni-->
-
-  </main>
-
+<div class="chiusura">
+  <h2>{{chiusura_titolo}}</h2>
+  <!--IF:quota_da-->
+  <p class="quota-grande">da <b>{{quota_da}}</b> a persona</p>
+  <!--ENDIF:quota_da-->
+  <p class="dettaglio">{{chiusura_testo}}</p>
+  <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
 </div>
 
 <div class="barra-fissa">
@@ -135,7 +140,7 @@
 
 <footer>
   <div class="footer-inner">
-    <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo"></span>
+    <img class="logo-footer" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
     <span>Kibo Tours · <a href="https://www.kibotours.com">kibotours.com</a></span>
     <span>Quote e disponibilità aggiornate al {{updated_at}}. Il contratto di viaggio con le
     condizioni complete viene inviato prima della conferma.</span>

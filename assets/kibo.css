@@ -1,6 +1,9 @@
-/* kibo.css — stile condiviso delle landing viaggio Kibo (layout "foto magazine",
-   derivato dal sistema landing KiRun).
-   Brand dal sito kibotours.com: Montserrat · blu #027ABB · teal #265A63.
+/* kibo.css — stile condiviso delle landing viaggio Kibo.
+   Layout EDITORIALE A COLONNA UNICA, volutamente diverso dall'impianto a due colonne
+   di KiRun: hero centrato, fascia riepilogo, racconto al centro, itinerario a timeline.
+   Brand: wordmark teal #265A63 · blu #027ABB · Montserrat; display serif Fraunces
+   (scelta di progetto per distinguere le landing: si rimuove cambiando --font-display).
+   Aree: il body porta la classe area-<nome> (es. area-oriente) per gli accenti dedicati.
    Un ritocco qui vale per tutte le pagine senza rigenerarle. */
 
 @font-face {
@@ -10,30 +13,46 @@
   font-display: swap;
   src: url("/assets/montserrat-var.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/assets/fraunces-var.woff2") format("woff2");
+}
 
 :root {
   --blu: #027ABB;
   --blu-2: #269BD1;
   --teal: #265A63;
-  --teal-notte: #16363C;
+  --teal-notte: #142E33;
+  --acqua: #EDF4F3;        /* banda tinta, ancora nel mondo teal del brand */
   --azzurro: #9DBAC4;
-  --carta: #F6FAFC;
+  --carta: #FDFDFC;
   --bianco: #FFFFFF;
   --inchiostro: #24404A;
   --secondario: #56737E;
   --linea: #DCE6EA;
   --radius: 12px;
-  --misura: 64rem;      /* larghezza del corpo a due colonne */
+  --misura: 42rem;         /* colonna del racconto */
+  --misura-larga: 68rem;   /* fasce e griglie */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-testo: "Montserrat", "Segoe UI", system-ui, sans-serif;
 }
+
+/* Ganci per i futuri layout di macro-area: stessi token, accenti propri. */
+.area-oriente { }
+.area-oceano-indiano { }
+.area-americhe { }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  font-family: var(--font-testo);
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: var(--inchiostro);
   background: var(--carta);
   -webkit-text-size-adjust: 100%;
@@ -42,81 +61,71 @@ body {
 img { max-width: 100%; display: block; }
 a { color: var(--blu); }
 
-h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: balance; margin: 0; }
+h1, h2, h3 { line-height: 1.15; color: var(--teal); text-wrap: balance; margin: 0; }
+h1, h2 { font-family: var(--font-display); font-weight: 480; }
+h3 { font-family: var(--font-testo); font-weight: 500; }
 
 .etichetta {
   font-size: 0.8125rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
   color: var(--secondario);
   font-weight: 500;
 }
 
-/* ---------- Hero fotografico ----------
+/* ---------- Hero: composizione centrata ----------
    La foto arriva da /assets/hero/<slug>.jpg via custom property --foto impostata inline.
    Se il file non esiste resta il gradiente brand sotto: la pagina regge senza foto. */
 
 .hero-foto {
-  min-height: 74vh;
+  min-height: 82vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 2.5rem;
-  background-image:
-    linear-gradient(180deg, rgba(22, 54, 60, 0.10) 0%, rgba(22, 54, 60, 0.10) 45%, rgba(22, 54, 60, 0.45) 70%, rgba(22, 54, 60, 0.85) 100%),
-    var(--foto, none),
-    linear-gradient(160deg, var(--teal) 20%, var(--teal-notte) 100%);
-  background-size: cover;
-  background-position: center 58%;
-  border-top: 4px solid var(--blu);
-  padding: 1.5rem 1.25rem 2rem;
-}
-
-.hero-foto .marchio {
-  max-width: var(--misura);
-  margin: 0 auto;
-  width: 100%;
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.65rem;
+  gap: 2.5rem;
+  text-align: center;
+  background-image:
+    linear-gradient(180deg, rgba(20, 46, 51, 0.35) 0%, rgba(20, 46, 51, 0.08) 30%, rgba(20, 46, 51, 0.12) 55%, rgba(20, 46, 51, 0.72) 100%),
+    var(--foto, none),
+    linear-gradient(165deg, var(--teal) 15%, var(--teal-notte) 100%);
+  background-size: cover;
+  background-position: center 55%;
+  padding: 1.75rem 1.25rem 3.5rem;
 }
 
-.marchio-kibo { display: flex; align-items: center; gap: 0.65rem; }
+.logo-hero { height: 52px; width: auto; filter: drop-shadow(0 1px 6px rgba(20, 46, 51, 0.55)); }
+.marchio { display: grid; justify-items: center; gap: 0.3rem; }
+.sotto-marchio { font-size: 0.7rem; color: #D9E6E4; letter-spacing: 0.22em; text-transform: uppercase; }
 
-/* Il logo in alto resta leggibile anche su foto chiare, senza scurire tutta l'immagine */
-.logo-hero { height: 48px; width: auto; filter: drop-shadow(0 1px 6px rgba(22, 54, 60, 0.55)); }
-.logo-footer { height: 34px; width: auto; }
-.sotto-marchio { font-size: 0.75rem; color: var(--azzurro); letter-spacing: 0.06em; }
-
-.hero-testo { max-width: var(--misura); margin: 0 auto; width: 100%; display: grid; gap: 0.75rem; justify-items: start; }
+.hero-testo { display: grid; gap: 0.9rem; justify-items: center; max-width: 46rem; }
 
 .hero-testo .eyebrow {
   font-size: 0.8125rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--blu-2);
+  color: #CFE6F2;
   font-weight: 500;
 }
 
 .hero-testo h1 {
   color: var(--bianco);
-  font-size: clamp(2.4rem, 7vw, 4rem);
-  line-height: 1.05;
-  letter-spacing: -0.01em;
-  text-shadow: 0 2px 12px rgba(22, 54, 60, 0.55);
+  font-size: clamp(2.8rem, 9vw, 5rem);
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 16px rgba(20, 46, 51, 0.6);
 }
 
 .hero-testo .strillo {
   margin: 0;
-  color: #E8F0F3;
-  max-width: 38rem;
-  text-shadow: 0 1px 8px rgba(22, 54, 60, 0.6);
+  color: #EAF2F1;
+  font-size: 1.0625rem;
+  max-width: 34rem;
+  text-shadow: 0 1px 8px rgba(20, 46, 51, 0.65);
 }
 
 .badge-soldout {
-  background: var(--blu);
-  color: var(--bianco);
+  background: var(--bianco);
+  color: var(--teal);
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -125,71 +134,72 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: 
   padding: 0.3rem 1rem;
 }
 
-.hero-testo .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.5rem; }
-.chip {
-  font-size: 0.875rem;
-  color: #E8F0F3;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 999px;
-  padding: 0.25rem 0.85rem;
-  white-space: nowrap;
+/* ---------- Fascia "la partenza in breve" ---------- */
+
+.in-breve {
+  background: var(--bianco);
+  border-bottom: 1px solid var(--linea);
+  padding: 1.5rem 1.25rem;
 }
-.chip.evidenza { border-color: var(--blu-2); color: var(--bianco); font-weight: 500; }
-
-/* ---------- Corpo a due colonne: contenuto + card riepilogo ---------- */
-
-.corpo {
-  max-width: var(--misura);
+.in-breve-inner {
+  max-width: var(--misura-larga);
   margin: 0 auto;
-  padding: 2rem 1.25rem 5rem;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr;
-  grid-template-areas: "aside" "main";
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem 2.25rem;
 }
-@media (min-width: 940px) {
-  .corpo { grid-template-columns: 1fr 21.5rem; gap: 3rem; grid-template-areas: "main aside"; }
-}
+.fatto { display: grid; gap: 0.1rem; }
+.fatto .etichetta { font-size: 0.6875rem; }
+.fatto .valore { font-weight: 500; color: var(--teal); white-space: nowrap; }
+.fatto.quota .valore { color: var(--blu); font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+.in-breve .cta { margin-left: auto; }
+@media (max-width: 700px) { .in-breve .cta { margin-left: 0; width: 100%; } }
 
-.contenuto { grid-area: main; min-width: 0; }
-.colonna-card { grid-area: aside; min-width: 0; }
+/* ---------- Racconto a colonna unica ---------- */
 
-.contenuto section { margin-bottom: 2.25rem; }
-.contenuto section:last-child { margin-bottom: 0; }
-.contenuto h2 { font-size: 1.35rem; margin-bottom: 0.6rem; }
-.contenuto .etichetta { display: block; margin-bottom: 0.3rem; }
-.testo p { margin: 0 0 0.6rem; max-width: 38rem; }
+.racconto { padding: 3.5rem 1.25rem 4.5rem; display: grid; gap: 3.25rem; }
+.racconto > section { max-width: var(--misura); margin: 0 auto; width: 100%; }
+.racconto > section.larga { max-width: var(--misura-larga); }
+.racconto h2 { font-size: clamp(1.6rem, 4vw, 2.1rem); margin-bottom: 0.75rem; }
+.racconto .etichetta { display: block; margin-bottom: 0.35rem; }
+.testo p { margin: 0 0 0.7rem; }
 .testo p:last-child { margin-bottom: 0; }
 
-/* ---------- Itinerario giorno per giorno ---------- */
+/* ---------- Itinerario a timeline ---------- */
 
-.itinerario { display: grid; gap: 0.75rem; }
-.tappa {
+.timeline { list-style: none; margin: 0.5rem 0 0; padding: 0; position: relative; }
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 0.4rem;
+  bottom: 0.4rem;
+  width: 2px;
+  background: var(--linea);
+}
+.timeline li { position: relative; padding: 0 0 1.6rem 2.1rem; }
+.timeline li:last-child { padding-bottom: 0; }
+.timeline .punto {
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
   background: var(--bianco);
-  border: 1px solid var(--linea);
-  border-radius: var(--radius);
-  padding: 1rem 1.15rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.35rem 1rem;
-  align-items: baseline;
+  border: 3px solid var(--blu);
 }
-.tappa .giorno {
-  grid-row: 1 / span 2;
-  align-self: start;
-  font-weight: 500;
-  font-size: 0.8125rem;
-  letter-spacing: 0.05em;
+.timeline .giorno {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--bianco);
-  background: var(--blu);
-  border-radius: 8px;
-  padding: 0.3rem 0.6rem;
-  white-space: nowrap;
-  text-align: center;
+  color: var(--blu);
+  font-weight: 500;
+  display: block;
 }
-.tappa h3 { font-size: 1.0625rem; }
-.tappa p { margin: 0; grid-column: 2; font-size: 0.9375rem; color: var(--inchiostro); }
+.timeline h3 { font-size: 1.0625rem; margin: 0.1rem 0 0.25rem; }
+.timeline p { margin: 0; font-size: 0.9375rem; }
 
 /* ---------- Incluso / non incluso ---------- */
 
@@ -208,6 +218,36 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: 
 .scheda li::before { position: absolute; left: 0; font-weight: 500; }
 .scheda.incluso li::before { content: "✓"; color: var(--blu); }
 .scheda.non-incluso li::before { content: "—"; color: var(--azzurro); }
+
+/* ---------- Quote e supplementi ---------- */
+
+.listino {
+  background: var(--acqua);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.35rem;
+  display: grid;
+  gap: 0;
+}
+.riga-prezzo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  border-top: 1px solid rgba(38, 90, 99, 0.15);
+  font-size: 0.9375rem;
+}
+.riga-prezzo:first-child { border-top: 0; }
+.riga-prezzo .unita { color: var(--secondario); font-size: 0.75rem; display: block; }
+.riga-prezzo .importo {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--teal);
+}
+.riga-prezzo.quota .nome { font-weight: 500; color: var(--teal); }
+.riga-prezzo.quota .importo { color: var(--blu); font-size: 1.35rem; }
+.nota-listino { font-size: 0.8125rem; color: var(--secondario); margin-top: 0.6rem; }
 
 /* ---------- Condizioni ---------- */
 
@@ -230,51 +270,23 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: 
 }
 .condizioni summary::after { content: "+"; color: var(--blu); font-size: 1.2rem; }
 .condizioni details[open] summary::after { content: "–"; }
-.condizioni details p { margin: 0.6rem 0 0; white-space: pre-line; }
+.condizioni details p { margin: 0.6rem 0 0; white-space: pre-line; font-size: 0.9375rem; }
 
-/* ---------- Card riepilogo (sticky su desktop) ---------- */
+/* ---------- Chiusura su banda teal ---------- */
 
-.card-riepilogo {
-  background: var(--bianco);
-  border: 1px solid var(--linea);
-  border-radius: 14px;
-  padding: 1.25rem;
+.chiusura {
+  background: linear-gradient(165deg, var(--teal) 10%, var(--teal-notte) 100%);
+  color: #EAF2F1;
+  text-align: center;
+  padding: 3.5rem 1.25rem;
   display: grid;
-  gap: 0.55rem;
-  box-shadow: 0 8px 28px rgba(38, 90, 99, 0.08);
+  gap: 0.9rem;
+  justify-items: center;
 }
-@media (min-width: 940px) { .card-riepilogo { position: sticky; top: 1.25rem; } }
-
-.card-riepilogo h3 { font-size: 0.9375rem; margin-top: 0.25rem; }
-.card-riepilogo .nota-card { font-size: 0.8125rem; color: var(--secondario); }
-.card-riepilogo .aggiornato { font-size: 0.75rem; color: var(--azzurro); margin-top: 0.35rem; }
-
-/* Righe listino dentro la card: la quota è la riga forte */
-.riga-prezzo {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.75rem;
-  padding: 0.5rem 0;
-  border-top: 1px solid var(--linea);
-  font-size: 0.875rem;
-}
-.riga-prezzo .nome { min-width: 0; }
-.riga-prezzo .unita { color: var(--secondario); font-size: 0.75rem; display: block; }
-.riga-prezzo .importo {
-  font-variant-numeric: tabular-nums;
-  font-weight: 500;
-  white-space: nowrap;
-  color: var(--teal);
-}
-.riga-prezzo.quota {
-  border-top: 0;
-  padding: 0 0 0.5rem;
-  font-size: 1rem;
-  align-items: center;
-}
-.riga-prezzo.quota .nome { font-weight: 500; color: var(--teal); }
-.riga-prezzo.quota .importo { color: var(--blu); font-size: 1.6rem; }
+.chiusura h2 { color: var(--bianco); font-family: var(--font-display); font-weight: 480; font-size: clamp(1.7rem, 5vw, 2.3rem); }
+.chiusura .dettaglio { max-width: 34rem; margin: 0; font-size: 0.9375rem; color: #CBDDDB; }
+.chiusura .quota-grande { font-size: 1.15rem; }
+.chiusura .quota-grande b { color: var(--bianco); font-weight: 500; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
 
 /* ---------- Bottoni ---------- */
 
@@ -286,13 +298,13 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: 
   font-weight: 500;
   font-size: 1.0625rem;
   text-decoration: none;
-  border-radius: 10px;
-  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  padding: 0.85rem 2rem;
   box-shadow: 0 4px 16px rgba(2, 122, 187, 0.35);
 }
 .cta:hover { filter: brightness(1.05); }
-.cta:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
-.card-riepilogo .cta { width: 100%; }
+.cta:focus-visible { outline: 3px solid var(--teal-notte); outline-offset: 2px; }
+.chiusura .cta:focus-visible { outline-color: var(--bianco); }
 
 /* ---------- Barra fissa mobile ---------- */
 
@@ -304,34 +316,28 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: 
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  background: var(--teal);
+  background: var(--teal-notte);
   color: #E8F0F3;
   padding: 0.65rem 1.25rem;
   box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.25);
 }
 .barra-fissa b { color: var(--bianco); font-weight: 500; }
-.barra-fissa .cta { padding: 0.55rem 1.1rem; font-size: 0.9375rem; box-shadow: none; }
+.barra-fissa .cta { padding: 0.55rem 1.2rem; font-size: 0.9375rem; box-shadow: none; }
 @media (min-width: 940px) { .barra-fissa { display: none; } }
 
 /* ---------- Footer ---------- */
 
 footer {
-  background: var(--teal);
+  background: var(--teal-notte);
   color: var(--azzurro);
   padding: 2rem 1.25rem 4.5rem;
   font-size: 0.8125rem;
+  text-align: center;
 }
 @media (min-width: 940px) { footer { padding-bottom: 2rem; } }
-.footer-inner { max-width: var(--misura); margin: 0 auto; display: grid; gap: 0.4rem; }
+.footer-inner { max-width: var(--misura-larga); margin: 0 auto; display: grid; gap: 0.5rem; justify-items: center; }
 footer a { color: #D6E4E9; }
-.footer-brand {
-  color: var(--bianco);
-  font-weight: 500;
-  font-size: 0.9375rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
+.logo-footer { height: 34px; width: auto; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
