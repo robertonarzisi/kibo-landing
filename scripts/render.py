@@ -113,13 +113,16 @@ def build(dati, contenuto, forza_soldout=False):
                            "unita": "a persona",
                            "prezzo": vg["premio_annullamento"], "quota": False})
 
-    # --- chips: solo dati presenti ---
+    # --- chips: solo dati presenti; la durata è sovrascrivibile dal contenuto
+    #     (es. "13 giorni di tour" quando i giorni di viaggio non coincidono) ---
     chips = []
-    chips.append(f"{durata_giorni(vg['data_partenza'], vg['data_rientro'])} giorni")
+    chips.append(contenuto.get("durata_label")
+                 or f"{durata_giorni(vg['data_partenza'], vg['data_rientro'])} giorni")
     if vg.get("aeroporto_partenza"):
         chips.append(f"Voli da {vg['aeroporto_partenza']}")
     if vg.get("posti_totali"):
         chips.append(f"Gruppo di massimo {vg['posti_totali']} partecipanti")
+    chips.extend(contenuto.get("chips_extra") or [])
 
     # --- condizioni: parametriche + editoriali ---
     condizioni = []
@@ -127,11 +130,19 @@ def build(dati, contenuto, forza_soldout=False):
         if corpo and str(corpo).strip():
             condizioni.append((titolo, str(corpo).strip()))
 
+    # Struttura pagamenti (dalla scheda Viaggi): acconto fisso uguale per tutti;
+    # il premio assicurativo per intero alla conferma; il supplemento singola nel saldo.
     acconto = vg.get("acconto_per_persona")
     if acconto:
         testo = f"Alla conferma si versa un acconto di {euro(acconto)} a persona."
+        if vg.get("premio_annullamento"):
+            testo += ("\nIl premio dell'assicurazione annullamento, se sottoscritta, "
+                      "si versa per intero alla conferma.")
         if vg.get("data_saldo"):
-            testo += f"\nSaldo entro il {data_it(vg['data_saldo'])}."
+            saldo = f"\nSaldo entro il {data_it(vg['data_saldo'])}"
+            if vg.get("supplemento_singola"):
+                saldo += ", incluso l'eventuale supplemento singola"
+            testo += saldo + "."
         cond("Acconto e saldo", testo)
     cond("Penali di annullamento", vg.get("scala_penali"))
     if vg.get("minimo_partecipanti"):

@@ -11,12 +11,13 @@
     "Il programma dettagliato giorno per giorno è in preparazione e sarà pubblicato qui."
   ],
   "giorni": [],
+  "durata_label": "13 giorni di tour",
+  "chips_extra": ["Campo tendato mobile"],
   "incluso": [
-    "Voli di linea Ethiopian Airlines da Milano Malpensa, andata e ritorno",
+    "Voli di linea Ethiopian Airlines da Milano Malpensa, andata e ritorno (orari 2027 in via di conferma)",
     "Tour di 13 giorni / 12 notti da Windhoek a Windhoek in campo tendato mobile",
     "Tutte le prime colazioni e 9 cene",
-    "Tasse e quota d'iscrizione",
-    "Programma Prenota Sicuro",
+    "Tasse e quota d'iscrizione con programma Prenota Sicuro",
     "Assicurazione spese mediche base"
   ],
   "non_incluso": [
@@ -28,6 +29,11 @@
   "sistemazione": [],
   "assicurazione_testo": "L'assicurazione annullamento è facoltativa e il premio si versa per intero alla conferma della prenotazione.",
   "documenti_testo": "Serve il passaporto con validità residua di almeno 6 mesi dal rientro e pagine libere.\nDall'aprile 2025 per la Namibia è obbligatorio il visto d'ingresso, da richiedere prima della partenza sul portale eServices del Ministero dell'Interno namibiano.",
-  "condizioni_extra": [],
+  "condizioni_extra": [
+    {
+      "titolo": "Chi viaggia da solo",
+      "testo": "Chi viaggia da solo può richiedere l'abbinamento con un altro partecipante in sistemazione doppia, senza supplemento. In alternativa è disponibile la sistemazione singola con il supplemento indicato, fino a esaurimento delle singole disponibili."
+    }
+  ],
   "meta_description": "Namibia con Kibo: partenza di gruppo a giugno 2027, 13 giorni in campo tendato mobile da Windhoek a Windhoek con voli di linea da Milano."
 }
