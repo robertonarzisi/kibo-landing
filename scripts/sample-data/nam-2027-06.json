@@ -1,0 +1,27 @@
+{
+  "_nota": "Dato Airtable normalizzato del record Viaggi recrtxOC4yc2YQJQb (base Kibo — Partenze di Gruppo). Fotografia del 2026-08-18: la fonte di verità resta Airtable.",
+  "oggi": "2026-08-18",
+  "cta_url": "https://tally.so/r/1Azdyb",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "trip_id": "NAM-2027-06",
+    "nome_commerciale": "Namibia — Campo tendato mobile",
+    "destinazione": "Namibia",
+    "stato": "Bozza",
+    "data_partenza": "2027-06-02",
+    "data_rientro": "2027-06-16",
+    "vettore": "Ethiopian Airlines (orari da confermare)",
+    "aeroporto_partenza": "Milano Malpensa (MXP)",
+    "posti_totali": 18,
+    "minimo_partecipanti": 8,
+    "data_riconferma": "2027-04-03",
+    "quota_base": 3490,
+    "supplemento_singola": 190,
+    "premio_annullamento": 145,
+    "acconto_per_persona": 1047,
+    "data_saldo": "2027-04-18",
+    "posti_residui": 18,
+    "singole_residue": 4,
+    "scala_penali": "SCALA PENALI IN DEROGA — giorni di calendario rispetto alla partenza dall'Italia (02/06/2027).\n\nTour di gruppo a data fissa con voli di linea a tariffa speciale. Ai sensi del punto 10 delle Condizioni Generali di Vendita Kibo Tours, che escludono espressamente tale tipologia di prodotto dal regime standard delle penali, si applica la seguente scala in deroga a quella ivi indicata. Per il resto le Condizioni Generali di Vendita si applicano integralmente.\n\n- Dalla conferma fino al 03/03/2027: 30%, pari all'acconto versato di 1.047 EUR a persona\n- Dal 04/03/2027 al 17/04/2027: 50%\n- Dal 18/04/2027 al 12/05/2027: 80%\n- Dal 13/05/2027: 100%\n\nL'acconto versato non e' in alcun caso rimborsabile. Restano inoltre a carico del viaggiatore la quota di iscrizione/gestione pratica e i premi assicurativi eventualmente sottoscritti.\n\nIn caso di annullamento da parte di Kibo per mancato raggiungimento del minimo: rimborso integrale di acconto e premio assicurativo."
+  }
+}

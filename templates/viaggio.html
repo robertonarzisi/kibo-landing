@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fase 1: le landing servono la conversione da email e social, non l'organico. -->
+<meta name="robots" content="noindex,nofollow">
+<title>{{page_title}}</title>
+<meta name="description" content="{{meta_description}}">
+<meta property="og:title" content="{{page_title}}">
+<meta property="og:description" content="{{meta_description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{page_url}}">
+<meta property="og:image" content="https://go.kibotours.com/assets/hero/{{slug}}.jpg">
+<link rel="icon" type="image/png" href="/assets/brand/logo-kibo-colore.png">
+<link rel="stylesheet" href="/assets/kibo.css">
+</head>
+<body>
+
+<header class="hero-foto" style="--foto: url('/assets/hero/{{slug}}.jpg')">
+  <div class="marchio">
+    <div class="marchio-kibo">
+      <img class="logo-hero" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
+      <span class="sotto-marchio">WHERE&nbsp;DREAMS&nbsp;COME&nbsp;TOURS</span>
+    </div>
+  </div>
+
+  <div class="hero-testo">
+    <!--IF:sold_out-->
+    <span class="badge-soldout">Sold out</span>
+    <!--ENDIF:sold_out-->
+    <span class="eyebrow">{{eyebrow}}</span>
+    <h1>{{titolo}}</h1>
+    <!--IF:strillo-->
+    <p class="strillo">{{strillo}}</p>
+    <!--ENDIF:strillo-->
+    <div class="meta">
+      <span class="chip evidenza">{{trip_dates}}</span>
+      {{chips_html}}
+    </div>
+  </div>
+</header>
+
+<div class="corpo">
+
+  <aside class="colonna-card">
+    <div class="card-riepilogo">
+      <span class="etichetta">Quote e supplementi</span>
+      {{price_rows_html}}
+      <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+      <span class="nota-card">{{chiusura_testo}}</span>
+      <!--IF:acconto-->
+      <span class="nota-card">Alla conferma si versa un acconto di {{acconto}} a persona{{saldo_testo}}.</span>
+      <!--ENDIF:acconto-->
+      <span class="aggiornato">Quote e disponibilità aggiornate al {{updated_at}}.</span>
+    </div>
+  </aside>
+
+  <main class="contenuto">
+
+    <section>
+      <span class="etichetta">Il viaggio</span>
+      <h2>{{intro_titolo}}</h2>
+      <div class="testo">{{intro_html}}</div>
+    </section>
+
+    <!--IF:itinerario-->
+    <section>
+      <span class="etichetta">Giorno per giorno</span>
+      <h2>L'itinerario</h2>
+      <div class="itinerario">{{itinerario_html}}</div>
+    </section>
+    <!--ENDIF:itinerario-->
+
+    <section>
+      <span class="etichetta">Cosa comprende</span>
+      <h2>Incluso e non incluso</h2>
+      <div class="due-colonne">
+        <div class="scheda incluso">
+          <h3>La quota include</h3>
+          <ul>{{included_html}}</ul>
+        </div>
+        <div class="scheda non-incluso">
+          <h3>Non include</h3>
+          <ul>{{excluded_html}}</ul>
+        </div>
+      </div>
+    </section>
+
+    <!--IF:sistemazione-->
+    <section>
+      <span class="etichetta">Dove dormi</span>
+      <h2>{{sistemazione_titolo}}</h2>
+      <div class="testo">{{sistemazione_html}}</div>
+    </section>
+    <!--ENDIF:sistemazione-->
+
+    <!--IF:condizioni-->
+    <section>
+      <span class="etichetta">Le cose scritte chiare</span>
+      <h2>Condizioni</h2>
+      <div class="condizioni">
+        {{conditions_html}}
+      </div>
+    </section>
+    <!--ENDIF:condizioni-->
+
+  </main>
+
+</div>
+
+<div class="barra-fissa">
+  <span><!--IF:quota_da--><b>da {{quota_da}}</b> a persona<!--ENDIF:quota_da--><!--IF:sold_out--><b>Sold out</b><!--ENDIF:sold_out--></span>
+  <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+</div>
+
+<script>
+/* Inoltra al bottone Prenota i parametri arrivati con il link personalizzato dell'email
+   (ref, pratica, nome...), senza duplicare quelli gia presenti.
+   Nessun cookie, nessun tracciamento: i dati restano nell'URL. */
+(function () {
+  var arrivo = new URLSearchParams(window.location.search);
+  if (![].concat.apply([], [Array.from(arrivo.keys())]).length) { return; }
+  document.querySelectorAll('a.cta').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (!href || href.indexOf('tally.so') === -1) { return; }
+    var url = new URL(href);
+    arrivo.forEach(function (valore, chiave) {
+      if (!url.searchParams.has(chiave)) { url.searchParams.set(chiave, valore); }
+    });
+    a.setAttribute('href', url.toString());
+  });
+})();
+</script>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo"></span>
+    <span>Kibo Tours · <a href="https://www.kibotours.com">kibotours.com</a></span>
+    <span>Quote e disponibilità aggiornate al {{updated_at}}. Il contratto di viaggio con le
+    condizioni complete viene inviato prima della conferma.</span>
+  </div>
+</footer>
+
+</body>
+</html>

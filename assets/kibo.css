@@ -1,0 +1,338 @@
+/* kibo.css — stile condiviso delle landing viaggio Kibo (layout "foto magazine",
+   derivato dal sistema landing KiRun).
+   Brand dal sito kibotours.com: Montserrat · blu #027ABB · teal #265A63.
+   Un ritocco qui vale per tutte le pagine senza rigenerarle. */
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/assets/montserrat-var.woff2") format("woff2");
+}
+
+:root {
+  --blu: #027ABB;
+  --blu-2: #269BD1;
+  --teal: #265A63;
+  --teal-notte: #16363C;
+  --azzurro: #9DBAC4;
+  --carta: #F6FAFC;
+  --bianco: #FFFFFF;
+  --inchiostro: #24404A;
+  --secondario: #56737E;
+  --linea: #DCE6EA;
+  --radius: 12px;
+  --misura: 64rem;      /* larghezza del corpo a due colonne */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--inchiostro);
+  background: var(--carta);
+  -webkit-text-size-adjust: 100%;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--blu); }
+
+h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--teal); text-wrap: balance; margin: 0; }
+
+.etichetta {
+  font-size: 0.8125rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--secondario);
+  font-weight: 500;
+}
+
+/* ---------- Hero fotografico ----------
+   La foto arriva da /assets/hero/<slug>.jpg via custom property --foto impostata inline.
+   Se il file non esiste resta il gradiente brand sotto: la pagina regge senza foto. */
+
+.hero-foto {
+  min-height: 74vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.5rem;
+  background-image:
+    linear-gradient(180deg, rgba(22, 54, 60, 0.10) 0%, rgba(22, 54, 60, 0.10) 45%, rgba(22, 54, 60, 0.45) 70%, rgba(22, 54, 60, 0.85) 100%),
+    var(--foto, none),
+    linear-gradient(160deg, var(--teal) 20%, var(--teal-notte) 100%);
+  background-size: cover;
+  background-position: center 58%;
+  border-top: 4px solid var(--blu);
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+.hero-foto .marchio {
+  max-width: var(--misura);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.marchio-kibo { display: flex; align-items: center; gap: 0.65rem; }
+
+/* Il logo in alto resta leggibile anche su foto chiare, senza scurire tutta l'immagine */
+.logo-hero { height: 48px; width: auto; filter: drop-shadow(0 1px 6px rgba(22, 54, 60, 0.55)); }
+.logo-footer { height: 34px; width: auto; }
+.sotto-marchio { font-size: 0.75rem; color: var(--azzurro); letter-spacing: 0.06em; }
+
+.hero-testo { max-width: var(--misura); margin: 0 auto; width: 100%; display: grid; gap: 0.75rem; justify-items: start; }
+
+.hero-testo .eyebrow {
+  font-size: 0.8125rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--blu-2);
+  font-weight: 500;
+}
+
+.hero-testo h1 {
+  color: var(--bianco);
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 12px rgba(22, 54, 60, 0.55);
+}
+
+.hero-testo .strillo {
+  margin: 0;
+  color: #E8F0F3;
+  max-width: 38rem;
+  text-shadow: 0 1px 8px rgba(22, 54, 60, 0.6);
+}
+
+.badge-soldout {
+  background: var(--blu);
+  color: var(--bianco);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+}
+
+.hero-testo .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.5rem; }
+.chip {
+  font-size: 0.875rem;
+  color: #E8F0F3;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 999px;
+  padding: 0.25rem 0.85rem;
+  white-space: nowrap;
+}
+.chip.evidenza { border-color: var(--blu-2); color: var(--bianco); font-weight: 500; }
+
+/* ---------- Corpo a due colonne: contenuto + card riepilogo ---------- */
+
+.corpo {
+  max-width: var(--misura);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "aside" "main";
+}
+@media (min-width: 940px) {
+  .corpo { grid-template-columns: 1fr 21.5rem; gap: 3rem; grid-template-areas: "main aside"; }
+}
+
+.contenuto { grid-area: main; min-width: 0; }
+.colonna-card { grid-area: aside; min-width: 0; }
+
+.contenuto section { margin-bottom: 2.25rem; }
+.contenuto section:last-child { margin-bottom: 0; }
+.contenuto h2 { font-size: 1.35rem; margin-bottom: 0.6rem; }
+.contenuto .etichetta { display: block; margin-bottom: 0.3rem; }
+.testo p { margin: 0 0 0.6rem; max-width: 38rem; }
+.testo p:last-child { margin-bottom: 0; }
+
+/* ---------- Itinerario giorno per giorno ---------- */
+
+.itinerario { display: grid; gap: 0.75rem; }
+.tappa {
+  background: var(--bianco);
+  border: 1px solid var(--linea);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 1rem;
+  align-items: baseline;
+}
+.tappa .giorno {
+  grid-row: 1 / span 2;
+  align-self: start;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bianco);
+  background: var(--blu);
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  white-space: nowrap;
+  text-align: center;
+}
+.tappa h3 { font-size: 1.0625rem; }
+.tappa p { margin: 0; grid-column: 2; font-size: 0.9375rem; color: var(--inchiostro); }
+
+/* ---------- Incluso / non incluso ---------- */
+
+.due-colonne { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .due-colonne { grid-template-columns: 1fr 1fr; } }
+
+.scheda {
+  background: var(--bianco);
+  border: 1px solid var(--linea);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+}
+.scheda h3 { font-size: 1rem; margin-bottom: 0.6rem; }
+.scheda ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.45rem; }
+.scheda li { padding-left: 1.4rem; position: relative; }
+.scheda li::before { position: absolute; left: 0; font-weight: 500; }
+.scheda.incluso li::before { content: "✓"; color: var(--blu); }
+.scheda.non-incluso li::before { content: "—"; color: var(--azzurro); }
+
+/* ---------- Condizioni ---------- */
+
+.condizioni { display: grid; gap: 0.75rem; }
+.condizioni details {
+  background: var(--bianco);
+  border: 1px solid var(--linea);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.15rem;
+}
+.condizioni summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--teal);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.condizioni summary::after { content: "+"; color: var(--blu); font-size: 1.2rem; }
+.condizioni details[open] summary::after { content: "–"; }
+.condizioni details p { margin: 0.6rem 0 0; white-space: pre-line; }
+
+/* ---------- Card riepilogo (sticky su desktop) ---------- */
+
+.card-riepilogo {
+  background: var(--bianco);
+  border: 1px solid var(--linea);
+  border-radius: 14px;
+  padding: 1.25rem;
+  display: grid;
+  gap: 0.55rem;
+  box-shadow: 0 8px 28px rgba(38, 90, 99, 0.08);
+}
+@media (min-width: 940px) { .card-riepilogo { position: sticky; top: 1.25rem; } }
+
+.card-riepilogo h3 { font-size: 0.9375rem; margin-top: 0.25rem; }
+.card-riepilogo .nota-card { font-size: 0.8125rem; color: var(--secondario); }
+.card-riepilogo .aggiornato { font-size: 0.75rem; color: var(--azzurro); margin-top: 0.35rem; }
+
+/* Righe listino dentro la card: la quota è la riga forte */
+.riga-prezzo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--linea);
+  font-size: 0.875rem;
+}
+.riga-prezzo .nome { min-width: 0; }
+.riga-prezzo .unita { color: var(--secondario); font-size: 0.75rem; display: block; }
+.riga-prezzo .importo {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--teal);
+}
+.riga-prezzo.quota {
+  border-top: 0;
+  padding: 0 0 0.5rem;
+  font-size: 1rem;
+  align-items: center;
+}
+.riga-prezzo.quota .nome { font-weight: 500; color: var(--teal); }
+.riga-prezzo.quota .importo { color: var(--blu); font-size: 1.6rem; }
+
+/* ---------- Bottoni ---------- */
+
+.cta {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(120deg, var(--blu), var(--blu-2));
+  color: var(--bianco);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.85rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(2, 122, 187, 0.35);
+}
+.cta:hover { filter: brightness(1.05); }
+.cta:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.card-riepilogo .cta { width: 100%; }
+
+/* ---------- Barra fissa mobile ---------- */
+
+.barra-fissa {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--teal);
+  color: #E8F0F3;
+  padding: 0.65rem 1.25rem;
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.25);
+}
+.barra-fissa b { color: var(--bianco); font-weight: 500; }
+.barra-fissa .cta { padding: 0.55rem 1.1rem; font-size: 0.9375rem; box-shadow: none; }
+@media (min-width: 940px) { .barra-fissa { display: none; } }
+
+/* ---------- Footer ---------- */
+
+footer {
+  background: var(--teal);
+  color: var(--azzurro);
+  padding: 2rem 1.25rem 4.5rem;
+  font-size: 0.8125rem;
+}
+@media (min-width: 940px) { footer { padding-bottom: 2rem; } }
+.footer-inner { max-width: var(--misura); margin: 0 auto; display: grid; gap: 0.4rem; }
+footer a { color: #D6E4E9; }
+.footer-brand {
+  color: var(--bianco);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
