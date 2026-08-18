@@ -1,0 +1,18 @@
+{
+  "_nota": "Dato Airtable normalizzato del viaggio VIE-2027-03 (base Kibo — Partenze di Gruppo). Quota 3.590 + tasse/assicurazioni 705 = totale 4.295 (interpretazione da confermare con Roberto). Mancano ancora: posti, minimo, acconto, data saldo, scala penali, supplemento singola, form Tally dedicato.",
+  "oggi": "2026-08-18",
+  "cta_url": "https://www.kibotours.com",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "trip_id": "VIE-2027-03",
+    "nome_commerciale": "Vietnam autentico — 16 giorni",
+    "destinazione": "Vietnam",
+    "stato": "Bozza",
+    "data_partenza": "2027-03-05",
+    "data_rientro": "2027-03-22",
+    "vettore": "Thai Airways (via Bangkok)",
+    "aeroporto_partenza": "Milano Malpensa (MXP)",
+    "quota_base": 3590,
+    "tasse_assicurazioni": 705
+  }
+}

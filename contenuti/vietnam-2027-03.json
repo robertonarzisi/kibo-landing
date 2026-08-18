@@ -1,6 +1,6 @@
 {
-  "_stato": "Contenuto convertito dal programma del 18/08/2026. Lo slug è provvisorio: si finalizza con le date di partenza (es. vietnam-2027-xx). Mancano i dati parametrici del record Viaggi (date, acconto, posti, penali): vedere README di progetto.",
-  "slug": "vietnam-autentico",
+  "_stato": "Contenuto convertito dal programma del 18/08/2026; voli e date del 18/08 (marzo 2027, da confermare l'anno). Mancano ancora: acconto, saldo, penali, posti, minimo, supplemento singola.",
+  "slug": "vietnam-2027-03",
   "area": "oriente",
   "titolo": "Vietnam autentico",
   "eyebrow": "Partenza di gruppo Kibo",
@@ -31,7 +31,7 @@
     {"giorno": "16", "titolo": "Il volo di rientro", "testo": "Tempo libero fino al trasferimento con guida all'aeroporto di Tan Son Nhat per il volo di rientro (check-out entro le 12:00)."}
   ],
   "incluso": [
-    "Voli internazionali dall'Italia, andata e ritorno",
+    "Voli di linea Thai Airways da Milano Malpensa, andata e ritorno via Bangkok",
     "Voli interni Hanoi–Danang e Hue–Ho Chi Minh City",
     "Tasse aeroportuali",
     "Assicurazione medico, bagaglio e annullamento",

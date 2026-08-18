@@ -89,7 +89,8 @@
     <span class="etichetta">Quote e supplementi</span>
     <h2>Quanto costa</h2>
     <div class="listino">{{price_rows_html}}</div>
-    <p class="nota-listino">Quote e disponibilità aggiornate al {{updated_at}}.
+    <p class="nota-listino"><!--IF:totale_persona-->Totale {{totale_persona}} a persona in camera doppia.
+    <!--ENDIF:totale_persona-->Quote e disponibilità aggiornate al {{updated_at}}.
     <!--IF:acconto-->Alla conferma si versa un acconto di {{acconto}} a persona{{saldo_testo}}.<!--ENDIF:acconto--></p>
   </section>
 

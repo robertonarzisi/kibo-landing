@@ -104,6 +104,10 @@ def build(dati, contenuto, forza_soldout=False):
                            "prezzo": vg["quota_base"], "quota": True})
     else:
         warnings.append("quota_base assente: pagina senza prezzo — verificare il record Viaggi")
+    if vg.get("tasse_assicurazioni"):
+        price_rows.append({"nome": "Tasse aeroportuali e assicurazioni (medico, bagaglio, annullamento)",
+                           "unita": "a persona",
+                           "prezzo": vg["tasse_assicurazioni"], "quota": False})
     if vg.get("supplemento_singola"):
         price_rows.append({"nome": "Supplemento singola",
                            "unita": "per tutta la durata",
@@ -177,6 +181,8 @@ def build(dati, contenuto, forza_soldout=False):
         "area": (contenuto.get("area") or "").strip(),
         "sold_out": sold_out,
         "quota_da": euro(vg["quota_base"]) if vg.get("quota_base") else "",
+        "totale_persona": euro(vg["quota_base"] + vg["tasse_assicurazioni"])
+            if vg.get("quota_base") and vg.get("tasse_assicurazioni") else "",
         "acconto": euro(acconto) if acconto else "",
         "saldo_testo": f", saldo entro il {data_it(vg['data_saldo'])}" if vg.get("data_saldo") else "",
         "intro_titolo": contenuto.get("intro_titolo") or titolo,
@@ -264,6 +270,7 @@ def render(model):
         "sistemazione_titolo": model["sistemazione_titolo"],
         "sistemazione_html": paragrafi_html(model["sistemazione"]),
         "conditions_html": conds,
+        "totale_persona": model["totale_persona"],
         "chiusura_titolo": chiusura_titolo,
         "chiusura_testo": chiusura_testo,
         "updated_at": model["updated_at"],
@@ -275,6 +282,7 @@ def render(model):
         "quota_da": bool(model["quota_da"]) and not model["sold_out"],
         "acconto": bool(model["acconto"]) and not model["sold_out"],
         "itinerario": bool(model["giorni"]),
+        "totale_persona": bool(model["totale_persona"]),
         "sistemazione": bool(model["sistemazione_titolo"]) and bool(model["sistemazione"]),
         "condizioni": bool(model["conditions"]),
     }
