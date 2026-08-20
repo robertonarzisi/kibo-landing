@@ -2,6 +2,9 @@
 
 > Grafiche: `assets/social/vietnam-2027-03-{post,story}.jpg` (da `scripts/social.py`).
 > **Nessuna pubblicazione senza approvazione di Roberto.**
+> Approvazione e piano editoriale: tabella `Contenuti Social` della base
+> "Kibo — Partenze di Gruppo" (interfaccia "Cora / Kibo — Contenuti social").
+> Questi testi sono gli stessi dei record VIE-2027-03-IG-01 / FB-01 / IG-02.
 > Link: la landing `go.kibotours.com/viaggi/vietnam-2027-03/` sarà attiva dopo il DNS;
 > fino ad allora l'unico link prenotazione è il form Tally `https://tally.so/r/7R7a62`.
 > Tutti i dati vengono dalla scheda VIE-2027-03: niente va cambiato qui senza cambiare lì.
