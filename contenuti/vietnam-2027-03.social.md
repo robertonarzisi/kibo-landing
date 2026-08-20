@@ -19,7 +19,7 @@ Si viaggia in gruppo — massimo 18 partecipanti — con voli di linea da Milano
 inclusi, guida locale e due notti speciali: la crociera a 5 stelle e l'homestay presso una
 famiglia sul lago di Ba Be.
 
-Partenza 5 marzo 2027 · 16 giorni / 15 notti · € 4.295 tutto incluso
+Partenza 5 marzo 2027 · 16 giorni / 15 notti · € 4.150 a persona, voli e tasse inclusi
 Il programma completo e la prenotazione sono al link in bio.
 
 #kibotours #vietnam #viaggiodigruppo #hagiang #hoian #hue #mekong #baiadilanha #asia #viaggiorganizzato
@@ -34,8 +34,8 @@ il lago di Ba Be con la notte in homestay, una crociera nella baia di Lan Ha, le
 di Hoi An, la città imperiale di Hue e i canali del Delta.
 
 Gruppo di massimo 18 partecipanti, voli di linea Cathay Pacific da Milano Malpensa inclusi,
-guida locale durante le visite. Quota € 4.295 a persona in doppia, tutto incluso: voli,
-tasse aeroportuali e assicurazione medico/bagaglio/annullamento.
+guida locale durante le visite. Quota € 4.150 a persona in doppia, con voli, tasse aeroportuali
+e assicurazione medico-bagaglio; l'assicurazione annullamento è facoltativa.
 
 Programma completo e prenotazione: [link landing]
 
@@ -46,7 +46,8 @@ Testo già nella grafica. Aggiungere solo lo sticker link ("Prenota") verso la l
 
 ## Note operative
 
-- Prezzo citato solo da listino (€ 4.295, scheda VIE-2027-03): mai altri importi nei social.
+- Prezzo citato solo da listino (€ 4.150, scheda VIE-2027-03, rivisto il 20/08 con lo scorporo
+  dell'assicurazione annullamento): mai altri importi nei social.
 - "Solo 18 posti" è un dato reale (posti totali del record): aggiornare o togliere il
   nastro se il contingente cambia — rigenerando le grafiche con `scripts/social.py`.
 - Quando la landing è online, sostituire [link landing] con l'URL pubblico e mettere lo

@@ -1,5 +1,5 @@
 {
-  "_stato": "Contenuto convertito dal programma del 18/08/2026; scheda completa (quota unica 4.295, acconto 1.295, saldo 15/01/2027); voli Cathay Pacific via Hong Kong dal PNR del 19/08 (HK18). Penali in bozza da validare.",
+  "_stato": "Contenuto convertito dal programma del 18/08/2026. Il 20/08 Roberto ha scorporato l'assicurazione annullamento dalla quota: quota 4.150 con tasse aeroportuali e polizza medico-bagaglio incluse, annullamento facoltativa a parte, acconto 1.245. Voli Cathay Pacific via Hong Kong dal PNR del 19/08 (HK18). Penali validate da Roberto il 19/08 e riallineate al nuovo acconto.",
   "slug": "vietnam-2027-03",
   "area": "oriente",
   "titolo": "Vietnam autentico",
@@ -103,7 +103,7 @@
     "Voli di linea Cathay Pacific da Milano Malpensa, andata e ritorno via Hong Kong",
     "Voli interni Hanoi–Danang e Hue–Ho Chi Minh City",
     "Tasse aeroportuali",
-    "Assicurazione medico, bagaglio e annullamento",
+    "Assicurazione medico e bagaglio",
     "15 notti negli alberghi indicati (o similari) in camera doppia con prima colazione",
     "Crociera nella baia di Lan Ha con pranzo, cena e brunch a bordo",
     "Trasferimenti con auto privata o bus condiviso con aria condizionata",
@@ -115,6 +115,7 @@
     "Una bottiglia d'acqua al giorno a persona nei giorni di escursione"
   ],
   "non_incluso": [
+    "Assicurazione annullamento, facoltativa: si sottoscrive alla conferma e non è attivabile in un momento successivo",
     "Bevande e pasti non espressamente indicati nel programma",
     "Supplemento per richieste di pasti speciali",
     "Ingressi, permessi e guida durante il tempo libero",
