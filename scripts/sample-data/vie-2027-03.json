@@ -1,5 +1,5 @@
 {
-  "_nota": "Dato Airtable normalizzato del viaggio VIE-2027-03 (record recR8wu4wYaqsFg0U). Fotografia del 2026-08-18: la fonte di verita resta Airtable. Scala penali in bozza (modello Namibia, date ricalcolate): da validare.",
+  "_nota": "Dato Airtable normalizzato del viaggio VIE-2027-03 (record recR8wu4wYaqsFg0U). Quota unica 4.295 tutto incluso, acconto 1.295, saldo 15/01/2027. Scala penali in bozza da validare.",
   "oggi": "2026-08-18",
   "cta_url": "https://tally.so/r/7R7a62",
   "contact_url": "https://www.kibotours.com",
@@ -12,15 +12,14 @@
     "data_rientro": "2027-03-22",
     "vettore": "Thai Airways (via Bangkok)",
     "aeroporto_partenza": "Milano Malpensa (MXP)",
-    "quota_base": 3590,
-    "tasse_assicurazioni": 705,
+    "quota_base": 4295,
     "posti_totali": 18,
     "minimo_partecipanti": 10,
     "supplemento_singola": 790,
-    "acconto_per_persona": 1077,
-    "data_saldo": "2027-01-19",
+    "acconto_per_persona": 1295,
+    "data_saldo": "2027-01-15",
     "data_riconferma": "2027-01-04",
     "posti_residui": 18,
-    "scala_penali": "SCALA PENALI IN DEROGA — giorni di calendario rispetto alla partenza dall'Italia (05/03/2027).\n\nTour di gruppo a data fissa con voli di linea a tariffa speciale. Ai sensi del punto 10 delle Condizioni Generali di Vendita Kibo Tours, che escludono espressamente tale tipologia di prodotto dal regime standard delle penali, si applica la seguente scala in deroga a quella ivi indicata. Per il resto le Condizioni Generali di Vendita si applicano integralmente.\n\n- Dalla conferma fino al 04/12/2026: 30%, pari all'acconto versato di 1.077 EUR a persona\n- Dal 05/12/2026 al 18/01/2027: 50%\n- Dal 19/01/2027 al 12/02/2027: 80%\n- Dal 13/02/2027: 100%\n\nL'acconto versato non e' in alcun caso rimborsabile. Restano inoltre a carico del viaggiatore la quota di iscrizione/gestione pratica e i premi assicurativi eventualmente sottoscritti.\n\nIn caso di annullamento da parte di Kibo per mancato raggiungimento del minimo: rimborso integrale di quanto versato."
+    "scala_penali": "SCALA PENALI IN DEROGA — giorni di calendario rispetto alla partenza dall'Italia (05/03/2027).\n\nTour di gruppo a data fissa con voli di linea a tariffa speciale. Ai sensi del punto 10 delle Condizioni Generali di Vendita Kibo Tours, che escludono espressamente tale tipologia di prodotto dal regime standard delle penali, si applica la seguente scala in deroga a quella ivi indicata. Per il resto le Condizioni Generali di Vendita si applicano integralmente.\n\n- Dalla conferma fino al 04/12/2026: 30%, pari all'acconto versato di 1.295 EUR a persona\n- Dal 05/12/2026 al 14/01/2027: 50%\n- Dal 15/01/2027 al 12/02/2027: 80%\n- Dal 13/02/2027: 100%\n\nL'acconto versato non e' in alcun caso rimborsabile. Restano inoltre a carico del viaggiatore la quota di iscrizione/gestione pratica e i premi assicurativi eventualmente sottoscritti.\n\nIn caso di annullamento da parte di Kibo per mancato raggiungimento del minimo: rimborso integrale di quanto versato."
   }
 }
