@@ -1,5 +1,5 @@
 {
-  "_stato": "Contenuto convertito dal programma del 18/08/2026; voli e date del 18/08 (marzo 2027, da confermare l'anno). Mancano ancora: acconto, saldo, penali, posti, minimo, supplemento singola.",
+  "_stato": "Contenuto convertito dal programma del 18/08/2026; scheda completa (quota unica 4.295, acconto 1.295, saldo 15/01/2027); voli Cathay Pacific via Hong Kong dal PNR del 19/08 (HK18). Penali in bozza da validare.",
   "slug": "vietnam-2027-03",
   "area": "oriente",
   "titolo": "Vietnam autentico",
@@ -11,27 +11,96 @@
     "Un incontro con le tradizioni, con il fasto dei tempi passati, i tesori e i sapori di questo meraviglioso Paese — Hanoi, Ha Giang, Ba Be, la baia di Lan Ha, Hoi An, Hue, Ho Chi Minh City e il Delta del Mekong."
   ],
   "durata_label": "16 giorni / 15 notti",
-  "fatti_extra": [{"etichetta": "Percorso", "valore": "Nord–Sud con voli interni"}],
+  "fatti_extra": [
+    {
+      "etichetta": "Percorso",
+      "valore": "Nord–Sud con voli interni"
+    }
+  ],
   "giorni": [
-    {"giorno": "1", "titolo": "Arrivo ad Hanoi", "testo": "Arrivo ad Hanoi, incontro con la guida e trasferimento in hotel (30 km, circa 45 minuti). Sistemazione nella camera riservata (disponibile dalle 14:00) e tempo libero per un po' di relax."},
-    {"giorno": "2", "titolo": "Hanoi, la capitale millenaria", "testo": "Intera giornata dedicata a Hanoi: il Mausoleo di Ho Chi Minh (dall'esterno), la residenza su palafitta del presidente, la Pagoda a Una Colonna, la piazza Ba Dinh e il Tempio della Letteratura, sede della prima università del Vietnam. Pranzo in ristorante locale. Nel pomeriggio il Tempio di Ngoc Son sul lago di Hoan Kiem, un giro in cyclo attorno al lago, il Quartiere Vecchio con le sue stradine brulicanti di vita e la visita a una tradizionale \"casa dei fiori\"."},
-    {"giorno": "3", "titolo": "Da Hanoi a Ha Giang", "testo": "Partenza verso Ha Giang (300 km, circa 6 ore) tra risaie a terrazze, colline di palme e villaggi pittoreschi. Arrivo al villaggio di Tha, abitato dal gruppo etnico Tay, e passeggiata tra le case degli agricoltori locali."},
-    {"giorno": "4", "titolo": "Quan Ba, il passo di Tham Ma e Dong Van", "testo": "Attraverso le montagne del Vietnam settentrionale: la Porta del Cielo di Quan Ba con la vista sui Monti Gemelli, la tranquilla Yen Minh, la celebre strada a serpentina del passo di Tham Ma e la valle di Sung La, punteggiata di villaggi delle comunità etniche. Arrivo a Dong Van, cittadina di montagna nota per il suo quartiere antico."},
-    {"giorno": "5", "titolo": "Il passo di Ma Pi Leng e Du Gia", "testo": "Partenza al mattino presto per il passo di Ma Pi Leng, uno dei più spettacolari del Vietnam, affacciato sul canyon del fiume Nho Que (possibile breve escursione in barca, secondo disponibilità e meteo). Proseguimento per Meo Vac lungo una delle strade panoramiche più suggestive del Nord e arrivo in serata a Du Gia."},
-    {"giorno": "6", "titolo": "Il lago di Ba Be", "testo": "Trasferimento al Parco Nazionale di Ba Be (circa 180 km) attraverso paesaggi montani ancora poco toccati dal turismo. Escursione in barca sul più grande lago naturale d'acqua dolce del Vietnam: lo Stagno delle Fate, il tempio di An Ma, l'isola di Ba Goa e la grotta di Puong. La notte si dorme presso una famiglia locale, per un'esperienza autentica."},
-    {"giorno": "7", "titolo": "Ritorno a Hanoi", "testo": "Rientro verso Hanoi (circa 220 km) attraverso i paesaggi rurali e montuosi del Nord, con soste per ammirare il panorama e fotografare. Arrivo nel tardo pomeriggio."},
-    {"giorno": "8", "titolo": "In crociera nella baia di Lan Ha", "testo": "Trasferimento a Halong (150 km, circa 2 ore e mezza) e imbarco per la crociera nella baia di Lan Ha: centinaia di isole e isolotti calcarei che emergono da acque color smeraldo, in un'atmosfera più tranquilla della vicina baia di Halong. Pranzo, cena e notte a bordo."},
-    {"giorno": "9", "titolo": "Dall'alba in baia alle lanterne di Hoi An", "testo": "La giornata inizia all'alba con esercizi di Tai Chi sul ponte, poi brunch a bordo e rientro al porto. Volo da Hanoi a Danang e trasferimento a Hoi An. In serata breve crociera sul fiume Hoai: è tradizione di buon auspicio affidare all'acqua una lanterna illuminata."},
-    {"giorno": "10", "titolo": "Hoi An, la città delle lanterne", "testo": "Passeggiata nella città antica: il Ponte coperto giapponese, la Phuc Kien Assembly Hall, l'antica dimora di Tan Ky e la Sala Riunioni della comunità cinese. Pranzo in ristorante locale e pomeriggio a disposizione."},
-    {"giorno": "11", "titolo": "Un giorno da pescatori e contadini", "testo": "Giornata eco \"Rice, Herb and Fish Talks\": in barca sul fiume Co Co tra i pescatori, per imparare a lanciare la rete \"RO\" e a manovrare le tipiche basket boat tra le palme da cocco d'acqua. Poi il villaggio biologico di erbe aromatiche di Tra Que: si lavora nei campi con i contadini, massaggio ai piedi alle erbe e, per finire, la preparazione del \"Tam Huu\" o delle crêpes \"Banh Xeo\", con pranzo in famiglia."},
-    {"giorno": "12", "titolo": "Il passo di Hai Van e l'arrivo a Hue", "testo": "Da Hoi An a Hue (circa 4 ore) passando per Da Nang e la strada panoramica del passo di Hai Van, tra scorci di costa e montagne. Nel pomeriggio la Pagoda di Thien Mu, simbolo della città sulle rive del Fiume dei Profumi, e il vivace mercato di Dong Ba."},
-    {"giorno": "13", "titolo": "La città imperiale di Hue", "testo": "Visita della Cittadella Imperiale, Patrimonio UNESCO, con la leggendaria Città Purpurea Proibita da cui la dinastia Nguyen governò il Vietnam dal 1802 al 1945. Poi le tombe imperiali di Minh Mang e di Khai Dinh, la più spettacolare di Hue. In serata volo per Ho Chi Minh City, l'antica Saigon."},
-    {"giorno": "14", "titolo": "Il Delta del Mekong", "testo": "Escursione a Ben Tre, nel cuore del Delta: in barca lungo stretti canali immersi nella vegetazione, con soste nei laboratori familiari delle caramelle al cocco e degustazione di frutta tropicale. Passeggiata in \"Xe Loi\", il tipico risciò locale, tra le piantagioni di frutta, e gita in barca a remi lungo i canali. Notte a Ben Tre."},
-    {"giorno": "15", "titolo": "Saigon, tra storia e modernità", "testo": "Rientro a Ho Chi Minh City e pranzo in ristorante locale. Nel pomeriggio il Museo dei Residuati Bellici, il Palazzo della Riunificazione e una passeggiata tra Dong Khoi Street, la cattedrale di Notre Dame, il Teatro dell'Opera e la City Hall."},
-    {"giorno": "16", "titolo": "Il volo di rientro", "testo": "Tempo libero fino al trasferimento con guida all'aeroporto di Tan Son Nhat per il volo di rientro (check-out entro le 12:00)."}
+    {
+      "giorno": "1",
+      "titolo": "Arrivo ad Hanoi",
+      "testo": "Arrivo ad Hanoi, incontro con la guida e trasferimento in hotel (30 km, circa 45 minuti). Sistemazione nella camera riservata (disponibile dalle 14:00) e tempo libero per un po' di relax."
+    },
+    {
+      "giorno": "2",
+      "titolo": "Hanoi, la capitale millenaria",
+      "testo": "Intera giornata dedicata a Hanoi: il Mausoleo di Ho Chi Minh (dall'esterno), la residenza su palafitta del presidente, la Pagoda a Una Colonna, la piazza Ba Dinh e il Tempio della Letteratura, sede della prima università del Vietnam. Pranzo in ristorante locale. Nel pomeriggio il Tempio di Ngoc Son sul lago di Hoan Kiem, un giro in cyclo attorno al lago, il Quartiere Vecchio con le sue stradine brulicanti di vita e la visita a una tradizionale \"casa dei fiori\"."
+    },
+    {
+      "giorno": "3",
+      "titolo": "Da Hanoi a Ha Giang",
+      "testo": "Partenza verso Ha Giang (300 km, circa 6 ore) tra risaie a terrazze, colline di palme e villaggi pittoreschi. Arrivo al villaggio di Tha, abitato dal gruppo etnico Tay, e passeggiata tra le case degli agricoltori locali."
+    },
+    {
+      "giorno": "4",
+      "titolo": "Quan Ba, il passo di Tham Ma e Dong Van",
+      "testo": "Attraverso le montagne del Vietnam settentrionale: la Porta del Cielo di Quan Ba con la vista sui Monti Gemelli, la tranquilla Yen Minh, la celebre strada a serpentina del passo di Tham Ma e la valle di Sung La, punteggiata di villaggi delle comunità etniche. Arrivo a Dong Van, cittadina di montagna nota per il suo quartiere antico."
+    },
+    {
+      "giorno": "5",
+      "titolo": "Il passo di Ma Pi Leng e Du Gia",
+      "testo": "Partenza al mattino presto per il passo di Ma Pi Leng, uno dei più spettacolari del Vietnam, affacciato sul canyon del fiume Nho Que (possibile breve escursione in barca, secondo disponibilità e meteo). Proseguimento per Meo Vac lungo una delle strade panoramiche più suggestive del Nord e arrivo in serata a Du Gia."
+    },
+    {
+      "giorno": "6",
+      "titolo": "Il lago di Ba Be",
+      "testo": "Trasferimento al Parco Nazionale di Ba Be (circa 180 km) attraverso paesaggi montani ancora poco toccati dal turismo. Escursione in barca sul più grande lago naturale d'acqua dolce del Vietnam: lo Stagno delle Fate, il tempio di An Ma, l'isola di Ba Goa e la grotta di Puong. La notte si dorme presso una famiglia locale, per un'esperienza autentica."
+    },
+    {
+      "giorno": "7",
+      "titolo": "Ritorno a Hanoi",
+      "testo": "Rientro verso Hanoi (circa 220 km) attraverso i paesaggi rurali e montuosi del Nord, con soste per ammirare il panorama e fotografare. Arrivo nel tardo pomeriggio."
+    },
+    {
+      "giorno": "8",
+      "titolo": "In crociera nella baia di Lan Ha",
+      "testo": "Trasferimento a Halong (150 km, circa 2 ore e mezza) e imbarco per la crociera nella baia di Lan Ha: centinaia di isole e isolotti calcarei che emergono da acque color smeraldo, in un'atmosfera più tranquilla della vicina baia di Halong. Pranzo, cena e notte a bordo."
+    },
+    {
+      "giorno": "9",
+      "titolo": "Dall'alba in baia alle lanterne di Hoi An",
+      "testo": "La giornata inizia all'alba con esercizi di Tai Chi sul ponte, poi brunch a bordo e rientro al porto. Volo da Hanoi a Danang e trasferimento a Hoi An. In serata breve crociera sul fiume Hoai: è tradizione di buon auspicio affidare all'acqua una lanterna illuminata."
+    },
+    {
+      "giorno": "10",
+      "titolo": "Hoi An, la città delle lanterne",
+      "testo": "Passeggiata nella città antica: il Ponte coperto giapponese, la Phuc Kien Assembly Hall, l'antica dimora di Tan Ky e la Sala Riunioni della comunità cinese. Pranzo in ristorante locale e pomeriggio a disposizione."
+    },
+    {
+      "giorno": "11",
+      "titolo": "Un giorno da pescatori e contadini",
+      "testo": "Giornata eco \"Rice, Herb and Fish Talks\": in barca sul fiume Co Co tra i pescatori, per imparare a lanciare la rete \"RO\" e a manovrare le tipiche basket boat tra le palme da cocco d'acqua. Poi il villaggio biologico di erbe aromatiche di Tra Que: si lavora nei campi con i contadini, massaggio ai piedi alle erbe e, per finire, la preparazione del \"Tam Huu\" o delle crêpes \"Banh Xeo\", con pranzo in famiglia."
+    },
+    {
+      "giorno": "12",
+      "titolo": "Il passo di Hai Van e l'arrivo a Hue",
+      "testo": "Da Hoi An a Hue (circa 4 ore) passando per Da Nang e la strada panoramica del passo di Hai Van, tra scorci di costa e montagne. Nel pomeriggio la Pagoda di Thien Mu, simbolo della città sulle rive del Fiume dei Profumi, e il vivace mercato di Dong Ba."
+    },
+    {
+      "giorno": "13",
+      "titolo": "La città imperiale di Hue",
+      "testo": "Visita della Cittadella Imperiale, Patrimonio UNESCO, con la leggendaria Città Purpurea Proibita da cui la dinastia Nguyen governò il Vietnam dal 1802 al 1945. Poi le tombe imperiali di Minh Mang e di Khai Dinh, la più spettacolare di Hue. In serata volo per Ho Chi Minh City, l'antica Saigon."
+    },
+    {
+      "giorno": "14",
+      "titolo": "Il Delta del Mekong",
+      "testo": "Escursione a Ben Tre, nel cuore del Delta: in barca lungo stretti canali immersi nella vegetazione, con soste nei laboratori familiari delle caramelle al cocco e degustazione di frutta tropicale. Passeggiata in \"Xe Loi\", il tipico risciò locale, tra le piantagioni di frutta, e gita in barca a remi lungo i canali. Notte a Ben Tre."
+    },
+    {
+      "giorno": "15",
+      "titolo": "Saigon, tra storia e modernità",
+      "testo": "Rientro a Ho Chi Minh City e pranzo in ristorante locale. Nel pomeriggio il Museo dei Residuati Bellici, il Palazzo della Riunificazione e una passeggiata tra Dong Khoi Street, la cattedrale di Notre Dame, il Teatro dell'Opera e la City Hall."
+    },
+    {
+      "giorno": "16",
+      "titolo": "Il volo di rientro",
+      "testo": "Tempo libero fino al trasferimento con guida all'aeroporto di Tan Son Nhat per il volo di rientro (check-out entro le 12:00)."
+    }
   ],
   "incluso": [
-    "Voli di linea Thai Airways da Milano Malpensa, andata e ritorno via Bangkok",
+    "Voli di linea Cathay Pacific da Milano Malpensa, andata e ritorno via Hong Kong",
     "Voli interni Hanoi–Danang e Hue–Ho Chi Minh City",
     "Tasse aeroportuali",
     "Assicurazione medico, bagaglio e annullamento",
