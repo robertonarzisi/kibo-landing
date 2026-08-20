@@ -150,7 +150,13 @@ def build(dati, contenuto, forza_soldout=False):
                 saldo += ", incluso l'eventuale supplemento singola"
             testo += saldo + "."
         cond("Acconto e saldo", testo)
-    cond("Penali di annullamento", vg.get("scala_penali"))
+    # REGOLA (Roberto, 19/08/2026, vale per OGNI landing): in pagina mai la dicitura
+    # "PENALI IN DEROGA" — si mostra "PENALI APPLICATE IN CASO DI CANCELLAZIONE".
+    # Il testo contrattuale in Airtable resta com'e': la sostituzione e' solo di presentazione.
+    penali = vg.get("scala_penali") or ""
+    penali = penali.replace("SCALA PENALI IN DEROGA", "PENALI APPLICATE IN CASO DI CANCELLAZIONE")
+    penali = penali.replace("PENALI IN DEROGA", "PENALI APPLICATE IN CASO DI CANCELLAZIONE")
+    cond("Penali applicate in caso di cancellazione", penali)
     if vg.get("minimo_partecipanti"):
         testo = (f"Il viaggio si effettua con un minimo di {vg['minimo_partecipanti']} "
                  "partecipanti.")
