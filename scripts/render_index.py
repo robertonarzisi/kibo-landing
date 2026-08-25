@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
-"""Genera la home indice di go.kibotours.com a partire dalle pagine gia pubblicate.
+"""Renderer di riferimento della home indice di go.kibotours.com.
 
     python3 scripts/render_index.py
 
-Legge le pagine in viaggi/<slug>/index.html — SOLO quelle pubblicate, mai le anteprima —
-e ne estrae titolo, strillo, date, durata e quota dal markup che il template gia produce
-(.fatto > .etichetta/.valore). Nessuna chiamata Airtable, nessuna dipendenza dal Landing
-Builder: la home si rigenera da sola dopo ogni pubblicazione e non aggiunge un secondo
-posto in cui i numeri possono divergere.
+**In produzione la home la rigenera il Landing Builder n8n** ("Indice" in coda al
+workflow), non questo script: qui si sviluppa e si testa la logica, come render.py sta al
+nodo "Renderizza Landing". Questo script serve per provare il layout in locale e per
+rimettere a posto la home a mano se il builder e' fermo.
 
-Ordina per data di partenza (dal campo "Date" della pagina), le sold out in fondo.
-Se non c'e' nessun viaggio pubblicato produce comunque una home dignitosa che rimanda a
-kibotours.com, invece del 404 di GitHub Pages.
+ATTENZIONE, stesso patto di render.py: `templates/indice.html` e il nodo "Renderizza
+Indice" condividono il contratto dei segnaposto. Un `{{nuovo}}` nel template richiede la
+chiave corrispondente in ENTRAMBI i renderer, altrimenti il build fallisce (fail-loud).
+
+Differenza di input, deliberata: qui i viaggi si leggono dalle pagine gia' in `viaggi/`
+(nessuna credenziale Airtable in locale), nel builder si leggono da Airtable filtrando
+`landing_status='pubblicata'` e `landing_url` non vuoto. L'HTML prodotto e' lo stesso.
 """
 
 import html
@@ -21,6 +24,7 @@ from pathlib import Path
 
 RADICE = Path(__file__).resolve().parent.parent
 USCITA = RADICE / "index.html"
+TEMPLATE = RADICE / "templates" / "indice.html"
 
 MESI = {
     "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6,
@@ -67,24 +71,37 @@ def ordinamento(date_label):
 
 
 def raccogli():
+    """Legge i viaggi dalle pagine PUBBLICATE. Le anteprima non entrano mai in home.
+
+    ATTENZIONE: in `viaggi/` non ci sono solo i viaggi in vendita. Un viaggio portato a
+    `ritirata` lascia li' la sua pagina di cortesia ("Questa pagina non e' piu' attiva"),
+    che non deve comparire in home. La si riconosce dal fatto che NON ha la fascia
+    "in breve" — controllo strutturale, non sul testo del titolo.
+    Nel builder n8n il filtro e' piu' forte: lo fa Airtable con landing_status.
+    """
     viaggi = []
     for indice in sorted((RADICE / "viaggi").glob("*/index.html")):
         pagina = indice.read_text(encoding="utf-8")
-        slug = indice.parent.name
+        if 'class="in-breve"' not in pagina:
+            continue
         titolo = re.search(r"<h1>(.*?)</h1>", pagina, re.S)
         strillo = re.search(r'<p class="strillo">(.*?)</p>', pagina, re.S)
         f = fatti(pagina)
         viaggi.append({
-            "slug": slug,
-            "titolo": testo(titolo.group(1)) if titolo else slug,
+            "slug": indice.parent.name,
+            "titolo": testo(titolo.group(1)) if titolo else indice.parent.name,
             "strillo": testo(strillo.group(1)) if strillo else "",
             "date": f.get("Date", ""),
             "durata": f.get("Durata", ""),
             "quota": f.get("Quota a persona", ""),
             "sold_out": 'class="badge-soldout"' in pagina,
         })
-    viaggi.sort(key=lambda v: (v["sold_out"], ordinamento(v["date"])))
-    return viaggi
+    return ordina(viaggi)
+
+
+def ordina(viaggi):
+    """Per data di partenza, sold out in fondo. Stessa regola nel nodo n8n."""
+    return sorted(viaggi, key=lambda v: (v["sold_out"], ordinamento(v["date"])))
 
 
 def scheda(v):
@@ -113,79 +130,37 @@ def scheda(v):
     </a>"""
 
 
-def render(viaggi):
-    if viaggi:
-        corpo = (
-            '  <div class="griglia-viaggi">\n'
-            + "\n".join(scheda(v) for v in viaggi)
-            + "\n  </div>"
-        )
-        occhiello = (
-            "Una partenza in programma"
-            if len(viaggi) == 1
-            else f"{len(viaggi)} partenze in programma"
-        )
-    else:
-        corpo = """  <div class="nessun-viaggio">
+def corpo_e_occhiello(viaggi):
+    """Le due parti variabili della home. Stessa logica nel nodo "Renderizza Indice"."""
+    if not viaggi:
+        # Con zero viaggi pubblicati la home resta dignitosa invece del 404 di Pages.
+        return ("""  <div class="nessun-viaggio">
     <p>Le prossime partenze di gruppo sono in preparazione.</p>
     <a class="cta" href="https://www.kibotours.com">Vai a kibotours.com</a>
-  </div>"""
-        occhiello = "Partenze in preparazione"
+  </div>""", "Partenze in preparazione")
+    corpo = ('  <div class="griglia-viaggi">\n'
+             + "\n".join(scheda(v) for v in viaggi)
+             + "\n  </div>")
+    occhiello = ("Una partenza in programma" if len(viaggi) == 1
+                 else f"{len(viaggi)} partenze in programma")
+    return corpo, occhiello
 
-    return f"""<!doctype html>
-<html lang="it">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Come le landing: fase 1 serve la conversione da email e social, non l'organico. -->
-<meta name="robots" content="noindex,nofollow">
-<title>Partenze di gruppo &middot; Kibo</title>
-<meta name="description" content="Le partenze di gruppo Kibo Tours in programma: date, durata e quote.">
-<link rel="icon" type="image/png" href="/assets/brand/logo-kibo-colore.png">
-<link rel="stylesheet" href="/assets/kibo.css">
-</head>
-<body class="pagina-indice">
 
-<header class="testata-indice">
-  <div class="marchio">
-    <img class="logo-hero" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
-    <span class="sotto-marchio">Where dreams come tours</span>
-  </div>
-  <div class="hero-testo">
-    <span class="eyebrow">{occhiello}</span>
-    <h1>Partenze di gruppo</h1>
-    <p class="strillo">Piccoli gruppi accompagnati, voli inclusi e un itinerario
-    costruito nel dettaglio. Scegli la partenza e scopri il programma completo.</p>
-  </div>
-</header>
-
-<main class="indice">
-{corpo}
-</main>
-
-<footer>
-  <div class="footer-inner">
-    <img class="logo-footer" src="/assets/brand/logo-kibo-bianco.png" alt="Kibo">
-    <span>Kibo Tours &middot; <a href="https://www.kibotours.com">kibotours.com</a></span>
-    <span>Quote e disponibilit&agrave; sono indicative: fanno fede quelle della pagina del
-    singolo viaggio e il contratto inviato prima della conferma.</span>
-  </div>
-</footer>
-
-</body>
-</html>
-"""
+def render(viaggi, template):
+    corpo, occhiello = corpo_e_occhiello(viaggi)
+    out = template.replace("{{occhiello}}", occhiello).replace("{{schede_html}}", corpo)
+    residui = re.findall(r"{{\w+}}", out)
+    if residui:
+        raise SystemExit(f"segnaposto non sostituiti: {residui}")
+    return out
 
 
 def main():
     viaggi = raccogli()
-    USCITA.write_text(render(viaggi), encoding="utf-8")
+    USCITA.write_text(render(viaggi, TEMPLATE.read_text(encoding="utf-8")), encoding="utf-8")
     if not viaggi:
-        print(
-            "WARNING: nessuna pagina in viaggi/ — home generata con lo stato "
-            "'partenze in preparazione'",
-            file=sys.stderr,
-        )
+        print("WARNING: nessuna pagina in viaggi/ — home con lo stato "
+              "'partenze in preparazione'", file=sys.stderr)
     for v in viaggi:
         mancanti = [k for k in ("date", "durata", "quota") if not v[k]]
         if mancanti:
