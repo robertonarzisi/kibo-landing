@@ -36,6 +36,8 @@ CTA "Prenota" → form Tally → prenotazione e acconto
 | `assets/hero/<slug>.jpg` | Foto hero per pagina (fallback: gradiente brand) |
 | `contenuti/<slug>.json` | Contenuto editoriale per viaggio |
 | `scripts/render.py` | Renderer di riferimento — la stessa logica del Code node n8n si sviluppa e testa qui |
+| `scripts/render_index.py` | Genera `index.html`, la home indice: legge le pagine già in `viaggi/` e le elenca. **Va rilanciato dopo ogni pubblicazione** |
+| `index.html` | Home di go.kibotours.com — GENERATA, non si modifica a mano |
 | `scripts/sample-data/` | Dati Airtable normalizzati per i test locali |
 
 ## Render locale
