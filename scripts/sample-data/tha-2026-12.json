@@ -1,0 +1,22 @@
+{
+  "_nota": "Dati parametrici del viaggio THA-2026-12 (record Viaggi reclBvo7XVptr6rhD), fotografia del 2026-09-04. Quota 2.950 con tasse aeroportuali e assicurazione medico-bagaglio incluse; saldo a 50 giorni dalla partenza (09/11/2026); acconto 885 = 30% della quota come Vietnam e Namibia, da confermare; supplemento singola, minimo e riconferma non ancora definiti. La fonte di verità resta Airtable.",
+  "oggi": "2026-09-04",
+  "cta_url": "mailto:booking@kibotours.com?subject=Prenotazione%20Capodanno%20in%20Thailandia%20con%20Zof",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "trip_id": "THA-2026-12",
+    "nome_commerciale": "Capodanno in Thailandia con Zof",
+    "destinazione": "Thailandia",
+    "stato": "Bozza",
+    "data_partenza": "2026-12-29",
+    "data_rientro": "2027-01-09",
+    "vettore": "Saudia (via Jeddah)",
+    "aeroporto_partenza": "Milano Malpensa (MXP)",
+    "quota_base": 2950,
+    "posti_totali": 26,
+    "posti_residui": 26,
+    "scala_penali": "SCALA PENALI IN DEROGA — giorni di calendario rispetto alla partenza dall'Italia (29/12/2026).\n\nTour di gruppo a data fissa con voli di linea a tariffa speciale. Ai sensi del punto 10 delle Condizioni Generali di Vendita Kibo Tours, che escludono espressamente tale tipologia di prodotto dal regime standard delle penali, si applica la seguente scala in deroga a quella ivi indicata. Per il resto le Condizioni Generali di Vendita si applicano integralmente.\n\n- Dalla conferma fino al 29/09/2026: 30%, pari all'acconto versato di 885 EUR a persona\n- Dal 30/09/2026 al 09/11/2026: 50%\n- Dal 10/11/2026 al 08/12/2026: 80%\n- Dal 09/12/2026: 100%\n\nL'acconto versato non e' in alcun caso rimborsabile. Restano inoltre a carico del viaggiatore la quota di iscrizione/gestione pratica e i premi assicurativi eventualmente sottoscritti.\n\nIn caso di annullamento da parte di Kibo per mancato raggiungimento del minimo: rimborso integrale di quanto versato.",
+    "acconto_per_persona": 885,
+    "data_saldo": "2026-11-09"
+  }
+}
