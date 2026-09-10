@@ -61,6 +61,17 @@ def trip_dates(inizio, fine):
     return f"{data_it(inizio)} – {data_it(fine)}"
 
 
+def mese_anno(iso):
+    y, m, _ = (int(x) for x in iso.split("-"))
+    return f"{MESI[m]} {y}"
+
+
+def periodo_partenze(prima, ultima):
+    if prima[:7] == ultima[:7]:
+        return mese_anno(prima)
+    return f"{mese_anno(prima)} – {mese_anno(ultima)}"
+
+
 def durata_giorni(inizio, fine):
     yi, mi, di = (int(x) for x in inizio.split("-"))
     yf, mf, df = (int(x) for x in fine.split("-"))
@@ -95,6 +106,14 @@ def build(dati, contenuto, forza_soldout=False):
 
     posti_residui = vg.get("posti_residui")
     sold_out = forza_soldout or (posti_residui is not None and posti_residui <= 0)
+
+    # --- viaggi da CATALOGO (tour a partenze multiple, es. sincronizzati da Travel
+    #     Compositor): niente data unica, niente acconto/penali; quota "a partire da"
+    #     calcolata sulla partenza futura più economica, elenco delle prossime date,
+    #     CTA = richiesta di informazioni a booking@. Le partenze e le quote vivono
+    #     nei dati parametrici (sample-data), mai nel contenuto editoriale. ---
+    if (vg.get("tipo") or "gruppo") == "catalogo":
+        return build_catalogo(dati, contenuto, oggi, warnings)
 
     # --- listino nella card: quota + supplementi, dai soli dati parametrici ---
     price_rows = []
@@ -214,6 +233,131 @@ def build(dati, contenuto, forza_soldout=False):
     return model, warnings
 
 
+def build_catalogo(dati, contenuto, oggi, warnings):
+    vg = dati["viaggio"]
+    partenze = sorted((p for p in (vg.get("partenze") or []) if p.get("data")),
+                      key=lambda p: p["data"])
+    future = [p for p in partenze if p["data"] >= oggi]
+    if not future:
+        warnings.append("nessuna partenza futura nei dati parametrici: pagina senza date")
+    prezzi = [p["prezzo"] for p in future if p.get("prezzo")]
+    quota_da = min(prezzi) if prezzi else vg.get("quota_da")
+    if not quota_da:
+        warnings.append("quota_da assente: pagina senza prezzo (quota su richiesta)")
+
+    price_rows = []
+    voli_inclusi = bool(vg.get("voli_inclusi"))
+    if quota_da:
+        price_rows.append({"nome": ("Quota a persona" if len(future) == 1 else "Quota a partire da") + (", voli inclusi" if voli_inclusi else ""),
+                           "unita": ("a persona in camera doppia, voli dall'Italia, tasse aeroportuali e "
+                                     "servizi a terra inclusi" if voli_inclusi else
+                                     "a persona in camera doppia, partenza più economica"),
+                           "prezzo": quota_da, "quota": True})
+    if vg.get("supplemento_singola"):
+        unita = "per tutta la durata"
+        if vg.get("supplemento_singola_nota"):
+            unita += f" ({vg['supplemento_singola_nota']})"
+        price_rows.append({"nome": "Supplemento singola", "unita": unita,
+                           "prezzo": vg["supplemento_singola"], "quota": False})
+    MAX_DATE = 8
+    if vg.get("assicurazione"):
+        price_rows.append({"nome": "Assicurazione medico, bagaglio e annullamento (facoltativa)",
+                           "unita": "a persona", "prezzo": vg["assicurazione"], "quota": False})
+    for p in future[:MAX_DATE]:
+        price_rows.append({"nome": f"Partenza {data_it(p['data'])}", "unita": p.get("nota") or "",
+                           "prezzo": p.get("prezzo"), "quota": False,
+                           "senza_prezzo": not p.get("prezzo")})
+    altre = len(future) - min(len(future), MAX_DATE)
+    partenze_nota = ""
+    if altre > 0:
+        partenze_nota = (f"E altre {altre} partenze fino al {data_it(future[-1]['data'])}: "
+                         "chiedici la data che preferisci.")
+
+    fatti = [("Durata", contenuto.get("durata_label") or "")]
+    if vg.get("partenze_note"):
+        fatti.append(("Partenze", vg["partenze_note"]))
+    elif future:
+        fatti.append(("Partenze", f"{len(future)} date in calendario"))
+    for f in contenuto.get("fatti_extra") or []:
+        fatti.append((f.get("etichetta") or "In breve", f.get("valore") or ""))
+
+    condizioni = []
+    def cond(titolo, corpo):
+        if corpo and str(corpo).strip():
+            condizioni.append((titolo, str(corpo).strip()))
+    cond("Quote e disponibilità",
+         "Le quote sono indicative, riferite alla sistemazione in camera doppia e alla "
+         "data di partenza indicata; variano con la stagione e con la categoria degli "
+         "alberghi scelta. Disponibilità e quota definitiva vengono confermate per "
+         "iscritto al momento della richiesta, prima di qualsiasi impegno.")
+    cambio = vg.get("cambio") or {}
+    if cambio.get("valuta") and cambio.get("tasso") and cambio.get("data"):
+        toll = cambio.get("tolleranza_pct", 5)
+        cond("Cambio valutario",
+             f"I servizi a terra di questo viaggio sono in {cambio['valuta']}. Le quote sono "
+             f"calcolate al cambio del {data_it(cambio['data'])} (1 EUR = {str(cambio['tasso']).replace(".", ",")} "
+             f"{cambio['valuta']}) e possono essere adeguate, in più o in meno, se alla "
+             f"conferma il cambio varia oltre il {toll}%.")
+    cond("Voli dall'Italia", vg.get("voli_testo") or contenuto.get("voli_testo"))
+    if voli_inclusi:
+        # regola di Roberto (10/09/2026): mai la data di emissione della tariffa, senza blocco
+        # dei posti non è attendibile; sempre e comunque la formula standard.
+        cond("Tariffa aerea", vg.get("validita_testo") or
+             "La tariffa aerea compresa nella quota è soggetta a variazione ed è da verificare al "
+             "momento della prenotazione. La quota è calcolata su base 2 persone e non si applica "
+             "ai gruppi.")
+    cond("Documenti richiesti", contenuto.get("documenti_testo"))
+    for extra in contenuto.get("condizioni_extra") or []:
+        cond(extra.get("titolo"), extra.get("testo"))
+
+    titolo = contenuto.get("titolo") or vg["nome_commerciale"]
+    slug = (contenuto.get("slug") or "").strip()
+    if not slug:
+        raise SystemExit("contenuto.json senza slug")
+
+    model = {
+        "tipo": "catalogo",
+        "slug": slug,
+        "page_url": f"https://go.kibotours.com/viaggi/{slug}/",
+        "titolo": titolo,
+        "eyebrow": contenuto.get("eyebrow") or "Viaggio Kibo con partenze garantite",
+        "strillo": contenuto.get("strillo") or "",
+        "trip_dates": periodo_partenze(future[0]["data"], future[-1]["data"]) if future
+                      else "date su richiesta",
+        "fatti": fatti,
+        "area": (contenuto.get("area") or "").strip(),
+        "sold_out": False,
+        "quota_da": euro(quota_da) if quota_da else "",
+        "totale_persona": "",
+        "acconto": "",
+        "saldo_testo": "",
+        "intro_titolo": contenuto.get("intro_titolo") or titolo,
+        "intro": contenuto.get("intro") or [],
+        "giorni": contenuto.get("giorni") or [],
+        "price_rows": price_rows,
+        "partenze_nota": partenze_nota,
+        "included": contenuto.get("incluso") or [],
+        "excluded": contenuto.get("non_incluso") or [],
+        "sistemazione_titolo": contenuto.get("sistemazione_titolo") or "",
+        "sistemazione": contenuto.get("sistemazione") or [],
+        "conditions": condizioni,
+        "cta_url": dati.get("cta_url") or "",
+        "cta_label": dati.get("cta_label") or "Richiedi informazioni",
+        "chiusura_titolo": "Ti interessa questo viaggio?",
+        "chiusura_testo": ("Scrivici indicando la data che preferisci e in quanti siete: "
+                           "ti rispondiamo con disponibilità e quota confermata, senza impegno."),
+        "contact_url": dati.get("contact_url") or "https://www.kibotours.com",
+        "meta_description": contenuto.get("meta_description")
+            or f"{titolo} con Kibo: tour con partenze garantite, guida in italiano e assistenza dall'Italia.",
+        "updated_at": data_it(oggi),
+    }
+    if not model["intro"]:
+        warnings.append("contenuto senza intro: la sezione 'Il viaggio' esce vuota")
+    if not model["included"] or not model["excluded"]:
+        warnings.append("incluso/non incluso incompleti: da completare prima di pubblicare")
+    return model, warnings
+
+
 def render(model):
     # Un template per macro-area (viaggio-oriente.html, viaggio-oceano-indiano.html,
     # viaggio-americhe.html): finché non esiste, si usa il layout base.
@@ -228,16 +372,20 @@ def render(model):
         chiusura_testo = ("I posti disponibili sono finiti. Scrivici per la lista d'attesa "
                           "o per la prossima partenza.")
     else:
-        cta_url, cta_label = model["cta_url"], "Prenota"
-        chiusura_titolo = "Pronto a partire?"
-        chiusura_testo = "La prenotazione si completa online in pochi minuti."
+        cta_url, cta_label = model["cta_url"], model.get("cta_label") or "Prenota"
+        chiusura_titolo = model.get("chiusura_titolo") or "Pronto a partire?"
+        chiusura_testo = (model.get("chiusura_testo")
+                          or "La prenotazione si completa online in pochi minuti.")
 
     rows = []
     for r in model["price_rows"]:
         classe = "riga-prezzo quota" if r["quota"] else "riga-prezzo"
         unita_html = f'<span class="unita">{esc(r["unita"])}</span>' if r["unita"] else ""
+        importo = "su richiesta" if r.get("senza_prezzo") else euro(r["prezzo"])
         rows.append(f'<div class="{classe}"><span class="nome">{esc(r["nome"])}{unita_html}</span>'
-                    f'<span class="importo">{esc(euro(r["prezzo"]))}</span></div>')
+                    f'<span class="importo">{esc(importo)}</span></div>')
+    if model.get("partenze_nota"):
+        rows.append(f'<p class="nota-listino">{esc(model["partenze_nota"])}</p>')
 
     tappe = []
     for g in model["giorni"]:

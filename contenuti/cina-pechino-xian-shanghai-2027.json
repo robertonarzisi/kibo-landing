@@ -1,0 +1,119 @@
+{
+  "_stato": "BOZZA del 10/09/2026 — prova del flusso richiesta → prodotto → landing: riscritta dal programma 2027 del corrispondente (tour seat in coach da 10 giorni, min 2 max 25). Non pubblicata: in attesa della revisione di Roberto. Quote in euro calcolate il 10/09 con la regola dei prezzi (regola prezzi interna, cambio BCE del 09/09). Foto hero: destinazione Shanghai da TC (uso libero).",
+  "slug": "cina-pechino-xian-shanghai-2027",
+  "area": "oriente",
+  "titolo": "Cina classica in dieci giorni: Pechino, Xi'an e Shanghai",
+  "eyebrow": "Cina · tour 2027 con guida in italiano",
+  "strillo": "Dieci giorni dall'Italia: la Città Proibita e la Grande Muraglia, l'Esercito di Terracotta e la Shanghai dei grattacieli. In treno veloce e con il volo interno incluso.",
+  "intro_titolo": "La Cina che si deve vedere, in una settimana piena",
+  "intro": [
+    "Un tour di 10 giorni, 7 notti in Cina, sui tre luoghi per cui si va la prima volta: Pechino con la Città Proibita e la Grande Muraglia, Xi'an con l'Esercito di Terracotta, Shanghai con i giardini Ming e i grattacieli di Pudong. Tra una città e l'altra si viaggia in treno ad alta velocità e con un volo interno, entrambi compresi.",
+    "Le partenze sono fisse, di domenica dall'Italia, da marzo a dicembre 2027; si viaggia in piccolo gruppo, da 2 a 25 persone, con guide parlanti italiano in tutte e tre le città. Gli alberghi sono cinque stelle in ogni tappa. I voli internazionali non sono compresi: li quotiamo insieme al tour."
+  ],
+  "durata_label": "10 giorni / 7 notti in Cina",
+  "fatti_extra": [
+    {
+      "etichetta": "Gruppo",
+      "valore": "da 2 a 25 partecipanti"
+    },
+    {
+      "etichetta": "Alberghi",
+      "valore": "5 stelle in tutte le tappe"
+    },
+    {
+      "etichetta": "Guide",
+      "valore": "in italiano a Pechino, Xi'an e Shanghai"
+    }
+  ],
+  "giorni": [
+    {
+      "giorno": "1",
+      "titolo": "Italia – Pechino",
+      "testo": "Partenza dall'Italia con volo di linea per Pechino. Pasti e pernottamento a bordo."
+    },
+    {
+      "giorno": "2",
+      "titolo": "Arrivo a Pechino",
+      "testo": "Arrivo nella capitale. L'autista attende in aeroporto con il cartello e accompagna in hotel (la camera è disponibile dalle 14). Resto della giornata libero, pasti liberi."
+    },
+    {
+      "giorno": "3",
+      "titolo": "Piazza Tienanmen, la Città Proibita, il Palazzo d'Estate",
+      "testo": "Si comincia dalla piazza più grande del mondo e si entra nella Città Proibita (chiusa il lunedì), il più grande e meglio conservato insieme di palazzi imperiali del Paese: mura rosse, tetti dorati, seicento anni di vita di corte. Si segue l'asse centrale, il percorso classico, con una delle mostre lungo il cammino. Nel pomeriggio il Palazzo d'Estate e il lago Kunming; a chiudere, la cerimonia del tè. Pranzo in ristorante, cena libera."
+    },
+    {
+      "giorno": "4",
+      "titolo": "La Grande Muraglia e le Tombe Ming",
+      "testo": "Al mattino la Grande Muraglia, a un'ora e mezza dal centro: «chi non l'ha scalata non è un vero eroe», diceva Mao. Poi la Tomba di Chang, la più grande e completa delle tredici tombe Ming, con il palazzo in legno di canfora unico nel suo genere. Sosta fotografica al Villaggio Olimpico del 2008, il Nido d'uccello e il Cubo d'acqua. Pranzo in ristorante e cena a base di anatra alla pechinese."
+    },
+    {
+      "giorno": "5",
+      "titolo": "Il Tempio del Cielo, treno veloce per Xi'an",
+      "testo": "Visita del Tempio del Cielo, luogo dei sacrifici imperiali delle dinastie Ming e Qing, oggi parco e monumento. Nel pomeriggio trasferimento alla stazione e treno ad alta velocità per Xi'an; all'arrivo, guida e autista accompagnano in hotel. Pranzo e cena liberi."
+    },
+    {
+      "giorno": "6",
+      "titolo": "L'Esercito di Terracotta e il quartiere musulmano",
+      "testo": "La giornata dell'Esercito di Terracotta: oltre ottomila statue di guerrieri, arcieri, cavalli e carri, scoperte per caso nel 1974 da contadini che scavavano un pozzo, a guardia del mausoleo del primo imperatore Qin Shihuang. Nel pomeriggio la Grande Moschea, tra le più antiche della Cina, e il quartiere musulmano con il suo street food — i noodles biang biang, i panini roujiamo, gli spiedini. Sosta in un laboratorio della giada. Pranzo in ristorante, cena libera."
+    },
+    {
+      "giorno": "7",
+      "titolo": "Volo per Shanghai",
+      "testo": "Trasferimento in aeroporto con guida e autista e volo per Shanghai. All'arrivo, guida e autista accompagnano in hotel. Pasti liberi."
+    },
+    {
+      "giorno": "8",
+      "titolo": "Shanghai: il Giardino Yu, la Concessione francese, Pudong",
+      "testo": "Il Giardino del Mandarino Yu (chiuso il lunedì), giardino Ming nella città vecchia, e la Strada Vecchia accanto, con i negozi storici e i ravioli al vapore; la ex Concessione francese; Tianzifang, il quartiere degli artisti; le case shikumen di Xintiandi. Sosta in un negozio della seta e, a chiudere, la vista sui grattacieli di Pudong dal fiume. Pranzo in ristorante, cena libera."
+    },
+    {
+      "giorno": "9",
+      "titolo": "Shanghai – Italia",
+      "testo": "Colazione, camera disponibile fino a mezzogiorno. Trasferimento in aeroporto con l'autista e volo di rientro. Fine dei servizi."
+    },
+    {
+      "giorno": "10",
+      "titolo": "Arrivo in Italia",
+      "testo": "Arrivo in Italia."
+    }
+  ],
+  "incluso": [
+    "7 pernottamenti in alberghi 5 stelle in camera doppia, con prima colazione",
+    "4 pranzi e 1 cena in ristoranti locali, con una bibita a pasto",
+    "Treno ad alta velocità Pechino–Xi'an in seconda classe",
+    "Volo interno Xi'an–Shanghai in classe economica",
+    "Trasferimenti e visite con veicolo climatizzato e autista",
+    "Guide parlanti italiano a Pechino, Xi'an e Shanghai",
+    "Ingressi ai siti in programma, una bottiglia d'acqua al giorno, tasse governative"
+  ],
+  "non_incluso": [
+    "Voli internazionali dall'Italia",
+    "Mance obbligatorie per guide e autisti, da versare in loco (l'importo è indicato nel contratto)",
+    "Visto d'ingresso, dove richiesto",
+    "Pasti non indicati e bevande",
+    "Scheda SIM per internet in Cina, da prenotare prima della partenza",
+    "Assicurazione di viaggio"
+  ],
+  "sistemazione_titolo": "Gli alberghi del tour",
+  "sistemazione": [
+    "Cinque stelle in ogni tappa: a Pechino il Guo Ji Yi Yuan Hotel su Wangfujing (3 notti), a Xi'an il Jinhui Pullman (2 notti), a Shanghai il Jin Jiang Tower (2 notti), o strutture equivalenti.",
+    "Le camere sono doppie con due letti singoli. In Cina la camera tripla è una doppia con un letto pieghevole aggiunto, adatta più a un bambino che a un adulto."
+  ],
+  "voli_testo": "Il tour comprende tutti gli spostamenti interni — treno e voli — ma non i voli dall'Italia, che quotiamo insieme al tour con la partenza di domenica e l'arrivo a Pechino il lunedì.",
+  "documenti_testo": "Alla conferma è richiesta la copia del passaporto. Le condizioni di ingresso — visto, validità del passaporto, eventuali autorizzazioni — le verifichiamo e te le comunichiamo per iscritto al momento della conferma.",
+  "condizioni_extra": [
+    {
+      "titolo": "Partenze e gruppo",
+      "testo": "Partenze di domenica dall'Italia, nelle date in calendario 2027, con arrivo in Cina il lunedì. Gruppo da 2 a 25 partecipanti. In agosto i trasferimenti da e per aeroporti e stazioni possono essere assistiti da personale parlante inglese."
+    },
+    {
+      "titolo": "Le visite",
+      "testo": "In ogni città è prevista una sosta in un laboratorio o negozio artigianale (tè, giada, seta). L'ordine delle visite può cambiare in base alle condizioni locali senza preavviso."
+    },
+    {
+      "titolo": "Camera singola, tripla e bambini",
+      "testo": "Il supplemento singola è indicato nel listino. La sistemazione in tripla (letto aggiunto pieghevole) e la riduzione per bambini sotto i 12 anni in camera con i genitori sono disponibili su richiesta."
+    }
+  ],
+  "meta_description": "Cina classica con Kibo in 10 giorni: Pechino, Xi'an e Shanghai con treno veloce e volo interno inclusi, alberghi 5 stelle e guide in italiano. Partenze di domenica, marzo–dicembre 2027."
+}

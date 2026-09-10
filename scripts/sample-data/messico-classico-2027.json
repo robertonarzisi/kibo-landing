@@ -1,0 +1,135 @@
+{
+  "_nota": "Dati parametrici del tour Messico Classico 2027 del corrispondente (PDF 2027 nella cartella Dropbox dei corrispondenti). Quote in euro calcolate il 2026-09-10 dai costi in USD con la regola delle landing (regola prezzi interna, cambio BCE del 09/09/2026); i costi restano fuori dal repo. Le date sono l'arrivo in Messico (giorno 1), di lunedì.",
+  "oggi": "2026-09-10",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20informazioni%20-%20Messico%20classico%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "MEX-2027-SIC10",
+    "nome_commerciale": "Messico classico: dalla capitale al Chiapas e allo Yucatán",
+    "destinazione": "Città del Messico, Chiapas, Yucatán, Riviera Maya",
+    "notti": 9,
+    "quota_da": null,
+    "supplemento_singola": 395,
+    "partenze_note": "27 lunedì da gennaio a dicembre 2027; la data è l'arrivo in Messico",
+    "cambio": {
+      "valuta": "USD",
+      "tasso": 1.1652,
+      "data": "2026-09-09",
+      "tolleranza_pct": 5
+    },
+    "partenze": [
+      {
+        "data": "2027-01-11",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-01-25",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-02-08",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-02-22",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-03-08",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-03-15",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-04-05",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-04-19",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-04-26",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-05-10",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-05-24",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-06-07",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-06-21",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-07-05",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-07-19",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-08-02",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-08-09",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-08-23",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-09-06",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-09-20",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-10-04",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-10-18",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-10-28",
+        "prezzo": null,
+        "nota": "partenza speciale con programma dedicato: quota su richiesta"
+      },
+      {
+        "data": "2027-11-15",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-11-22",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-12-06",
+        "prezzo": 2485
+      },
+      {
+        "data": "2027-12-27",
+        "prezzo": null,
+        "nota": "partenza speciale con programma dedicato: quota su richiesta"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "_nota": "Dati parametrici del tour Cina 2027 in 10 giorni (Pechino, Xi'an, Shanghai) del corrispondente, programma 2027 nella cartella Dropbox dei corrispondenti. Quote in euro calcolate il 2026-09-10 dai costi del fornitore in USD con la regola di Roberto (regola prezzi interna, cambio BCE del 09/09/2026); i costi restano fuori dal repo. Partenze dall'Italia di domenica; luglio e agosto (mese di arrivo in Cina) = stagione alta.",
+  "oggi": "2026-09-10",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20informazioni%20-%20Cina%20Pechino%20Xi'an%20Shanghai%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "CHN-2027-SIC10",
+    "nome_commerciale": "Cina classica in dieci giorni: Pechino, Xi'an e Shanghai",
+    "destinazione": "Pechino, Xi'an, Shanghai",
+    "notti": 7,
+    "quota_da": null,
+    "supplemento_singola": 335,
+    "supplemento_singola_nota": "385 € per le partenze di luglio e agosto",
+    "partenze_note": "26 domeniche, dal 14 marzo al 26 dicembre 2027",
+    "cambio": {
+      "valuta": "USD",
+      "tasso": 1.1652,
+      "data": "2026-09-09",
+      "tolleranza_pct": 5
+    },
+    "partenze": [
+      {
+        "data": "2027-03-14",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-21",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-04",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-11",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-18",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-09",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-16",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-06",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-13",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-20",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-27",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-07-04",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-11",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-18",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-01",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-08",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-15",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-22",
+        "prezzo": 1455,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-05",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-09-12",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-10-10",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-10-17",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-10-24",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-11-14",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-11-21",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-12-26",
+        "prezzo": 1355,
+        "stagione": "bassa"
+      }
+    ]
+  }
+}
