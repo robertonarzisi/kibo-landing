@@ -197,6 +197,7 @@ def build(dati, contenuto, forza_soldout=False):
 
     model = {
         "slug": slug,
+        "noindex": (dati.get("viaggio") or {}).get("landing_status") != "pubblicata",
         "page_url": f"https://go.kibotours.com/viaggi/{slug}/",
         "titolo": titolo,
         "eyebrow": contenuto.get("eyebrow") or "Partenza di gruppo Kibo",
@@ -317,6 +318,7 @@ def build_catalogo(dati, contenuto, oggi, warnings):
 
     model = {
         "tipo": "catalogo",
+        "noindex": (dati.get("viaggio") or {}).get("landing_status") != "pubblicata",
         "slug": slug,
         "page_url": f"https://go.kibotours.com/viaggi/{slug}/",
         "titolo": titolo,
@@ -431,6 +433,9 @@ def render(model):
     }
 
     blocchi = {
+        # noindex solo fuori da viaggi/: anteprime e prove locali. La pagina pubblicata
+        # (landing_status = pubblicata nei dati parametrici) deve farsi trovare (Roberto, 12/09/2026).
+        "noindex": model.get("noindex", True),
         "sold_out": model["sold_out"],
         "strillo": bool(model["strillo"]),
         "quota_da": bool(model["quota_da"]) and not model["sold_out"],

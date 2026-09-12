@@ -130,6 +130,7 @@
         "prezzo": null,
         "nota": "partenza speciale con programma dedicato: quota su richiesta"
       }
-    ]
+    ],
+    "landing_status": "pubblicata"
   }
 }
