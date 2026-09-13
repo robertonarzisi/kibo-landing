@@ -366,6 +366,9 @@ def render(model):
     area = model.get("area") or ""
     tpl_area = REPO / "templates" / f"viaggio-{area}.html"
     tpl_file = tpl_area if area and tpl_area.exists() else REPO / "templates" / "viaggio.html"
+    # Pagina di proposta (Dora): stesso motore, template dedicato scelto dal modello.
+    if model.get("template"):
+        tpl_file = REPO / "templates" / model["template"]
     tpl = tpl_file.read_text(encoding="utf-8")
 
     if model["sold_out"]:
@@ -430,6 +433,10 @@ def render(model):
         "chiusura_titolo": chiusura_titolo,
         "chiusura_testo": chiusura_testo,
         "updated_at": model["updated_at"],
+        # Solo per proposta.html: voli quotati e foto hero scelta dal chiamante.
+        "voli_html": paragrafi_html(model.get("voli") or []),
+        "hero_style": model.get("hero_style") or f"--foto: url('/assets/hero/{model['slug']}.jpg')",
+        "nota_privata": model.get("nota_privata") or "",
     }
 
     blocchi = {
@@ -444,6 +451,7 @@ def render(model):
         "totale_persona": bool(model["totale_persona"]),
         "sistemazione": bool(model["sistemazione_titolo"]) and bool(model["sistemazione"]),
         "condizioni": bool(model["conditions"]),
+        "voli": bool(model.get("voli")),
     }
     for nome, attivo in blocchi.items():
         pattern = re.compile(rf"<!--IF:{nome}-->(.*?)<!--ENDIF:{nome}-->", re.DOTALL)
