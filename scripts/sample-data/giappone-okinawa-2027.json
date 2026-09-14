@@ -11,10 +11,60 @@
     "destinazione": "Tokyo, Okinawa, Kyoto, Osaka",
     "notti": 12,
     "quota_da": 1645,
-    "partenze_note": "Date libere: si parte tutti i giorni dal 6 ottobre 2026 al 18 settembre 2027. Quota a persona in doppia per mese di partenza: ottobre 2026 da 1.845 €; novembre 2026 da 1.925 €; dicembre 2026 da 1.795 €; gennaio 2027 da 1.645 €; febbraio 2027 da 1.645 €; marzo 2027 da 1.935 €; aprile 2027 da 1.965 €; maggio 2027 da 1.735 €; giugno 2027 da 1.755 €; luglio 2027 da 1.785 €; agosto 2027 da 1.695 €; settembre 2027 da 1.735 €. La quota esatta dipende dal giorno di partenza e viene confermata per iscritto.",
+    "partenze_note": "tutti i giorni, dal 6 ottobre 2026 al 18 settembre 2027",
     "date_testo": "date libere, 6 ott 2026 – 18 set 2027",
     "partenze": [],
     "landing_status": "pronta_per_verifica",
-    "tc_package_id": 46627515
+    "tc_package_id": 46627515,
+    "quote_per_mese": [
+      {
+        "mese": "ottobre 2026",
+        "prezzo": 1845
+      },
+      {
+        "mese": "novembre 2026",
+        "prezzo": 1925
+      },
+      {
+        "mese": "dicembre 2026",
+        "prezzo": 1795
+      },
+      {
+        "mese": "gennaio 2027",
+        "prezzo": 1645
+      },
+      {
+        "mese": "febbraio 2027",
+        "prezzo": 1645
+      },
+      {
+        "mese": "marzo 2027",
+        "prezzo": 1935
+      },
+      {
+        "mese": "aprile 2027",
+        "prezzo": 1965
+      },
+      {
+        "mese": "maggio 2027",
+        "prezzo": 1735
+      },
+      {
+        "mese": "giugno 2027",
+        "prezzo": 1755
+      },
+      {
+        "mese": "luglio 2027",
+        "prezzo": 1785
+      },
+      {
+        "mese": "agosto 2027",
+        "prezzo": 1695
+      },
+      {
+        "mese": "settembre 2027",
+        "prezzo": 1735
+      }
+    ]
   }
 }

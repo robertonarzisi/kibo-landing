@@ -268,6 +268,10 @@ def build_catalogo(dati, contenuto, oggi, warnings):
         price_rows.append({"nome": f"Partenza {data_it(p['data'])}", "unita": p.get("nota") or "",
                            "prezzo": p.get("prezzo"), "quota": False,
                            "senza_prezzo": not p.get("prezzo")})
+    # Viaggi a date libere (package TC): quote «da» per mese di partenza, dal calendario TC
+    for q in vg.get("quote_per_mese") or []:
+        price_rows.append({"nome": f"Partenze di {q['mese']}", "unita": "da, a persona in camera doppia",
+                           "prezzo": q["prezzo"], "quota": False})
     altre = len(future) - min(len(future), MAX_DATE)
     partenze_nota = ""
     if altre > 0:
