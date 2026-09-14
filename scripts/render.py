@@ -325,7 +325,7 @@ def build_catalogo(dati, contenuto, oggi, warnings):
         "eyebrow": contenuto.get("eyebrow") or "Viaggio Kibo con partenze garantite",
         "strillo": contenuto.get("strillo") or "",
         "trip_dates": periodo_partenze(future[0]["data"], future[-1]["data"]) if future
-                      else "date su richiesta",
+                      else (vg.get("date_testo") or "date su richiesta"),
         "fatti": fatti,
         "area": (contenuto.get("area") or "").strip(),
         "sold_out": False,

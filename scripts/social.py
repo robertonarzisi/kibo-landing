@@ -25,6 +25,15 @@ CARTA = (237, 244, 243)
 BIANCO = (255, 255, 255)
 
 VIAGGI = {
+    "giappone-okinawa-2027": {
+        "kicker": "VIAGGIO INDIVIDUALE · DATE LIBERE 2026-27",
+        "title": ["Tokyo, Kyoto", "e Okinawa"],
+        "info1": "13 giorni con quattro notti di mare a Okinawa",
+        "info2": "Voli interni e pass inclusi · da 1.645 € a persona",
+        "ribbon": "SI PARTE ANCHE IN DUE",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
@@ -213,7 +222,9 @@ def compose(slug, fmt):
     print(out)
 
 if __name__ == "__main__":
+    import sys
     ensure_fonts()
-    for slug in VIAGGI:
+    # python3 scripts/social.py [slug ...]  → solo quei viaggi; senza argomenti tutti
+    for slug in (sys.argv[1:] or list(VIAGGI)):
         for fmt in ("post", "story"):
             compose(slug, fmt)
