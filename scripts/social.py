@@ -30,6 +30,7 @@ VIAGGI = {
         "title": ["Uzbekistan", "classico"],
         "info1": "Khiva, Bukhara, Samarcanda e Tashkent in 8 giorni",
         "info2": "Pensione completa · da 1.125 € a persona",
+        "focus_x": 0.72,
         "ribbon": "SI PARTE ANCHE IN DUE",
         "ribbon_style": "evidenza",
         "cta": "",
@@ -108,12 +109,14 @@ def tracked(draw, xy, text, font, fill, tracking=0, shadow=None):
 def tracked_len(text, font, tracking=0):
     return sum(font.getlength(c) + tracking for c in text) - (tracking if text else 0)
 
-def crop_cover(img, w, h, focus_y=0.55):
+def crop_cover(img, w, h, focus_y=0.55, focus_x=0.5):
+    """Ritaglio a copertura; focus_x/focus_y (0-1) dicono dove sta il soggetto quando si taglia."""
     sw, sh = img.size
     scale = max(w / sw, h / sh)
     nw, nh = int(sw * scale + 0.5), int(sh * scale + 0.5)
     img = img.resize((nw, nh), Image.LANCZOS)
-    left = (nw - w) // 2
+    left = int((nw - w) * focus_x)
+    left = max(0, min(left, nw - w))
     top = int((nh - h) * focus_y)
     top = max(0, min(top, nh - h))
     return img.crop((left, top, left + w, top + h))
@@ -191,13 +194,13 @@ def compose(slug, fmt):
 
     if fmt == "post":
         canvas = Image.new("RGBA", (W, H))
-        canvas.paste(crop_cover(hero, W, H).convert("RGBA"), (0, 0))
+        canvas.paste(crop_cover(hero, W, H, focus_x=vg.get("focus_x", 0.5)).convert("RGBA"), (0, 0))
         canvas.alpha_composite(gradient_overlay((W, H), TEAL_NOTTE, 0.30, 250))
         photo_bottom = H
     else:
         ph = 1150
         canvas = Image.new("RGBA", (W, H), TEAL_NOTTE + (255,))
-        canvas.paste(crop_cover(hero, W, ph).convert("RGBA"), (0, 0))
+        canvas.paste(crop_cover(hero, W, ph, focus_x=vg.get("focus_x", 0.5)).convert("RGBA"), (0, 0))
         canvas.alpha_composite(gradient_overlay((W, ph), TEAL_NOTTE, 0.55, 255))
         photo_bottom = ph
 
