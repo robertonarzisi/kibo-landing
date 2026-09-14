@@ -1,0 +1,55 @@
+{
+  "_stato": "BOZZA del 14/09/2026 — piano social n. 4. Testo in voce Kibo riscritto dal package Travel Compositor 38494669 (il testo TC non si pubblica com'è; il fornitore locale non compare). In attesa dell'approvazione di Roberto. Foto hero: pista di pattinaggio a Central Park, foto di destinazione New York da TC (uso libero).",
+  "slug": "new-york-inverno-2026-27",
+  "area": "americhe",
+  "titolo": "Una settimana a New York, con la città già in tasca",
+  "eyebrow": "New York · soggiorno individuale, date libere fino a marzo 2027",
+  "strillo": "Sette notti in un albergo 4 stelle a due passi da Penn Station, con trasferimenti, giro della città, salita sull'osservatorio The Edge e una cena già compresi. Il resto è New York.",
+  "intro_titolo": "New York senza pensieri: si arriva e si comincia",
+  "intro": [
+    "Un soggiorno di 8 giorni e 7 notti pensato per chi va a New York la prima volta, o ci torna e non vuole perdere tempo: l'albergo è un quattro stelle storico di Midtown, a un isolato da Penn Station e dal Madison Square Garden, e i servizi essenziali sono già compresi. Trasferimenti collettivi da e per l'aeroporto, un giro guidato di mezza giornata in autobus da Midtown al Financial District, il biglietto per The Edge, l'osservatorio a cielo aperto di Hudson Yards, e una cena in un ristorante italiano di Manhattan.",
+    "Le date sono libere: si parte qualsiasi giorno dal 15 ottobre 2026 al 22 marzo 2027, anche in due. Dicembre è New York con le luci di Natale e la pista di pattinaggio a Central Park; gennaio e febbraio sono i mesi più convenienti. I voli dall'Italia li quotiamo insieme al soggiorno."
+  ],
+  "durata_label": "8 giorni / 7 notti a New York",
+  "fatti_extra": [
+    {"etichetta": "Formula", "valore": "individuale, si parte anche in due"},
+    {"etichetta": "Albergo", "valore": "4 stelle a Midtown, con colazione"},
+    {"etichetta": "Compreso", "valore": "trasferimenti, giro città, The Edge, una cena"}
+  ],
+  "giorni": [
+    {"giorno": "1", "titolo": "Arrivo a New York", "testo": "Arrivo in aeroporto e trasferimento collettivo in albergo, nel cuore di Midtown. Prima sera libera: Times Square è a dieci minuti a piedi. Pernottamento."},
+    {"giorno": "2", "titolo": "Manhattan in mezza giornata", "testo": "Colazione americana. Giro guidato della città in autobus: Midtown con la Fifth Avenue, il Rockefeller Center e la cattedrale di St. Patrick, Central Park, poi verso sud tra SoHo, Greenwich Village, Little Italy e Chinatown fino al Financial District e a Battery Park, con la Statua della Libertà all'orizzonte. La sera, cena in un ristorante italiano di Manhattan, compresa. Pernottamento."},
+    {"giorno": "3", "titolo": "The Edge, New York dall'alto", "testo": "Colazione. Salita sull'osservatorio The Edge a Hudson Yards, la terrazza a cielo aperto più alta dell'emisfero occidentale, con il pavimento di vetro sospeso sulla città. Resto della giornata libero. Pernottamento."},
+    {"giorno": "4", "titolo": "New York a piacere", "testo": "Colazione e giornata libera. Un'idea: il traghetto per Staten Island, gratuito, passa davanti alla Statua della Libertà; al ritorno, la High Line fino a Chelsea Market. Pernottamento."},
+    {"giorno": "5", "titolo": "I musei e Central Park", "testo": "Colazione e giornata libera. Il Metropolitan e, in pieno inverno, la pista di pattinaggio nel parco; oppure il MoMA a due passi dall'albergo. Pernottamento."},
+    {"giorno": "6", "titolo": "Brooklyn", "testo": "Colazione e giornata libera. A piedi sul ponte di Brooklyn, poi Dumbo e Williamsburg per i mercati e la vista sullo skyline. Pernottamento."},
+    {"giorno": "7", "titolo": "L'ultimo giorno", "testo": "Colazione e giornata libera per gli acquisti, un musical a Broadway o un quartiere che manca. Pernottamento."},
+    {"giorno": "8", "titolo": "Partenza", "testo": "Colazione, check-out e trasferimento collettivo in aeroporto per il volo di rientro."}
+  ],
+  "incluso": [
+    "7 notti in albergo 4 stelle a Midtown, in camera doppia con colazione americana",
+    "Trasferimenti collettivi aeroporto–albergo all'arrivo e alla partenza",
+    "Giro guidato della città di mezza giornata in autobus (in italiano al raggiungimento di un minimo di partecipanti, altrimenti in inglese)",
+    "Ingresso all'osservatorio The Edge o equivalente",
+    "Una cena in un ristorante italiano di Manhattan",
+    "Tasse alberghiere"
+  ],
+  "non_incluso": [
+    "Voli Italia–New York e ritorno, con le tasse aeroportuali: li quotiamo insieme al soggiorno",
+    "Supplemento per i trasferimenti dall'aeroporto di La Guardia",
+    "Pasti e bevande non indicati, mance a guide e autisti",
+    "Escursioni facoltative e ingressi non indicati",
+    "ESTA e assicurazione medico, bagaglio e annullamento, facoltativa"
+  ],
+  "sistemazione_titolo": "L'albergo",
+  "sistemazione": [
+    "Il New Yorker, quattro stelle in stile art déco all'angolo tra la Ottava Avenue e la 34ª strada: Penn Station e il Madison Square Garden sono a un isolato, Times Square e l'Empire State Building a dieci minuti a piedi. Camere doppie con colazione americana."
+  ],
+  "voli_testo": "Il soggiorno comprende i trasferimenti collettivi da e per l'aeroporto ma non i voli dall'Italia, che quotiamo insieme al soggiorno per la data che scegliete: arrivo a New York il giorno 1, rientro il giorno 8.",
+  "documenti_testo": "Passaporto elettronico e autorizzazione ESTA da richiedere online prima della partenza. Le condizioni di ingresso le verifichiamo e le confermiamo per iscritto alla prenotazione.",
+  "condizioni_extra": [
+    {"titolo": "Date e quote", "testo": "Soggiorno individuale a date libere: si parte qualsiasi giorno dal 15 ottobre 2026 al 22 marzo 2027, minimo 2 persone. La quota cambia con il periodo (le quote per mese sono nel listino; dicembre è alta stagione) e viene confermata per iscritto insieme ai voli."},
+    {"titolo": "Il giro città", "testo": "Il giorno del giro guidato può cambiare in base al meteo e alla disponibilità; la guida è in italiano solo al raggiungimento di un numero minimo di partecipanti, altrimenti in inglese. I biglietti per The Edge e per la cena si ritirano in città."}
+  ],
+  "meta_description": "Una settimana a New York con Kibo: 7 notti in hotel 4 stelle a Midtown con trasferimenti, giro guidato della città, osservatorio The Edge e una cena compresi. Date libere dal 15 ottobre 2026 al 22 marzo 2027."
+}

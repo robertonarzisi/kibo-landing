@@ -25,6 +25,24 @@ CARTA = (237, 244, 243)
 BIANCO = (255, 255, 255)
 
 VIAGGI = {
+    "uzbekistan-classico-2027": {
+        "kicker": "TOUR DI GRUPPO · PARTENZE GARANTITE 2026-27",
+        "title": ["Uzbekistan", "classico"],
+        "info1": "Khiva, Bukhara, Samarcanda e Tashkent in 8 giorni",
+        "info2": "Guida in italiano, pensione completa · da 1.125 € a persona",
+        "ribbon": "SI PARTE ANCHE IN DUE",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
+    "new-york-inverno-2026-27": {
+        "kicker": "SOGGIORNO INDIVIDUALE · DATE LIBERE",
+        "title": ["New York,", "una settimana"],
+        "info1": "Hotel 4 stelle a Midtown, giro città e The Edge inclusi",
+        "info2": "Anche a Natale · da 1.265 € a persona",
+        "ribbon": "SI PARTE ANCHE IN DUE",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "giappone-okinawa-2027": {
         "kicker": "VIAGGIO INDIVIDUALE · DATE LIBERE 2026-27",
         "title": ["Tokyo, Kyoto", "e Okinawa"],
