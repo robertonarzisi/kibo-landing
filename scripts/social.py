@@ -26,10 +26,10 @@ BIANCO = (255, 255, 255)
 
 VIAGGI = {
     "uzbekistan-classico-2027": {
-        "kicker": "TOUR DI GRUPPO · PARTENZE GARANTITE 2026-27",
+        "kicker": "TOUR DI GRUPPO · GUIDA IN ITALIANO",
         "title": ["Uzbekistan", "classico"],
         "info1": "Khiva, Bukhara, Samarcanda e Tashkent in 8 giorni",
-        "info2": "Guida in italiano, pensione completa · da 1.125 € a persona",
+        "info2": "Pensione completa · da 1.125 € a persona",
         "ribbon": "SI PARTE ANCHE IN DUE",
         "ribbon_style": "evidenza",
         "cta": "",
@@ -177,8 +177,14 @@ def ribbon_tag(canvas, x, y, text, style):
     tracked(ImageDraw.Draw(canvas), (x + skew + pad_x - 4, y + (h - font.size) // 2 - 4), text, font, fg, tracking=tr)
     return h
 
+LIMITI = {"kicker": 40, "info1": 54, "info2": 54}  # caratteri: oltre, il testo esce dal bordo destro (1080 px)
+
+
 def compose(slug, fmt):
     vg = VIAGGI[slug]
+    for campo, lim in LIMITI.items():
+        if len(vg.get(campo) or "") > lim:
+            raise SystemExit(f"{slug}: '{campo}' troppo lungo ({len(vg[campo])} > {lim} caratteri): verrebbe tagliato")
     W, H = (1080, 1350) if fmt == "post" else (1080, 1920)
     M = 72
     hero = Image.open(os.path.join(HERO_DIR, f"{slug}.jpg")).convert("RGB")
