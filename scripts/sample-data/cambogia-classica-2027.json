@@ -1,0 +1,81 @@
+{
+  "_nota": "Dati parametrici del package Travel Compositor 54802224 «Tonle Sap Half Loop via Sambor – 7 notti» (tour con guida in italiano a date libere, base 2 adulti). Quote = prezzo di vendita TC per data (calendario letto il 23/09/2026) con la regola prezzi delle landing (giù ai 5 €, mai multiplo di 10). Voli dall'Italia esclusi.",
+  "oggi": "2026-09-23",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Cambogia%20classica%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "CAM-2027-CL7",
+    "nome_commerciale": "Cambogia classica: Phnom Penh, Angkor e il lago Tonle Sap",
+    "destinazione": "Phnom Penh, Sambor Prei Kuk, Siem Reap e Angkor",
+    "notti": 7,
+    "partenze": [],
+    "partenze_note": "tutti i giorni, dal 1 ottobre 2026 al 21 ottobre 2027",
+    "supplemento_singola": null,
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 54802224,
+      "external_reference": "16039#COL24194",
+      "aggiornato": null
+    },
+    "quota_da": 1115,
+    "date_testo": "date libere, ott 2026 – ott 2027",
+    "landing_status": "pronta_per_verifica",
+    "tc_package_id": 54802224,
+    "quote_per_mese": [
+      {
+        "mese": "ottobre 2026",
+        "prezzo": 1115
+      },
+      {
+        "mese": "novembre 2026",
+        "prezzo": 1145
+      },
+      {
+        "mese": "dicembre 2026",
+        "prezzo": 1145
+      },
+      {
+        "mese": "gennaio 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "febbraio 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "marzo 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "aprile 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "maggio 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "giugno 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "luglio 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "agosto 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "settembre 2027",
+        "prezzo": 1145
+      },
+      {
+        "mese": "ottobre 2027",
+        "prezzo": 1145
+      }
+    ]
+  }
+}

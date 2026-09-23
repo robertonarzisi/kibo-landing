@@ -25,6 +25,17 @@ CARTA = (237, 244, 243)
 BIANCO = (255, 255, 255)
 
 VIAGGI = {
+    "cambogia-classica-2027": {
+        "kicker": "GUIDA IN ITALIANO · DATE LIBERE",
+        "title": ["Cambogia", "classica"],
+        "info1": "Phnom Penh, Angkor e il lago Tonle Sap in 8 giorni",
+        "info2": "Si parte anche in due · da 1.115 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.45,
+        "ribbon": "PARTENZE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "uzbekistan-classico-2027": {
         "kicker": "TOUR DI GRUPPO · GUIDA IN ITALIANO",
         "title": ["Uzbekistan", "classico"],
