@@ -118,8 +118,10 @@ def build(dati, contenuto, forza_soldout=False):
     # --- listino nella card: quota + supplementi, dai soli dati parametrici ---
     price_rows = []
     if vg.get("quota_base"):
+        # La base di sistemazione e' testo di presentazione, sovrascrivibile dal contenuto
+        # (es. "a persona in camera quadrupla, letto queen in condivisione").
         price_rows.append({"nome": "Quota di partecipazione",
-                           "unita": "a persona in camera doppia",
+                           "unita": contenuto.get("quota_unita") or "a persona in camera doppia",
                            "prezzo": vg["quota_base"], "quota": True})
     else:
         warnings.append("quota_base assente: pagina senza prezzo — verificare il record Viaggi")
@@ -132,7 +134,10 @@ def build(dati, contenuto, forza_soldout=False):
                            "unita": "per tutta la durata",
                            "prezzo": vg["supplemento_singola"], "quota": False})
     if vg.get("premio_annullamento"):
-        price_rows.append({"nome": "Assicurazione annullamento (facoltativa)",
+        # Nome della polizza sovrascrivibile dal contenuto: la stessa voce copre la sola
+        # annullamento (Vietnam) o il pacchetto medico-bagaglio-annullamento (Messico).
+        price_rows.append({"nome": contenuto.get("assicurazione_nome")
+                                   or "Assicurazione annullamento (facoltativa)",
                            "unita": "a persona",
                            "prezzo": vg["premio_annullamento"], "quota": False})
 
@@ -441,6 +446,7 @@ def render(model):
         "voli_html": paragrafi_html(model.get("voli") or []),
         "hero_style": model.get("hero_style") or f"--foto: url('/assets/hero/{model['slug']}.jpg')",
         "nota_privata": model.get("nota_privata") or "",
+        "nota_stima": model.get("nota_stima") or "",
     }
 
     blocchi = {
