@@ -1,0 +1,62 @@
+{
+  "_stato": "BOZZA del 25/09/2026. Testo in voce Kibo riscritto dal package Travel Compositor 54802203 «Vietnam Experience da Nord a Sud» (il testo TC non si pubblica com'è). In attesa dell'approvazione di Roberto. Foto hero: giunca nella baia di Halong, Wikimedia Commons, pubblico dominio (File:Asia Cruise Junk in Halong bay.JPG).",
+  "slug": "vietnam-nord-sud-2027",
+  "area": "oriente",
+  "titolo": "Vietnam da nord a sud: Hanoi, la baia di Halong, Hue, Hoi An e Saigon",
+  "eyebrow": "Vietnam · tour con guida in italiano, date libere",
+  "strillo": "Nove giorni per attraversare tutto il paese: Hanoi e i faraglioni di Ninh Binh, una notte in giunca nella baia di Halong, la città imperiale di Hue, il borgo di Hoi An con le lanterne, poi Saigon e i canali del delta del Mekong. Si parte ogni giorno, anche in due.",
+  "intro_titolo": "Il Vietnam intero, da nord a sud, senza correre",
+  "intro": [
+    "Un viaggio di 8 notti che segue il paese per il lungo. Si comincia da Hanoi con la sua città vecchia e il lago Hoan Kiem, si va in barca a remi tra i faraglioni di Trang An, poi si sale su una giunca per una notte nella baia di Halong. Con un volo interno si scende a Hue, la capitale degli imperatori Nguyen: la Cittadella, la tomba di Tu Duc, un giro in bicicletta nel villaggio di Thuy Bieu con pranzo in casa e la sera lo street food in cyclo. Da lì, via terra, il museo Cham di Danang e Hoi An, con la lezione di cucina negli orti di Tra Que e il centro storico a piedi. Si finisce a Saigon: il museo della guerra, i palazzi coloniali del distretto 1 e una giornata sull'acqua tra i canali del delta del Mekong a Ben Tre.",
+    "La guida parla italiano per tutto il tour, tranne a bordo della crociera dove ci pensa il personale della nave, in inglese. Colazioni, cinque pranzi, i pasti a bordo della giunca e una cena street food a Hue sono compresi; le altre cene sono libere. Si parte qualsiasi giorno dal 30 settembre 2026 al 20 ottobre 2027, minimo 2 persone; alberghi di categoria classica con colazione. I voli dall'Italia e i due voli interni li quotiamo insieme al viaggio."
+  ],
+  "durata_label": "9 giorni / 8 notti in Vietnam",
+  "fatti_extra": [
+    {"etichetta": "Formula", "valore": "date libere, si parte anche in due"},
+    {"etichetta": "Guida", "valore": "in italiano, tranne a bordo della crociera"},
+    {"etichetta": "Pasti", "valore": "colazioni, 5 pranzi, pasti in giunca e una cena street food"}
+  ],
+  "giorni": [
+    {"giorno": "1", "titolo": "Arrivo a Hanoi", "testo": "Arrivo all'aeroporto di Hanoi a qualsiasi ora, accoglienza e trasferimento in hotel (camere disponibili dalle 14). Resto della giornata libero per una prima passeggiata nella capitale, pasti liberi. Notte a Hanoi."},
+    {"giorno": "2", "titolo": "Ninh Binh e Hanoi – la «Halong di terra» e la città vecchia", "testo": "Colazione e partenza alle 7 verso sud, per la provincia di Ninh Binh (circa un'ora e mezza). Qui i faraglioni di calcare escono dalle risaie fino a duecento metri: a Trang An, patrimonio Unesco, si gira in barca a remi attraversando le grotte che il fiume ha scavato nella roccia. Pranzo in ristorante e rientro a Hanoi verso le 14:30. Nel pomeriggio la città: il Tempio della Letteratura, la prima università del paese, il mausoleo di Ho Chi Minh e il Palazzo Presidenziale visti dall'esterno, poi il Quartiere Vecchio con il mercato, il lago Hoan Kiem e il tempio Ngoc Son sull'isolotto, con tempo libero tra le vie. Cena libera. Notte a Hanoi."},
+    {"giorno": "3", "titolo": "Baia di Halong – notte in giunca", "testo": "Colazione, check-out e verso le 8 trasferimento con autista fino a Halong, tre ore verso est. Verso mezzogiorno l'imbarco per la crociera di due giorni e una notte tra le migliaia di isole e picchi di calcare della baia. Durante la navigazione si scende per visitare una grotta e un villaggio di pescatori. Pranzo e cena a bordo, notte in cabina con la giunca all'ancora in una baia riparata. A bordo non c'è la guida in italiano: si occupa di tutto il personale della nave, in inglese. Serve solo un bagaglio a mano per la notte; le valigie restano al porto."},
+    {"giorno": "4", "titolo": "Halong – Hanoi – volo per Hue", "testo": "Tai chi sul ponte alle prime luci, per chi vuole, con tè e caffè. Ancora un tratto di navigazione e la sosta all'isola di Titov con la sua spiaggia; verso le 9:30 si lasciano le cabine, brunch a bordo e sbarco alle 11 circa. Trasferimento all'aeroporto di Hanoi e volo per Hue (lo quotiamo insieme al viaggio). All'arrivo accoglienza e trasferimento in hotel. Cena libera. Notte a Hue."},
+    {"giorno": "5", "titolo": "Hue – la Cittadella, il villaggio di Thuy Bieu e lo street food in cyclo", "testo": "Colazione e partenza alle 8 con la guida in italiano. Hue è stata la capitale della dinastia Nguyen e i suoi imperatori si sono fatti costruire le tombe sulle colline a sud del Fiume dei Profumi: si visita quella di Tu Duc, la più bella. Poco lontano il villaggio di Thuy Bieu, da attraversare in bicicletta tra le case e gli orti: una sosta dal pittore che decora i cappelli conici (uno in regalo per ciascuno) e il pranzo a casa di una famiglia del posto. Nel pomeriggio la pagoda Thien Mu sul fiume, poi la Cittadella con la Città Proibita, la sala delle udienze in legno intagliato e gli edifici di corte, e il mercato di Dong Ba. La sera, dalle 19:30, il giro gastronomico in cyclo per le vie del centro: il pancake con il maiale alla griglia e i dolci di legumi al banco. Notte a Hue."},
+    {"giorno": "6", "titolo": "Hue – Danang – Hoi An: il museo Cham e la lezione di cucina a Tra Que", "testo": "Colazione, check-out e partenza alle 8 verso sud: cento chilometri con il passo che scavalca la catena Annamita dove arriva fino al mare. A Danang il museo di scultura Cham, la civiltà di cultura indiana che abitava il Vietnam centrale dal primo millennio. Poi, a mezz'ora, il villaggio di Tra Que: una passeggiata tra gli orti per raccogliere le verdure e una lezione di cucina che finisce a tavola, con il pranzo. Nel pomeriggio Hoi An, l'antico porto sulle rotte tra Cina e Giappone, oggi patrimonio Unesco: il Ponte Giapponese, le case dei mercanti, le sale dei clan cinesi come quella del Fujian, i laboratori delle lanterne. Hotel vicino al centro storico. Cena libera. Notte a Hoi An."},
+    {"giorno": "7", "titolo": "Hoi An – Danang – volo per Saigon: il museo della guerra e il distretto 1", "testo": "Colazione, check-out e trasferimento con autista all'aeroporto di Danang per il volo su Saigon (lo quotiamo insieme al viaggio). All'arrivo accoglienza e trasferimento in hotel (camere dalle 14). Nel primo pomeriggio il Museo dei Residuati Bellici, che racconta la guerra del Vietnam attraverso le fotografie, poi una passeggiata nel distretto 1, il cuore coloniale della città: la cattedrale di Notre Dame, l'Opera, il palazzo delle Poste e il Palazzo della Riunificazione. Pasti liberi. Notte a Saigon."},
+    {"giorno": "8", "titolo": "Delta del Mekong – Ben Tre", "testo": "Colazione e partenza alle 8 verso sud, due ore fino al molo di Hung Vuong vicino a Ben Tre, nel delta dove vive un quarto dei vietnamiti. Prima in barca a motore lungo uno dei rami grandi del fiume, poi in sampan a remi nei canali stretti coperti dalla vegetazione, tra le palme da cocco, con qualche tratto in tuk tuk e le soste dai contadini e dagli artigiani che lavorano il cocco. Pranzo in una casa del posto. Rientro a Saigon nel tardo pomeriggio. Cena libera. Notte a Saigon."},
+    {"giorno": "9", "titolo": "Saigon – Italia", "testo": "Colazione e check-out entro mezzogiorno. Trasferimento con autista all'aeroporto di Saigon in tempo per il volo di rientro. Chi ha il volo in serata può aggiungere, con supplemento, la mezza giornata ai tunnel di Cu Chi."}
+  ],
+  "incluso": [
+    "7 pernottamenti in hotel in camera doppia con prima colazione: 2 a Hanoi, 2 a Hue, 1 a Hoi An e 2 a Saigon",
+    "1 notte in cabina doppia a bordo della giunca nella baia di Halong, con pranzo, cena e brunch (bevande escluse)",
+    "Guida locale parlante italiano per tutto il tour, tranne la crociera ad Halong",
+    "Trasferimenti da e per gli aeroporti e tutti gli spostamenti in programma con veicolo privato (i trasferimenti dei giorni 3, 7 e 9 con il solo autista)",
+    "Pranzi dei giorni 2, 5, 6 e 8 e cena street food in cyclo a Hue il giorno 5 (bevande escluse)",
+    "Barche a Trang An e nel delta del Mekong, bici a Thuy Bieu, lezione di cucina a Tra Que",
+    "Ingressi ai siti in programma"
+  ],
+  "non_incluso": [
+    "Voli Italia–Hanoi e Saigon–Italia, con le tasse aeroportuali: li quotiamo insieme al viaggio",
+    "Voli interni Hanoi–Hue e Danang–Saigon: li quotiamo insieme al viaggio",
+    "Cene, tranne quella a bordo della giunca e la cena street food a Hue",
+    "Pranzi del giorno 1, 7 e 9",
+    "Bevande ai pasti",
+    "Escursione facoltativa ai tunnel di Cu Chi",
+    "Mance e spese personali",
+    "Assicurazione medico, bagaglio e annullamento, facoltativa"
+  ],
+  "sistemazione_titolo": "Gli alberghi e la giunca",
+  "sistemazione": [
+    "Alberghi di categoria classica, comodi e ben posizionati: a Hanoi l'Hanoi Pearl o l'Hanoian Central, a Hue l'Alba Spa Hotel, a Hoi An l'Hoi An Central Boutique o il Little Residence, a Saigon l'Equatorial, o strutture equivalenti. Camere doppie con colazione; per la singola chiedeteci la quota. Su richiesta quotiamo anche la categoria superiore.",
+    "Nella baia di Halong si dorme a bordo della giunca La Regina Classic o di una nave equivalente: le cabine sono piccole e non esistono cabine triple. Per la notte basta un bagaglio a mano, le valigie restano in deposito al porto."
+  ],
+  "voli_testo": "Il viaggio comprende i trasferimenti e gli spostamenti via terra ma non i voli dall'Italia né i due voli interni (Hanoi–Hue il giorno 4 e Danang–Saigon il giorno 7), che quotiamo insieme al viaggio per la data che scegliete: arrivo a Hanoi il giorno 1, rientro da Saigon il giorno 9.",
+  "documenti_testo": "Passaporto con validità residua di almeno sei mesi dalla data di ingresso. I cittadini italiani entrano in Vietnam senza visto per soggiorni fino a 45 giorni: la regola la verifichiamo alla prenotazione e vi confermiamo per iscritto le condizioni di ingresso.",
+  "condizioni_extra": [
+    {"titolo": "Date e quote", "testo": "Si parte qualsiasi giorno dal 30 settembre 2026 al 20 ottobre 2027, minimo 2 persone. La quota è a persona in camera doppia, cambia con il mese di partenza (le quote per mese sono nel listino) e viene confermata per iscritto insieme ai voli. Il tour è condiviso con altri viaggiatori di lingua italiana quando presenti nelle stesse date."},
+    {"titolo": "Crociera ad Halong", "testo": "A bordo della giunca non c'è la guida in italiano: le visite e le attività le organizza il personale di bordo, in inglese. Il programma della crociera può cambiare leggermente secondo la nave e le condizioni del mare."},
+    {"titolo": "Guida", "testo": "La guida parlante italiano accompagna tutte le visite del tour, dalla giornata a Ninh Binh al delta del Mekong, tranne la crociera nella baia di Halong. I trasferimenti dei giorni 3, 7 e 9 sono con il solo autista."}
+  ],
+  "meta_description": "Vietnam da nord a sud con Kibo: 9 giorni tra Hanoi, Ninh Binh, la baia di Halong in giunca, Hue, Hoi An, Saigon e il delta del Mekong, con guida in italiano. Date libere da ottobre 2026 a ottobre 2027, si parte anche in due, da 1.075 € a persona senza voli."
+}

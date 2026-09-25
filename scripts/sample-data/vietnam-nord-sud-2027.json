@@ -1,0 +1,81 @@
+{
+  "_nota": "Dati parametrici del package Travel Compositor 54802203 «Vietnam Experience da Nord a Sud» (tour con guida in italiano a date libere, base 2 adulti, hotel Classic). Quote = prezzo di vendita TC per data (calendario letto il 25/09/2026) con la regola prezzi delle landing (giù ai 5 €, mai multiplo di 10). Voli dall'Italia e voli interni esclusi.",
+  "oggi": "2026-09-25",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Vietnam%20da%20nord%20a%20sud%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "VNM-2027-NS9",
+    "nome_commerciale": "Vietnam da nord a sud: Hanoi, la baia di Halong, Hue, Hoi An e Saigon",
+    "destinazione": "Hanoi, Baia di Halong, Hue, Hoi An, Saigon, Delta del Mekong",
+    "notti": 8,
+    "partenze": [],
+    "partenze_note": "tutti i giorni, dal 30 settembre 2026 al 20 ottobre 2027",
+    "supplemento_singola": null,
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 54802203,
+      "external_reference": "16037",
+      "aggiornato": "2026-09-25"
+    },
+    "quota_da": 1075,
+    "date_testo": "date libere, ott 2026 – ott 2027",
+    "landing_status": "pronta_per_verifica",
+    "tc_package_id": 54802203,
+    "quote_per_mese": [
+      {
+        "mese": "ottobre 2026",
+        "prezzo": 1075
+      },
+      {
+        "mese": "novembre 2026",
+        "prezzo": 1125
+      },
+      {
+        "mese": "dicembre 2026",
+        "prezzo": 1125
+      },
+      {
+        "mese": "gennaio 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "febbraio 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "marzo 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "aprile 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "maggio 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "giugno 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "luglio 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "agosto 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "settembre 2027",
+        "prezzo": 1125
+      },
+      {
+        "mese": "ottobre 2027",
+        "prezzo": 1125
+      }
+    ]
+  }
+}

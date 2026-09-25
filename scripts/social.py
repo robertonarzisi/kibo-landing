@@ -25,6 +25,39 @@ CARTA = (237, 244, 243)
 BIANCO = (255, 255, 255)
 
 VIAGGI = {
+    "thailandia-isole-2027": {
+        "kicker": "VIAGGIO INDIVIDUALE · DATE LIBERE",
+        "title": ["Thailandia,", "quattro isole"],
+        "info1": "Krabi, Koh Lanta, Phi Phi e Phuket in 12 giorni",
+        "info2": "Si parte anche in due · da 875 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "ribbon": "PARTENZE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
+    "emirati-dubai-abu-dhabi-2027": {
+        "kicker": "VIAGGIO INDIVIDUALE · DATE LIBERE",
+        "title": ["Emirati:", "deserto e città"],
+        "info1": "Dubai, Al Ain, Abu Dhabi e Musandam in 8 giorni",
+        "info2": "Si parte anche in due · da 1.545 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "ribbon": "PARTENZE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
+    "vietnam-nord-sud-2027": {
+        "kicker": "GUIDA IN ITALIANO · DATE LIBERE",
+        "title": ["Vietnam", "da nord a sud"],
+        "info1": "Hanoi, Halong, Hue, Hoi An e Saigon in 9 giorni",
+        "info2": "Si parte anche in due · da 1.075 € a persona",
+        "focus_x": 0.44,
+        "focus_y": 0.5,
+        "ribbon": "PARTENZE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "cambogia-classica-2027": {
         "kicker": "GUIDA IN ITALIANO · DATE LIBERE",
         "title": ["Cambogia", "classica"],

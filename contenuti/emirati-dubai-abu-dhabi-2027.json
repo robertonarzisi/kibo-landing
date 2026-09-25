@@ -1,0 +1,111 @@
+{
+  "_stato": "BOZZA del 25/09/2026. Testo in voce Kibo riscritto dal package Travel Compositor 37557742 (viaggio individuale a date libere con tour in condivisione; il testo TC non si pubblica com'è). In attesa dell'approvazione di Roberto. Foto hero: skyline di Dubai con il Burj Khalifa al tramonto, foto di destinazione Travel Compositor (destinazione DXB, uso libero), ritagliata a 1600×1000.",
+  "slug": "emirati-dubai-abu-dhabi-2027",
+  "area": "medio-oriente",
+  "titolo": "Emirati: Dubai, Al Ain e Abu Dhabi, dal deserto ai fiordi del Musandam",
+  "eyebrow": "Emirati Arabi · viaggio individuale a date libere",
+  "strillo": "Otto giorni con base a Dubai per vedere gli Emirati da tutti i lati: i souk e il Creek della città vecchia, il Burj Khalifa dal 124° piano, il safari tra le dune con la cena barbecue, l'oasi di Al Ain con il mercato dei cammelli, Abu Dhabi con la Grande Moschea, il Louvre e il Qasr Al Watan, e una giornata in dhow tra i fiordi del Musandam. Si parte ogni giorno, anche in due.",
+  "intro_titolo": "Gli Emirati veri, non solo i grattacieli",
+  "intro": [
+    "Un viaggio di 7 notti costruito attorno a Dubai, dove si dorme cinque notti, con due tappe fuori città: una notte ad Al Ain, l'oasi ai piedi del Jebel Hafeet, e una ad Abu Dhabi, la capitale. A Dubai si alternano la città storica, con Bastakiya, la traversata del Creek in abra e i souk dell'oro e delle spezie, e quella nuova, con la Marina, la Palm Jumeirah, il Burj Al Arab e la salita al 124° piano del Burj Khalifa; la sera, la cena in dhow lungo la Marina e il safari in 4x4 tra le dune con cena barbecue nel campo nel deserto. Ad Al Ain il forte Al Jahili, l'oasi di palme e il mercato dei cammelli; ad Abu Dhabi il Louvre e il palazzo presidenziale Qasr Al Watan, poi la Grande Moschea Sheikh Zayed e la Corniche.",
+    "L'ultima giornata è la più sorprendente: si passa il confine e si sale su un dhow tradizionale per navigare i fiordi del Musandam, l'enclave dell'Oman sullo stretto di Hormuz, con pranzo a bordo e sosta per nuotare. Le visite sono in condivisione con altri viaggiatori e con guida in inglese; alberghi 4 stelle con colazione. Si parte qualsiasi giorno dal 24 ottobre 2026 al 31 ottobre 2027, minimo 2 persone. I voli dall'Italia li quotiamo insieme al viaggio."
+  ],
+  "durata_label": "8 giorni / 7 notti negli Emirati",
+  "fatti_extra": [
+    {
+      "etichetta": "Formula",
+      "valore": "date libere, si parte anche in due"
+    },
+    {
+      "etichetta": "Visite",
+      "valore": "in condivisione, guida in inglese"
+    },
+    {
+      "etichetta": "Pasti",
+      "valore": "colazioni, 2 cene e 2 pranzi in escursione"
+    }
+  ],
+  "giorni": [
+    {
+      "giorno": "1",
+      "titolo": "Arrivo a Dubai",
+      "testo": "Arrivo all'aeroporto internazionale di Dubai, accoglienza e trasferimento in hotel. Resto della giornata libero per un primo giro: la città si scopre bene anche di sera, tra la fontana del Dubai Mall e le luci della Marina. Pasti liberi. Notte a Dubai."
+    },
+    {
+      "giorno": "2",
+      "titolo": "Dubai – la città vecchia e la cena in dhow",
+      "testo": "Colazione e mattinata nella Dubai di prima del boom: il quartiere di Bastakiya con le case a torre del vento, la traversata del Creek su un abra, la barca-taxi di legno, i vicoli del souk dell'oro e di quello delle spezie, la moschea di Jumeirah vista da fuori. Pomeriggio libero. La sera si sale su un dhow per la cena in crociera lungo la Marina, tra i grattacieli illuminati. Notte a Dubai."
+    },
+    {
+      "giorno": "3",
+      "titolo": "Dubai moderna, il Burj Khalifa e il safari nel deserto",
+      "testo": "Colazione e mattinata nella Dubai dei record: la Marina, la Palm Jumeirah con la sosta fotografica davanti all'Atlantis, il Madinat Jumeirah e il Burj Al Arab, il Dubai Mall e la salita al 124° piano del Burj Khalifa, l'edificio più alto del mondo. Nel pomeriggio il safari in 4x4 tra le dune, con la sosta per il tramonto, e a seguire la cena barbecue nel campo nel deserto, con musica e spettacoli. Rientro in serata. Notte a Dubai."
+    },
+    {
+      "giorno": "4",
+      "titolo": "Dubai – Al Ain",
+      "testo": "Colazione e partenza per Al Ain, la città-giardino al confine con l'Oman, un'ora e mezza di strada. Giornata intera tra il forte Al Jahili, il palazzo Qasr Al Muwaiji, l'oasi di palme da dattero attraversata dai canali di irrigazione falaj, il mercato dei cammelli con il pranzo e il centro d'arte Al Qattara. Sistemazione in hotel. Cena libera. Notte ad Al Ain."
+    },
+    {
+      "giorno": "5",
+      "titolo": "Al Ain – Abu Dhabi: il Louvre e il Qasr Al Watan",
+      "testo": "Colazione e check-out; si lascia Al Ain per Abu Dhabi, la capitale. Giornata dedicata a due luoghi che si visitano con calma e per conto proprio, con gli ingressi compresi: il Louvre Abu Dhabi, sotto la grande cupola traforata sull'acqua dell'isola di Saadiyat, e il Qasr Al Watan, il palazzo presidenziale aperto al pubblico. Questa giornata non prevede guida. Pasti liberi. Notte ad Abu Dhabi."
+    },
+    {
+      "giorno": "6",
+      "titolo": "Abu Dhabi – Dubai",
+      "testo": "Colazione e giornata ad Abu Dhabi con il tour condiviso: la Grande Moschea Sheikh Zayed, con le cupole bianche e il cortile di marmo intarsiato, la Corniche lungo il mare e il Qasr Al Hosn, il forte da cui è nata la città. Nel tardo pomeriggio trasferimento a Dubai, circa un'ora e mezza. Cena libera. Notte a Dubai."
+    },
+    {
+      "giorno": "7",
+      "titolo": "Musandam – i fiordi in dhow",
+      "testo": "Colazione e partenza presto verso Dibba, sulla costa orientale: si passa in Oman, nella penisola del Musandam, e ci si imbarca su un dhow tradizionale, con tappeti e cuscini a bordo. Giornata di navigazione tra le pareti calcaree che scendono a picco sul mare, i villaggi di pescatori raggiungibili solo in barca e le soste per nuotare o fare snorkeling (attrezzatura a bordo). Pranzo, frutta e bevande sul dhow. Rientro a Dubai in serata; questa escursione è senza guida. Notte a Dubai."
+    },
+    {
+      "giorno": "8",
+      "titolo": "Dubai – Italia",
+      "testo": "Colazione e check-out; tempo libero secondo l'orario del volo, poi trasferimento all'aeroporto internazionale di Dubai per il rientro."
+    }
+  ],
+  "incluso": [
+    "7 pernottamenti in camera doppia con prima colazione: 5 a Dubai, 1 ad Al Ain e 1 ad Abu Dhabi",
+    "Accoglienza all'arrivo all'aeroporto di Dubai e trasferimenti in veicolo con aria condizionata",
+    "Tour della Dubai storica e tour della Dubai moderna, in condivisione, con il biglietto per il 124° piano del Burj Khalifa",
+    "Cena in crociera su un dhow a Dubai Marina",
+    "Safari nel deserto in 4x4 con cena barbecue",
+    "Giornata ad Al Ain in condivisione, con il pranzo al mercato dei cammelli",
+    "Ingressi al Louvre Abu Dhabi e al Qasr Al Watan",
+    "Tour di Abu Dhabi in condivisione e trasferimento a Dubai",
+    "Giornata al Musandam con crociera in dhow e pranzo a bordo",
+    "Tasse locali sui servizi e assistenza telefonica 24 ore su 24"
+  ],
+  "non_incluso": [
+    "Voli Italia–Dubai e ritorno, con le tasse aeroportuali: li quotiamo insieme al viaggio",
+    "Tourism Dirham fee (tassa di soggiorno), da pagare in hotel",
+    "Pasti e bevande non indicati nel programma",
+    "Eventuale supplemento per l'accoglienza in un terminal di Dubai diverso dal Terminal 3",
+    "Mance e spese personali",
+    "Assicurazione medico, bagaglio e annullamento, facoltativa"
+  ],
+  "sistemazione_titolo": "Gli alberghi",
+  "sistemazione": [
+    "Alberghi 4 stelle di categoria Standard: a Dubai l'MD Hotel by Gewan, ad Al Ain l'Oryx Grand Mercure Jabal Hafeet, ad Abu Dhabi il Ramada by Wyndham Corniche, o strutture equivalenti. Camere doppie con colazione; per la singola chiedeteci la quota. Su richiesta lo stesso itinerario in 4 stelle Superior o in 5 stelle: vi diciamo la differenza di quota."
+  ],
+  "voli_testo": "Il viaggio comprende i trasferimenti e gli spostamenti interni ma non i voli dall'Italia, che quotiamo insieme al viaggio per la data che scegliete: arrivo a Dubai il giorno 1, rientro da Dubai il giorno 8.",
+  "documenti_testo": "Passaporto con validità residua di almeno sei mesi dalla data di ingresso. Per i cittadini italiani non serve il visto per soggiorni turistici fino a 90 giorni: si riceve il timbro all'arrivo. Per l'escursione al Musandam si entra in Oman, quindi il passaporto va portato con sé anche quel giorno. Le condizioni di ingresso le verifichiamo e le confermiamo per iscritto alla prenotazione.",
+  "condizioni_extra": [
+    {
+      "titolo": "Date e quote",
+      "testo": "Si parte qualsiasi giorno dal 24 ottobre 2026 al 31 ottobre 2027, minimo 2 persone, salvo alcune date chiuse (inizio novembre, fine novembre e inizio dicembre 2026, 20-26 gennaio 2027). La quota è a persona in camera doppia ed è di riferimento per la partenza base: cambia con la data e con la categoria degli alberghi, e viene confermata per iscritto insieme ai voli."
+    },
+    {
+      "titolo": "Visite condivise",
+      "testo": "I tour di Dubai, Al Ain e Abu Dhabi, il safari e la crociera in dhow sono in condivisione con altri viaggiatori, con guida in inglese. Il giorno 5 ad Abu Dhabi (Louvre e Qasr Al Watan, con ingressi compresi) e la giornata al Musandam sono senza guida."
+    },
+    {
+      "titolo": "Musandam",
+      "testo": "La penisola del Musandam è territorio dell'Oman: il giorno 7 si attraversa il confine a Dibba, con il passaporto. Snorkeling e bagno dipendono dalle condizioni del mare."
+    }
+  ],
+  "meta_description": "Emirati con Kibo: 8 giorni tra Dubai, Al Ain, Abu Dhabi e i fiordi del Musandam, con Burj Khalifa, safari nel deserto, Louvre e Grande Moschea. Date libere da ottobre 2026 a ottobre 2027, si parte anche in due, da 1.545 € a persona senza voli."
+}
