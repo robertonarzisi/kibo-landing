@@ -1,0 +1,62 @@
+{
+ "_stato": "BOZZA del 06/10/2026 — piano social n. 9, newsletter dell'08/10/2026. Riscritta dal programma e dal listino 2027 del corrispondente (tour a partenze garantite, 9 notti, min 2 max 12). Non pubblicata: in attesa della revisione di Roberto. Quote in euro calcolate il 06/10 con la regola dei prezzi (cambio BCE del 06/10). Foto hero: destinazione Kyoto da TC (uso libero), pagoda del To-ji in autunno.",
+ "slug": "giappone-kokoro-2027",
+ "area": "oriente",
+ "titolo": "Giappone Kokoro: Tokyo, Kyoto, Kanazawa e Shirakawa-go in dieci giorni",
+ "eyebrow": "Giappone · tour 2027 a partenze garantite, assistenza in italiano",
+ "strillo": "Nove notti tra Tokyo, Kyoto e le Alpi giapponesi: si viaggia in Shinkansen, si visita a piedi con un accompagnatore in italiano, si hanno giornate libere da riempire a piacere. E il bagaglio grande viaggia da solo.",
+ "intro_titolo": "Il Giappone accompagnati, ma senza il pullman",
+ "intro": [
+  "Un tour di 10 giorni e 9 notti sulle tre tappe per cui si va in Giappone la prima volta, più una che di solito manca: Tokyo, Kyoto con Nara e Fushimi Inari, Kanazawa con il giardino Kenrokuen e il villaggio di Shirakawa-go nelle Alpi giapponesi. Tra una città e l'altra si viaggia in Shinkansen con posto riservato; il bagaglio grande viene spedito da Tokyo a Kyoto e da Kyoto a Tokyo, e si cammina leggeri.",
+  "La formula è quella del viaggio accompagnato leggero: nei giorni di visita si è seguiti da un Travel Storyteller di lingua italiana, con walking tour condivise, ingressi e trasporti compresi; nelle giornate libere si sceglie tra le escursioni facoltative in programma o si va per conto proprio, con una chat WhatsApp in italiano attiva ogni giorno. Partenze garantite di martedì, 12 date tra aprile e novembre 2027, da 2 a 12 partecipanti. I voli dall'Italia non sono compresi: li quotiamo insieme al tour."
+ ],
+ "durata_label": "10 giorni / 9 notti in Giappone",
+ "fatti_extra": [
+  {"etichetta": "Gruppo", "valore": "da 2 a 12 partecipanti"},
+  {"etichetta": "Accompagnamento", "valore": "Travel Storyteller in italiano nei giorni di visita, chat WhatsApp quotidiana"},
+  {"etichetta": "Treni", "valore": "Shinkansen con posto riservato, bagaglio spedito tra Tokyo e Kyoto"}
+ ],
+ "giorni": [
+  {"giorno": "1", "titolo": "Arrivo a Tokyo (martedì)", "testo": "Arrivo all'aeroporto di Tokyo e trasferimento in hotel con la navetta condivisa. Alle 17 il benvenuto nella hall dell'hotel con un assistente di lingua italiana, che dà le prime informazioni pratiche per il soggiorno. Chi vuole può chiudere la giornata con la Tokyo Food Tour di Shinjuku, walking tour condivisa facoltativa tra i sapori di uno dei quartieri più vivi della capitale. Pernottamento a Tokyo."},
+  {"giorno": "2", "titolo": "Tokyo: Senso-ji, Meiji Jingu e Harajuku", "testo": "Colazione in hotel e giornata intera di visita con due walking tour condivise, comprese nella quota. La prima è dedicata al Senso-ji, il tempio più antico e celebre di Tokyo, e al quartiere che lo circonda, dove tradizione e vita quotidiana convivono tra vicoli, botteghe e piccoli templi. La seconda va dal santuario Meiji Jingu, immerso nel verde, all'energia di Harajuku, uno dei quartieri più creativi della città. In serata, facoltativa, la Tokyo Food Tour di Shibuya. Pernottamento a Tokyo."},
+  {"giorno": "3", "titolo": "Tokyo, giornata libera", "testo": "Colazione in hotel. In mattinata il bagaglio principale parte per Kyoto, dove arriva il giorno dopo: basta un piccolo bagaglio a mano con il necessario per una notte. La giornata è libera per vivere Tokyo per conto proprio, oppure con una delle walking tour condivise facoltative: il Monte Fuji con i suoi panorami, Kamakura con i templi e i santuari dell'antica capitale, o la Tokyo serale tra la baia, Ginza e Shinbashi. Pernottamento a Tokyo."},
+  {"giorno": "4", "titolo": "Tokyo – Kyoto, Nara e Fushimi Inari", "testo": "Colazione in hotel. Trasferimento alla stazione con l'assistente e partenza in Shinkansen Nozomi per Kyoto, dove attende il Travel Storyteller. Sistemazione in hotel e walking tour condivisa, compresa, tra Nara, l'antica capitale con i suoi templi, e il Fushimi Inari Taisha, il santuario dei mille torii vermigli che salgono lungo la montagna. Rientro a Kyoto e pernottamento."},
+  {"giorno": "5", "titolo": "Kyoto, giornata libera", "testo": "Colazione in hotel. Giornata libera per scoprire Kyoto in autonomia: quartieri storici, templi e giardini, botteghe e cucina locale. Chi vuole può dedicarla all'escursione facoltativa a Hiroshima e Miyajima, con il Memoriale della Pace e il grande torii che con l'alta marea sembra galleggiare sul mare. Pernottamento a Kyoto."},
+  {"giorno": "6", "titolo": "Kyoto, giornata libera", "testo": "Colazione in hotel e seconda giornata libera a Kyoto. Due le walking tour condivise facoltative: una tra il Padiglione d'Oro, un giardino zen e il sentiero di bambù di Arashiyama; l'altra nella Kyoto più tradizionale, tra le strade di Gion, la salita di Ninenzaka e il tempio Kiyomizu-dera. Per questa notte è possibile, su richiesta, dormire in un ryokan, l'albergo tradizionale giapponese, al posto dell'hotel. Pernottamento a Kyoto."},
+  {"giorno": "7", "titolo": "Kyoto – Kanazawa", "testo": "Colazione in hotel. Il bagaglio grande parte per Tokyo: per le due notti di Kanazawa e Shirakawa-go serve solo un bagaglio piccolo. Partenza in treno, con il Travel Storyteller, per Kanazawa. All'arrivo visita del Kenrokuen, considerato uno dei tre giardini più belli del Giappone, dove acqua, pietre, alberi e architettura sono composti con una cura che si legge a ogni passo, e della Casa Nomura, residenza storica di una famiglia di samurai con un raffinato giardino interno. Sistemazione in hotel e pernottamento a Kanazawa."},
+  {"giorno": "8", "titolo": "Kanazawa – Shirakawa-go – Tokyo", "testo": "Colazione in hotel. In autobus di linea, con il Travel Storyteller, si sale a Shirakawa-go, il villaggio di montagna famoso per le case gassho-zukuri dai grandi tetti di paglia, patrimonio dell'umanità. Tempo per visitare il villaggio e la sua atmosfera legata alle tradizioni rurali delle Alpi giapponesi, poi rientro a Kanazawa e Shinkansen per Tokyo. All'arrivo trasferimento in hotel e pernottamento."},
+  {"giorno": "9", "titolo": "Tokyo, giornata libera", "testo": "Colazione in hotel. Ultima giornata libera nella capitale, per gli acquisti o per una delle walking tour condivise facoltative: i santuari e i templi di Nikko immersi nella natura, la Tokyo popolare di Shibamata, il percorso tra architettura contemporanea e santuari nascosti, o Yokohama di sera tra il lungomare, lo skyline e la Chinatown. Pernottamento a Tokyo."},
+  {"giorno": "10", "titolo": "Tokyo, partenza (giovedì)", "testo": "Colazione in hotel, se l'orario del volo lo consente. Trasferimento in aeroporto con la navetta condivisa, in base all'operativo del volo. Se gli orari lo permettono, è possibile partecipare a un'ultima walking tour facoltativa nel cuore tranquillo di Tokyo, tra i Giardini Imperiali, il santuario Yasukuni e il quartiere dei libri di Jimbocho. Termine dei servizi."}
+ ],
+ "incluso": [
+  "9 pernottamenti in hotel, camera doppia o matrimoniale, con prima colazione",
+  "Trasferimenti da e per l'aeroporto di Tokyo con navetta condivisa",
+  "Benvenuto in hotel il giorno di arrivo con assistente di lingua italiana",
+  "Walking tour condivise con accompagnatore in italiano, pick-up in hotel, ingressi e trasporti compresi: Senso-ji e Meiji Jingu–Harajuku a Tokyo (giorno 2), Nara e Fushimi Inari (giorno 4), Kenrokuen e Casa Nomura a Kanazawa (giorno 7), Shirakawa-go (giorno 8)",
+  "Assistenza a Tokyo per il trasferimento dall'hotel alla stazione e Travel Storyteller in italiano all'arrivo a Kyoto (giorno 4) e da Kyoto fino al treno per Tokyo (giorni 7 e 8)",
+  "Treni con posto riservato in classe ordinaria: Shinkansen Nozomi Tokyo–Kyoto, Limited Express e Shinkansen Kyoto–Kanazawa, Shinkansen Kanazawa–Tokyo; autobus di linea Kanazawa–Shirakawa-go e ritorno",
+  "Spedizione del bagaglio da Tokyo a Kyoto e da Kyoto a Tokyo, un collo a persona (somma dei tre lati fino a 160 cm, fino a 20 kg), con consegna il giorno successivo",
+  "Chat WhatsApp in italiano, ogni giorno a orari fissi, per tutta la durata del soggiorno"
+ ],
+ "non_incluso": [
+  "Voli internazionali dall'Italia",
+  "Pasti e bevande oltre le prime colazioni",
+  "Walking tour ed escursioni indicate come facoltative, prenotabili prima della partenza",
+  "Notte in ryokan a Kyoto (supplemento su richiesta) e relativi trasferimenti",
+  "Trasferimento con taxi privato per i voli che atterrano a Tokyo dopo le 20:30, quando la navetta condivisa non opera (quota su richiesta)",
+  "Mance, spese personali, assicurazione di viaggio"
+ ],
+ "sistemazione_titolo": "Gli alberghi del tour",
+ "sistemazione": [
+  "A Tokyo il Sunshine City Prince Hotel di Ikebukuro, sia all'andata (3 notti) sia al rientro (2 notti); a Kyoto il Miyako Hotel Kyoto Hachijo (3 notti); a Kanazawa il Daiwa Roynet Kanazawa Eki Nishi (1 notte). Strutture indicate o equivalenti.",
+  "A Kyoto, per la notte del sesto giorno, si può scegliere il ryokan Gion Yoshiima o equivalente, con supplemento su richiesta: la camera è in stile giapponese, con il letto futon sul tatami. I trasferimenti da e per il ryokan non sono compresi."
+ ],
+ "voli_testo": "Il tour comprende tutti gli spostamenti in Giappone, in treno e in autobus, ma non i voli dall'Italia: li quotiamo insieme al tour con la partenza di lunedì e l'arrivo a Tokyo il martedì, giorno in cui inizia il programma.",
+ "documenti_testo": "Alla conferma è richiesta la copia del passaporto. Le condizioni di ingresso in Giappone — validità del passaporto, eventuali autorizzazioni — le verifichiamo e te le comunichiamo per iscritto al momento della conferma.",
+ "condizioni_extra": [
+  {"titolo": "Partenze e gruppo", "testo": "Il programma inizia a Tokyo di martedì, nelle 12 date garantite del calendario 2027; dall'Italia si parte il lunedì. Si parte anche in due, massimo 12 partecipanti. I Travel Storyteller di lingua italiana si alternano nel corso del tour; i servizi possono subire piccole modifiche per ottimizzare l'itinerario."},
+  {"titolo": "Le giornate libere e le escursioni facoltative", "testo": "Nelle giornate libere le walking tour condivise indicate come facoltative si prenotano tramite Kibo prima della partenza, con quote a parte. Si può anche aggiungere una o più notti all'inizio o alla fine del viaggio: in quel caso il trasferimento da o per l'aeroporto viene spostato di conseguenza."},
+  {"titolo": "Camera singola, tripla e bambini", "testo": "Il supplemento singola è indicato nel listino e varia con la stagione. La camera tripla, con una piccola riduzione, e la riduzione per i bambini da 2 a 11 anni in camera con due adulti nei letti esistenti sono disponibili su richiesta; i bambini sotto i 2 anni che non occupano un letto non pagano i servizi del tour."}
+ ],
+ "meta_description": "Giappone Kokoro con Kibo: 10 giorni e 9 notti tra Tokyo, Kyoto, Nara, Kanazawa e Shirakawa-go, in Shinkansen e con walking tour in italiano. 12 partenze garantite nel 2027, si parte anche in due."
+}

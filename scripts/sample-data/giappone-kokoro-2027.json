@@ -1,0 +1,45 @@
+{
+ "_nota": "Dati parametrici del tour Giappone Kokoro 2027 del corrispondente (programma e listino 2027 ricevuti il 09/09/2026, cartella Dropbox). Quote in euro calcolate il 2026-10-06 dai costi del fornitore in JPY con la regola di Roberto (markup 25%, cambio BCE del giorno, soglia psicologica); i costi restano fuori dal repo. Le date sono i martedì di arrivo a Tokyo (dall'Italia si parte il lunedì); tre stagioni di prezzo.",
+ "oggi": "2026-10-06",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Giappone%20Kokoro%202027",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "JPN-2027-KOK10",
+  "nome_commerciale": "Giappone Kokoro: Tokyo, Kyoto, Kanazawa e Shirakawa-go",
+  "destinazione": "Tokyo, Kyoto, Nara, Kanazawa, Shirakawa-go",
+  "notti": 9,
+  "quota_da": 2195,
+  "landing_status": "pronta_per_verifica",
+  "supplemento_singola": 795,
+  "supplemento_singola_nota": "nelle date a 2.345 € è di 895 €, nelle date a 2.495 € di 1.045 €",
+  "partenze": [
+   {"data": "2027-04-13", "prezzo": 2495, "stagione": "3"},
+   {"data": "2027-05-04", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-05-18", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-06-08", "prezzo": 2195, "stagione": "1"},
+   {"data": "2027-06-22", "prezzo": 2195, "stagione": "1"},
+   {"data": "2027-07-20", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-08-03", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-08-17", "prezzo": 2195, "stagione": "1"},
+   {"data": "2027-09-14", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-09-28", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-10-19", "prezzo": 2345, "stagione": "2"},
+   {"data": "2027-11-16", "prezzo": 2495, "stagione": "3"}
+  ],
+  "partenze_note": "12 date garantite nel 2027, con arrivo a Tokyo di martedì (dall'Italia si parte il lunedì)",
+  "fonte": {
+   "sistema": "dropbox",
+   "file": "Itinerario KoKoRo 2027.doc + 2027 KOKORO.pdf",
+   "aggiornato": "2026-09-09"
+  },
+  "cambio": {
+   "valuta": "JPY",
+   "tasso": 178.15,
+   "data": "2026-10-06",
+   "fonte": "BCE",
+   "tolleranza_pct": 5
+  }
+ }
+}

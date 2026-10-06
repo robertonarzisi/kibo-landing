@@ -97,6 +97,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "giappone-kokoro-2027": {
+        "kicker": "TOUR 2027 · ASSISTENZA IN ITALIANO",
+        "title": ["Giappone", "Kokoro"],
+        "info1": "Tokyo, Kyoto, Kanazawa e Shirakawa-go in 10 giorni",
+        "info2": "12 partenze garantite · da 2.195 € a persona",
+        "focus_x": 0.32,
+        "focus_y": 0.4,
+        "ribbon": "SI PARTE ANCHE IN DUE",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
