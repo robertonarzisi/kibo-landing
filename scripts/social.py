@@ -108,6 +108,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "costa-rica-classico-2027": {
+        "kicker": "VIAGGIO INDIVIDUALE · DATE LIBERE",
+        "title": ["Costa Rica,", "dodici giorni"],
+        "info1": "Tortuguero, Arenal, Monteverde e Manuel Antonio",
+        "info2": "Si parte anche in due · da 1.455 € a persona",
+        "focus_x": 0.42,
+        "focus_y": 0.35,
+        "ribbon": "PARTENZE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
