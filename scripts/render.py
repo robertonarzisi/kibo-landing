@@ -265,7 +265,7 @@ def build_catalogo(dati, contenuto, oggi, warnings):
             unita += f" ({vg['supplemento_singola_nota']})"
         price_rows.append({"nome": "Supplemento singola", "unita": unita,
                            "prezzo": vg["supplemento_singola"], "quota": False})
-    MAX_DATE = 8
+    MAX_DATE = 12
     if vg.get("assicurazione"):
         price_rows.append({"nome": "Assicurazione medico, bagaglio e annullamento (facoltativa)",
                            "unita": "a persona", "prezzo": vg["assicurazione"], "quota": False})

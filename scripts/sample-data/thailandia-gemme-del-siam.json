@@ -1,0 +1,282 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 40878143 «Le Gemme del Siam, 7 Giorni» (tour a partenze fisse e garantite ogni mercoledì, guida parlante italiano, base 2 adulti, alberghi di categoria Standard; i voli dall'Italia e il volo interno Bangkok–Chiang Rai sono esclusi). Calendario TC letto il 07/10/2026: 51 partenze dall'11/11/2026 al 27/10/2027. Quote = prezzo di vendita TC a persona per data (già prezzo pubblico, senza ricarico) con la regola prezzi delle landing: armonizzazione ±4 % alla mediana e soglia psicologica (giù ai 5 €, mai multiplo di 10): 1.007,09 → 995 in 14 date; 1.051,26–1.095,43 → 1.075 nelle altre 37. prezzo_listino = prezzo TC della data. Nessun costo netto.",
+ "oggi": "2026-10-07",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Thailandia%20Gemme%20del%20Siam",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "THA-2027-SIAM",
+  "nome_commerciale": "Le gemme del Siam: dal fiume Kwai a Chiang Mai in sette giorni",
+  "destinazione": "Bangkok, Kanchanaburi (fiume Kwai), Nakhon Pathom, Ayutthaya, Chiang Rai, Chiang Mai",
+  "notti": 6,
+  "quota_da": 995,
+  "landing_status": "pronta_per_verifica",
+  "supplemento_singola": null,
+  "partenze": [
+   {
+    "data": "2026-11-11",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2026-11-18",
+    "prezzo": 1075,
+    "prezzo_listino": 1095.43
+   },
+   {
+    "data": "2026-11-25",
+    "prezzo": 1075,
+    "prezzo_listino": 1095.43
+   },
+   {
+    "data": "2026-12-02",
+    "prezzo": 1075,
+    "prezzo_listino": 1095.43
+   },
+   {
+    "data": "2026-12-09",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2026-12-16",
+    "prezzo": 1045,
+    "prezzo_listino": 1051.26
+   },
+   {
+    "data": "2026-12-23",
+    "prezzo": 1055,
+    "prezzo_listino": 1064.51
+   },
+   {
+    "data": "2026-12-30",
+    "prezzo": 1075,
+    "prezzo_listino": 1086.6
+   },
+   {
+    "data": "2027-01-06",
+    "prezzo": 1045,
+    "prezzo_listino": 1051.26
+   },
+   {
+    "data": "2027-01-13",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-01-20",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-01-27",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-02-03",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-02-10",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-02-17",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-02-24",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-03-03",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-03-10",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-03-17",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-03-24",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-03-31",
+    "prezzo": 995,
+    "prezzo_listino": 1007.09
+   },
+   {
+    "data": "2027-04-07",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-04-14",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-04-21",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-04-28",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-05-05",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-05-12",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-05-19",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-05-26",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-06-02",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-06-09",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-06-16",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-06-23",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-06-30",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-07-07",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-07-14",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-07-21",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-07-28",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-08-04",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-08-11",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-08-18",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-08-25",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-09-01",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-09-08",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-09-15",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-09-22",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-09-29",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-10-06",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-10-13",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-10-20",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   },
+   {
+    "data": "2027-10-27",
+    "prezzo": 1075,
+    "prezzo_listino": 1077.76
+   }
+  ],
+  "partenze_note": "51 partenze garantite, ogni mercoledì, dall'11 novembre 2026 al 27 ottobre 2027",
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 40878143,
+   "external_reference": "22720",
+   "aggiornato": "2026-10-07"
+  },
+  "tc_package_id": 40878143
+ }
+}

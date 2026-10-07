@@ -1,0 +1,71 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 7962111 «Per Mano a New York» (viaggio accompagnato con guida e assistente in italiano, 6 giorni / 5 notti al RIU Plaza Times Square, base 2 adulti in camera doppia). I prezzi sono il listino di vendita pubblico TC a persona per data (calendar.json letto il 07/10/2026), SENZA ricarico, armonizzati con la regola delle landing (prezzi.armonizza: gruppi entro ±4% dalla mediana → mediana, poi soglia psicologica): novembre 2.070,52 / 1.997,87 / 2.070,52 → 2.065 (il 12/11 sale alla mediana del gruppo), dicembre 2.273,27 → 2.265, 29/12 2.535,99 → 2.535, 07/01 1.784,15 → 1.775. prezzo_listino conserva il valore TC. Nessun costo netto nel file. Nel calendario TC le partenze del 22 e del 29 dicembre sono di MARTEDÌ, le altre sette di giovedì. Supplemento singola non fornito da TC. Voli dall'Italia esclusi.",
+ "oggi": "2026-10-07",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20New%20York%20Per%20Mano",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "NYC-2026-PM5",
+  "nome_commerciale": "Per Mano a New York: Manhattan, Harlem, Brooklyn e la Statua della Libertà in sei giorni",
+  "destinazione": "New York",
+  "notti": 5,
+  "quota_da": 1775,
+  "landing_status": "pronta_per_verifica",
+  "supplemento_singola": null,
+  "partenze": [
+   {
+    "data": "2026-11-05",
+    "prezzo": 2065,
+    "prezzo_listino": 2070.52
+   },
+   {
+    "data": "2026-11-12",
+    "prezzo": 1995,
+    "prezzo_listino": 1997.87
+   },
+   {
+    "data": "2026-11-19",
+    "prezzo": 2065,
+    "prezzo_listino": 2070.52
+   },
+   {
+    "data": "2026-12-03",
+    "prezzo": 2265,
+    "prezzo_listino": 2273.27
+   },
+   {
+    "data": "2026-12-10",
+    "prezzo": 2265,
+    "prezzo_listino": 2273.27
+   },
+   {
+    "data": "2026-12-17",
+    "prezzo": 2265,
+    "prezzo_listino": 2273.27
+   },
+   {
+    "data": "2026-12-22",
+    "prezzo": 2265,
+    "prezzo_listino": 2273.27
+   },
+   {
+    "data": "2026-12-29",
+    "prezzo": 2535,
+    "prezzo_listino": 2535.99
+   },
+   {
+    "data": "2027-01-07",
+    "prezzo": 1775,
+    "prezzo_listino": 1784.15
+   }
+  ],
+  "partenze_note": "9 date dal 5 novembre 2026 al 7 gennaio 2027, di giovedì (il 22 e il 29 dicembre di martedì): Natale e Capodanno a New York",
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 7962111,
+   "aggiornato": "2026-10-07"
+  },
+  "tc_package_id": 7962111
+ }
+}
