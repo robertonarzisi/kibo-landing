@@ -1,4 +1,4 @@
-# Per Mano a New York — kit social (piano social, contenuto n. 18)
+# La Mela di Kibo (New York) — kit social (piano social, contenuto n. 18)
 
 > Grafiche: `assets/social/new-york-per-mano-2026-27-post.jpg` (1080×1350) e `-story.jpg` (1080×1920),
 > da generare con `scripts/social.py` dopo aver inserito la voce per lo slug; hero: ponte di
@@ -35,7 +35,7 @@ Programma completo al link in bio.
 
 ## Post Facebook (con grafica post)
 
-**Per Mano a New York: Manhattan, Harlem, Brooklyn e la Statua della Libertà in sei giorni — viaggio accompagnato con guida in italiano, nove partenze da novembre a gennaio**
+**La Mela di Kibo: Manhattan, Harlem, Brooklyn e la Statua della Libertà in sei giorni — viaggio accompagnato con guida in italiano, nove partenze da novembre a gennaio**
 
 New York presa per mano: sei giorni con una guida in italiano che la racconta quartiere per
 quartiere. Il giro di Manhattan dal Lincoln Center al World Trade Center, con Central Park e il
@@ -67,3 +67,5 @@ Per la quota con i voli dalla vostra città scriveteci a booking@kibotours.com.
 - Le partenze del 22 e 29 dicembre sono di martedì: nei testi «partenze» senza giorno della
   settimana.
 - Story generata insieme al post; si pubblica solo se Roberto la vuole.
+
+- 07/10: nome commerciale «La Mela di Kibo» deciso da Roberto (il package TC resta «Per Mano a New York»); nastro della grafica «PER MANO A NEW YORK».
