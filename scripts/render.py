@@ -150,7 +150,9 @@ def build(dati, contenuto, forza_soldout=False):
     if vg.get("aeroporto_partenza"):
         fatti.append(("Voli", f"da {vg['aeroporto_partenza']}"))
     if vg.get("posti_totali"):
-        fatti.append(("Gruppo", f"max {vg['posti_totali']} partecipanti"))
+        # Testo sovrascrivibile dal contenuto: la capienza in Airtable puo' includere posti di
+        # servizio (es. 13 con una prova registrata) mentre in pagina si dichiara il gruppo reale.
+        fatti.append(("Gruppo", contenuto.get("gruppo_label") or f"max {vg['posti_totali']} partecipanti"))
     for f in contenuto.get("fatti_extra") or []:
         fatti.append((f.get("etichetta") or "In breve", f.get("valore") or ""))
 
