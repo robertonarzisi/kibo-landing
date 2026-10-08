@@ -1,0 +1,121 @@
+{
+  "_stato": "Contenuto scritto il 24/09/2026 dai servizi dell'idea Travel Compositor 64424965 («Volo + hotel a Playa del Carmen - Gruppo Tommaso», creata da Roberto il 23/09) e dalle indicazioni di Roberto del 24/09: quota 2.790 a persona in camera quadrupla con letto queen in condivisione, assicurazione medico-bagaglio-annullamento facoltativa 105, minimo 12 partecipanti, bagaglio 1PC sui voli Neos (nell'idea TC era 0PC), partenza 18/02/2027, penali e condizioni sul modello delle prime landing di gruppo. Nome del capogruppo solo in Airtable, mai in pagina. Foto hero: destinazione Playa del Carmen da Travel Compositor (uso libero). Form Tally non ancora disponibile: CTA = mail a booking@. Confermati da Roberto il 24/09: acconto 837 (30%), saldo 30/12/2026, riconferma 20/12/2026, tasse aeroportuali incluse, hero Tulum; penali a due scaglioni (30% fino al 29/12, 100% dal 30/12) validate. Posti totali e supplemento singola non indicati. 28/09/2026: testi di «Il viaggio» e «Giorno per giorno» sostituiti con quelli forniti da Roberto (nuovo ordine: Tulum/Cobá 19/02, Chichén Itzá 21/02, catamarano 23/02, liberi 20, 22 e 24/02); tasse locali delle escursioni ora INCLUSE nella quota.",
+  "slug": "playa-del-carmen-2027-02",
+  "area": "americhe",
+  "titolo": "Playa del Carmen all inclusive",
+  "eyebrow": "Partenza di gruppo Kibo",
+  "strillo": "Nove giorni sulla Riviera Maya: sette notti in un resort all inclusive per soli adulti, le rovine di Tulum, Cobá e Chichén Itzá, un cenote riservato al gruppo e una giornata in catamarano a Isla Mujeres. Volo diretto Neos da Milano Malpensa.",
+  "intro_titolo": "Mare caraibico, città Maya e un resort dove non pensare a nulla",
+  "intro": [
+    "Playa del Carmen è la base ideale per visitare la riviera Maya: spiaggia caraibica a due passi, la Quinta Avenida piena di negozi e ristoranti e le grandi città Maya dello Yucatán raggiungibili in giornata. Dormiremo sette notti al Wyndham Alltra Playa del Carmen, resort riservato agli adulti con formula all inclusive: pasti (colazioni, pranzi e cene), snacks, bevande e intrattenimento serale saranno compresi. Inoltre, avremo la spiaggia privata a due passi.",
+    "Tre giornate saranno dedicate alle escursioni, tutte accompagnate da una guida, e trasferimenti dall'hotel:",
+    "1. Giornata a Tulum e Cobá (la prima affacciata sul mare e immersa nelle rovine Maya, mentre la seconda nascosta nella giungla);",
+    "2. Chichén Itzá con la cittadina coloniale di Valladolid e un cenote privato riservato al gruppo;",
+    "3. Giornata in catamarano fino a Isla Mujeres, con snorkeling e open bar a bordo.",
+    "Le altre giornate saranno libere, destinate all’assoluto relax in resort e al mare dei Caraibi. Voleremo con Neos, direttamente da Milano Malpensa a Cancún, con un bagaglio in stiva a persona."
+  ],
+  "durata_label": "9 giorni / 7 notti",
+  "fatti_extra": [
+    {
+      "etichetta": "Resort",
+      "valore": "all inclusive, solo adulti"
+    },
+    {
+      "etichetta": "Escursioni",
+      "valore": "3 giornate con guida"
+    }
+  ],
+  "giorni": [
+    {
+      "giorno": "1",
+      "titolo": "18 febbraio · Milano – Cancún – Playa del Carmen",
+      "testo": "Ritrovo all'aeroporto di Milano Malpensa e partenza in mattinata con il volo diretto Neos per Cancún, dove si atterra nel tardo pomeriggio (ora locale). Trasferimento privato dall'aeroporto al Wyndham Alltra Playa del Carmen, circa un'ora di strada lungo la costa, sistemazione nelle camere e prima serata al resort."
+    },
+    {
+      "giorno": "2",
+      "titolo": "19 febbraio · Tulum e Cobá",
+      "testo": "Partenza di prima mattina dall'hotel con la guida. La prima tappa è Tulum, la città fortificata costruita tra il XIII e il XV secolo su una falesia a picco sul Mar dei Caraibi. Si prosegue al Parque Canamayte per una cerimonia di purificazione con un guaritore locale, poi la sosta in un cenote con circa mezz'ora a disposizione per fare un bagno rinfrescante e qualche tuffo. Pranzo in un ristorante locale e assaggio di miele e cioccolato Maya. Infine, si visita Cobá, una delle città Maya più antiche della regione, nota per ospitare la piramide più alta dello Yucatán. Rientro in hotel in serata, dopo circa dodici ore."
+    },
+    {
+      "giorno": "3",
+      "titolo": "20 febbraio · Giornata libera",
+      "testo": "Giornata intera al resort, tra spiaggia, piscina e la formula all inclusive. Chi vuole può passeggiare sulla Quinta Avenida, a pochi minuti dall'hotel, partecipare alle attività/sport offerte dal resort o riposare."
+    },
+    {
+      "giorno": "4",
+      "titolo": "21 febbraio · Chichén Itzá, il cenote Nool-Ha e Valladolid",
+      "testo": "Giornata con guida in italiano. Dopo due ore e mezza di strada, arriviamo a Chichén Itzá, una delle Nuove Sette Meraviglie del mondo dove, tramite l'accesso prioritario, visitiamo il sito nelle prime ore della giornata. Dopodiché, due ore di visita guidata e circa mezz'ora libera per le foto. Poi, proseguiamo verso il cenote Nool-Ha, riservato al gruppo, dove si può sorvolare l'acqua in zipline e fare il bagno. Dopo una dimostrazione di cucina tradizionale Maya in una tenuta locale, con pranzo a buffet di piatti tipici e una sosta a un mercato artigianale, sulla via del ritorno, faremo una passeggiata nel centro storico di Valladolid, una delle città coloniali più famose e belle dello Yucatán. Rientro in hotel in serata."
+    },
+    {
+      "giorno": "5",
+      "titolo": "22 febbraio · Giornata libera",
+      "testo": "Giornata intera al resort. Spiaggia, piscina e giochi di gruppo. Relax, sport, mare caraibico e tanto altro. La sera possiamo uscire dal resort e visitare Playa del Carmen."
+    },
+    {
+      "giorno": "6",
+      "titolo": "23 febbraio · Catamarano a Isla Mujeres",
+      "testo": "Trasferimento dall’hotel alla marina di Cancún e imbarco sul catamarano. Prima tappa su una barriera corallina per una sessione di snorkeling con attrezzatura e istruzioni a bordo, poi la navigazione fino a Isla Mujeres. Sosta in un beach club con open bar, tempo libero nel centro dell'isola e a Playa Norte, e rientro in catamarano nel tardo pomeriggio. Open bar, divertimento e vibes caraibiche che non dimenticheremo mai."
+    },
+    {
+      "giorno": "7",
+      "titolo": "24 febbraio · Giornata libera",
+      "testo": "Ultima giornata intera al resort. Relax in spiaggia, drinks in piscina e snacks direttamente all’ombra delle palme. Potremo comprare gli ultimi souvenirs e camminare lungo la spiaggia."
+    },
+    {
+      "giorno": "8",
+      "titolo": "25 febbraio · Ultimo giorno e volo di rientro",
+      "testo": "Mattinata libera al resort. Nel pomeriggio trasferimento privato all'aeroporto di Cancún e partenza in serata con il volo diretto Neos per Milano. La notte si passa in volo."
+    },
+    {
+      "giorno": "9",
+      "titolo": "26 febbraio · Arrivo a Milano",
+      "testo": "Arrivo a Milano Malpensa nella prima parte del pomeriggio e saluti con lacrimoni. A presto amici! :)"
+    }
+  ],
+  "incluso": [
+    "Volo diretto Neos da Milano Malpensa a Cancún e ritorno, in classe economica",
+    "Un bagaglio in stiva a persona, oltre al bagaglio a mano",
+    "Tasse aeroportuali",
+    "7 notti al Wyndham Alltra Playa del Carmen Adults Only, in camera quadrupla con letto queen in condivisione",
+    "Formula all inclusive: pasti, snack, selezione di bevande e intrattenimento serale al resort",
+    "Trasferimenti privati aeroporto di Cancún – hotel – aeroporto",
+    "Escursione a Tulum e Cobá con guida: visite ai due siti archeologici, cerimonia di purificazione al Parque Canamayte, bagno in un cenote, pranzo in ristorante locale ed esperienza del cioccolato maya",
+    "Escursione a Chichén Itzá con guida in italiano: accesso prioritario e visita guidata del sito, cenote privato Nool-Ha con zipline, dimostrazione di cucina maya con pranzo a buffet, mercato artigianale e sosta a Valladolid",
+    "Giornata in catamarano a Isla Mujeres con snorkeling, open bar a bordo e accesso a un beach club",
+    "Tasse locali delle escursioni: ingressi ai siti archeologici di Tulum, Cobá e Chichén Itzá e tassa di attracco per Isla Mujeres",
+    "Pick up e rientro in hotel per tutte le escursioni"
+  ],
+  "non_incluso": [
+    "Assicurazione medico, bagaglio e annullamento, facoltativa: si sottoscrive alla conferma e non è attivabile in un momento successivo",
+    "Pranzo a buffet al beach club di Isla Mujeres, opzionale",
+    "Pasti e bevande fuori dal resort non indicati nel programma",
+    "Escursioni e attività non indicate nel programma",
+    "Mance, extra e spese di carattere personale",
+    "Tutto quanto non espressamente indicato alla voce «La quota include»"
+  ],
+  "sistemazione_titolo": "Il resort",
+  "sistemazione": [
+    "Wyndham Alltra Playa del Carmen Adults Only All Inclusive, 4 stelle, in Avenida Constituyentes a Playa del Carmen: la spiaggia caraibica e la Quinta Avenida sono a pochi passi. Riservato agli adulti.",
+    "Sistemazione in camera quadrupla con due letti queen, ciascuno in condivisione tra due partecipanti. Camere con balcone o terrazza, minibar, TV e bagno privato.",
+    "Formula all inclusive per tutta la durata del soggiorno: ristoranti e bar del resort, snack, selezione di bevande, intrattenimento serale, piscine e aree relax."
+  ],
+  "assicurazione_testo": "La polizza medico, bagaglio e annullamento è facoltativa: si sottoscrive al momento della conferma e il premio si versa per intero insieme all'acconto. Non è attivabile in un momento successivo. Le condizioni e i massimali della polizza vengono consegnati per iscritto prima della sottoscrizione.",
+  "documenti_testo": "Serve il passaporto in corso di validità. Le condizioni di ingresso in Messico e l'eventuale documentazione richiesta le verifichiamo e te le comunichiamo per iscritto al momento della conferma.",
+  "condizioni_extra": [
+    {
+      "titolo": "Operativo voli",
+      "testo": "Voli diretti Neos, orari locali:\n- 18/02 · NO 484 · Milano Malpensa 11:00 → Cancún 19:10\n- 25/02 · NO 484 · Cancún 20:40 → Milano Malpensa 12:35 del 26 febbraio\nClasse economica con un bagaglio in stiva a persona. Gli orari sono soggetti a riconferma da parte della compagnia aerea."
+    },
+    {
+      "titolo": "Escursioni",
+      "testo": "Le escursioni durano circa dodici ore (Tulum e Cobá, Chichén Itzá) e otto ore (Isla Mujeres). Il pick up in hotel avviene di prima mattina all'orario comunicato in loco; è necessario presentarsi nel punto di ritrovo indicato dalla reception con qualche minuto di anticipo. Lo snorkeling a Isla Mujeres può essere annullato dal fornitore in caso di maltempo ed è soggetto ai requisiti fisici indicati dall'operatore. Consigliati scarpe comode, cappello, occhiali da sole e costume da bagno."
+    },
+    {
+      "titolo": "Resort riservato agli adulti",
+      "testo": "Il Wyndham Alltra Playa del Carmen accoglie solo ospiti adulti. La partenza non è adatta a bambini e ragazzi."
+    }
+  ],
+  "meta_description": "Playa del Carmen con Kibo: partenza di gruppo dal 18 al 26 febbraio 2027, resort all inclusive per soli adulti, escursioni a Tulum, Cobá, Chichén Itzá e Isla Mujeres, volo diretto Neos da Milano Malpensa.",
+  "quota_unita": "a persona in camera quadrupla, letto queen in condivisione",
+  "assicurazione_nome": "Assicurazione medico, bagaglio e annullamento (facoltativa)"
+}

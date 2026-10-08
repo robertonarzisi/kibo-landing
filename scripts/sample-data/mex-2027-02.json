@@ -1,0 +1,25 @@
+{
+  "_nota": "Dati parametrici del viaggio MEX-2027-02 (record Viaggi, fotografia del 2026-10-08). Quota 2.790 a persona in camera quadrupla con letto queen in condivisione (indicazione di Roberto del 24/09); assicurazione medico-bagaglio-annullamento facoltativa 105; minimo 12; saldo a 50 giorni dalla partenza (30/12/2026); acconto 837 (30%), saldo 30/12/2026, riconferma 20/12/2026 e tasse aeroportuali incluse CONFERMATI da Roberto il 24/09; penali a due scaglioni (30% fino al 29/12, 100% dal 30/12) VALIDATE da Roberto il 24/09; posti totali e supplemento singola non indicati. La fonte di verità resta Airtable. 08/10: Link landing = form Tally A7ZxKN (hidden trip_id), landing_status pubblicata.",
+  "oggi": "2026-09-24",
+  "cta_url": "https://tally.so/r/A7ZxKN?trip_id=MEX-2027-02",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "trip_id": "MEX-2027-02",
+    "nome_commerciale": "Playa del Carmen all inclusive — Riviera Maya",
+    "destinazione": "Messico (Playa del Carmen, Riviera Maya)",
+    "stato": "Bozza",
+    "tipo": "gruppo",
+    "data_partenza": "2027-02-18",
+    "data_rientro": "2027-02-26",
+    "vettore": "Neos (volo diretto)",
+    "aeroporto_partenza": "Milano Malpensa (MXP)",
+    "quota_base": 2790,
+    "premio_annullamento": 105,
+    "minimo_partecipanti": 12,
+    "data_riconferma": "2026-12-20",
+    "acconto_per_persona": 837,
+    "data_saldo": "2026-12-30",
+    "scala_penali": "SCALA PENALI IN DEROGA — giorni di calendario rispetto alla partenza dall'Italia (18/02/2027).\n\nTour di gruppo a data fissa con voli a tariffa speciale. Ai sensi del punto 10 delle Condizioni Generali di Vendita Kibo Tours, che escludono espressamente tale tipologia di prodotto dal regime standard delle penali, si applica la seguente scala in deroga a quella ivi indicata. Per il resto le Condizioni Generali di Vendita si applicano integralmente.\n\n- Dalla conferma fino al 29/12/2026: 30%, pari all'acconto versato di 837 EUR a persona\n- Dal 30/12/2026: 100%\n\nL'acconto versato non e' in alcun caso rimborsabile. Restano inoltre a carico del viaggiatore la quota di iscrizione/gestione pratica e i premi assicurativi eventualmente sottoscritti.\n\nIn caso di annullamento da parte di Kibo per mancato raggiungimento del minimo: rimborso integrale di quanto versato.",
+    "landing_status": "pubblicata"
+  }
+}
