@@ -1,8 +1,8 @@
 # Vietnam da sud al centro — kit social (piano 16 contenuti, n. 24)
 
 > Grafiche: `assets/social/vietnam-sud-centro-2027-post.jpg` (1080×1350) e `-story.jpg` (1080×1920),
-> da generare con `scripts/social.py` dalla hero (le lanterne di Hoi An sul fiume Thu Bon,
-> Wikimedia Commons «Hoi An - HoiAn1441», licenza CC0) dopo l'inserimento della voce `vietnam-sud-centro-2027` nel dizionario `VIAGGI`.
+> da generare con `scripts/social.py` dalla hero (una casa gialla di Hoi An con bicicletta e
+> lanterne, Wikimedia Commons «Tiệm153+xeĐạp&cây», licenza CC0; scelta chiara del 20/10) dopo l'inserimento della voce `vietnam-sud-centro-2027` nel dizionario `VIAGGI`.
 > **Nessuna pubblicazione senza approvazione di Roberto** (tabella `Contenuti Social`,
 > record VNM-2027-SC9-IG-01 e VNM-2027-SC9-FB-01, data prevista venerdì 23/10/2026 10:00,
 > secondo contenuto della newsletter del 22/10).
