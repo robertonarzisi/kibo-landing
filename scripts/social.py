@@ -199,7 +199,7 @@ VIAGGI = {
     "vietnam-sud-centro-2027": {
         "kicker": "GUIDA IN ITALIANO · DATE LIBERE",
         "title": ["Vietnam", "da sud al centro"],
-        "info1": "Saigon, Mekong, Hanoi, Halong, Hue, Hoi An in 9 giorni",
+        "info1": "Saigon, Mekong, Hanoi, Halong, Hue e Hoi An",
         "info2": "Si parte anche in due · da 1.165 € a persona",
         "focus_x": 0.35,
         "focus_y": 0.5,
