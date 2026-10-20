@@ -1,0 +1,262 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 28317893 «Mauritian Wonders (Hotel 4*)» (soggiorno di 7 notti a Balaclava in hotel 4 stelle di categoria Superior, mezza pensione, tour di un'intera giornata del sud dell'isola il giorno 2, base 2 adulti in doppia). Il calendario TC letto il 20/10/2026 ha 47 date di domenica dal 15/11/2026 al 31/10/2027 con prezzo di vendita pubblico a persona (prezzo_listino) variabile per data, sette livelli di listino: è già il prezzo di vendita, NON si ricarica; si applicano solo armonizza (±4 % alla mediana) e soglia psicologica di prezzi.py (kibo-catalogo), con il tetto della soglia del listino della data (la sola partenza del 13/12/2026, armonizzata col gruppo di gennaio-aprile, resta alla propria soglia di listino). Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi. Calendario TC letto il 07/10/2026 (il 20/10 l'API TC non era raggiungibile dal VPS).",
+ "oggi": "2026-10-20",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Mauritius%202027",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "MUS-2027-7N",
+  "nome_commerciale": "Le meraviglie di Mauritius: sette notti a Balaclava con il tour del sud dell'isola",
+  "destinazione": "Mauritius, Balaclava (costa nord-ovest); tour del sud: Trou aux Cerfs, Ganga Talao, Black River Gorges, Chamarel",
+  "notti": 7,
+  "quota_da": 1015,
+  "landing_status": "pronta_per_verifica",
+  "supplemento_singola": null,
+  "partenze": [
+   {
+    "data": "2026-11-15",
+    "prezzo": 1365,
+    "prezzo_listino": 1374.16
+   },
+   {
+    "data": "2026-11-22",
+    "prezzo": 1365,
+    "prezzo_listino": 1374.16
+   },
+   {
+    "data": "2026-12-13",
+    "prezzo": 1245,
+    "prezzo_listino": 1254.79
+   },
+   {
+    "data": "2026-12-20",
+    "prezzo": 2085,
+    "prezzo_listino": 2091.79
+   },
+   {
+    "data": "2026-12-27",
+    "prezzo": 2085,
+    "prezzo_listino": 2091.79
+   },
+   {
+    "data": "2027-01-03",
+    "prezzo": 2085,
+    "prezzo_listino": 2091.79
+   },
+   {
+    "data": "2027-01-10",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-01-17",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-01-24",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-01-31",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-02-07",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-02-14",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-02-21",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-02-28",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-03-07",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-03-14",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-03-21",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-03-28",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-04-04",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-04-11",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-04-18",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-05-09",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-05-16",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-05-23",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-05-30",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-06-06",
+    "prezzo": 1015,
+    "prezzo_listino": 1016.05
+   },
+   {
+    "data": "2027-06-13",
+    "prezzo": 1015,
+    "prezzo_listino": 1016.05
+   },
+   {
+    "data": "2027-06-20",
+    "prezzo": 1015,
+    "prezzo_listino": 1016.05
+   },
+   {
+    "data": "2027-06-27",
+    "prezzo": 1015,
+    "prezzo_listino": 1016.05
+   },
+   {
+    "data": "2027-07-04",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-07-11",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-07-18",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-07-25",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-08-01",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-08-08",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-08-15",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-08-22",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-08-29",
+    "prezzo": 1065,
+    "prezzo_listino": 1068.63
+   },
+   {
+    "data": "2027-09-05",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-09-12",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-09-19",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-09-26",
+    "prezzo": 1155,
+    "prezzo_listino": 1158.16
+   },
+   {
+    "data": "2027-10-03",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-10-10",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-10-17",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-10-24",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   },
+   {
+    "data": "2027-10-31",
+    "prezzo": 1285,
+    "prezzo_listino": 1293.16
+   }
+  ],
+  "partenze_note": "47 date di domenica da novembre 2026 a ottobre 2027, quote per data nel listino",
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 28317893,
+   "external_reference": "634057",
+   "aggiornato": "2026-10-07"
+  },
+  "tc_package_id": 28317893
+ }
+}

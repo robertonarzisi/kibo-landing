@@ -271,19 +271,42 @@ def build_catalogo(dati, contenuto, oggi, warnings):
     if vg.get("assicurazione"):
         price_rows.append({"nome": "Assicurazione medico, bagaglio e annullamento (facoltativa)",
                            "unita": "a persona", "prezzo": vg["assicurazione"], "quota": False})
-    for p in future[:MAX_DATE]:
-        price_rows.append({"nome": f"Partenza {data_it(p['data'])}", "unita": p.get("nota") or "",
-                           "prezzo": p.get("prezzo"), "quota": False,
-                           "senza_prezzo": not p.get("prezzo")})
-    # Viaggi a date libere (package TC): quote «da» per mese di partenza, dal calendario TC
-    for q in vg.get("quote_per_mese") or []:
+    # Fino a MAX_DATE partenze: una riga per data. Oltre (tour settimanali, 47-100 date): le
+    # prime 12 sarebbero solo i mesi più vicini e nasconderebbero i mesi economici, quindi si
+    # mostra la quota «da» per mese di partenza (minimo del mese), salvo quote_per_mese esplicite.
+    quote_mese = list(vg.get("quote_per_mese") or [])
+    partenze_nota = ""
+    if len(future) > MAX_DATE and not quote_mese:
+        MESI_IT = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
+                   "settembre", "ottobre", "novembre", "dicembre"]
+        per_mese = {}
+        for p in future:
+            if not p.get("prezzo"):
+                continue
+            chiave = p["data"][:7]
+            per_mese[chiave] = min(per_mese.get(chiave, p["prezzo"]), p["prezzo"])
+        for chiave in sorted(per_mese):
+            anno, mese = chiave.split("-")
+            quote_mese.append({"mese": f"{MESI_IT[int(mese) - 1]} {anno}", "prezzo": per_mese[chiave]})
+        livelli = len({p["prezzo"] for p in future if p.get("prezzo")})
+        coda = ("stessa quota per tutte le date" if livelli == 1 else "la quota dipende dalla data")
+        partenze_nota = (f"{len(future)} partenze in calendario, {data_it(future[0]['data'])} – "
+                         f"{data_it(future[-1]['data'])}: {coda}, chiedici quella che preferisci.")
+    else:
+        for p in future[:MAX_DATE]:
+            price_rows.append({"nome": f"Partenza {data_it(p['data'])}", "unita": p.get("nota") or "",
+                               "prezzo": p.get("prezzo"), "quota": False,
+                               "senza_prezzo": not p.get("prezzo")})
+        altre = len(future) - min(len(future), MAX_DATE)
+        if altre == 1:
+            partenze_nota = f"E un'altra partenza il {data_it(future[-1]['data'])}: chiedici la data che preferisci."
+        elif altre > 1:
+            partenze_nota = (f"E altre {altre} partenze fino al {data_it(future[-1]['data'])}: "
+                             "chiedici la data che preferisci.")
+    # Viaggi a date libere (package TC) o tour con molte date: quote «da» per mese di partenza
+    for q in quote_mese:
         price_rows.append({"nome": f"Partenze di {q['mese']}", "unita": "da, a persona in camera doppia",
                            "prezzo": q["prezzo"], "quota": False})
-    altre = len(future) - min(len(future), MAX_DATE)
-    partenze_nota = ""
-    if altre > 0:
-        partenze_nota = (f"E altre {altre} partenze fino al {data_it(future[-1]['data'])}: "
-                         "chiedici la data che preferisci.")
 
     fatti = [("Durata", contenuto.get("durata_label") or "")]
     if vg.get("partenze_note"):
