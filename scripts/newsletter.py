@@ -14,6 +14,8 @@ Specifica:
     {...}
   ]
 }
+Il <title> NON deve contenere entità HTML: il flusso MailUp lo usa come oggetto senza decodificarlo (20/10/2026: «d'oro» → «d&#x27;oro»);
+qui l'apostrofo non viene escapato, ma negli oggetti conviene l'apostrofo tipografico ’.
 Le immagini si ricavano da assets/social/<slug>-post.jpg (1080×1350 → 600×750). Il layout è quello
 delle newsletter dal 22/09/2026 (tabella 600 px, pulsanti «VEDI IL PROGRAMMA COMPLETO» + «RICHIEDI LA
 QUOTA», piè Kibo). Nessun prezzo viene calcolato qui: i testi arrivano già pronti dal kit social."""
@@ -55,7 +57,7 @@ def main():
         Image.open(src).convert("RGB").resize((600, 750), Image.LANCZOS).save(out / b["img"], quality=82, optimize=True)
     corpo = "".join(blocco(data, b) for b in spec["blocchi"])
     pagina = f"""<!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(spec['titolo'])}</title></head>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(spec['titolo'], quote=False)}</title></head>
 <body style="margin:0;padding:0;background:#f3f5f6;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f3f5f6;"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:100%;background:#ffffff;">
