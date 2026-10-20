@@ -174,6 +174,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "india-triangolo-oro-2027": {
+        "kicker": "TOUR 2027 · GUIDA IN ITALIANO",
+        "title": ["Triangolo", "d'oro"],
+        "info1": "Delhi, Jaipur, Fatehpur Sikri e Agra in 6 giorni",
+        "info2": "Partenze ogni lunedì · da 1.045 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.45,
+        "ribbon": "PARTENZE OGNI LUNEDÌ",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
