@@ -14,6 +14,8 @@
 <meta property="og:image" content="https://go.kibotours.com/assets/hero/thailandia-gemme-del-siam.jpg">
 <link rel="icon" type="image/png" href="/assets/brand/logo-kibo-colore.png">
 <link rel="stylesheet" href="/assets/kibo.css">
+<!-- GA4 G-R4MME0PVZR + Meta Pixel 501692673520339: partono solo dopo il consenso dal banner (assets/consenso.js) -->
+<script src="/assets/consenso.js" defer></script>
 </head>
 <body class="area-oriente">
 
@@ -120,7 +122,8 @@
 <script>
 /* Inoltra al bottone Prenota i parametri arrivati con il link personalizzato dell'email
    (ref, pratica, nome...), senza duplicare quelli gia presenti.
-   Nessun cookie, nessun tracciamento: i dati restano nell'URL. */
+   Questo script non usa cookie: i dati restano nell'URL. GA4 e pixel Meta stanno in
+   assets/consenso.js e partono solo dopo il consenso dal banner. */
 (function () {
   var arrivo = new URLSearchParams(window.location.search);
   if (![].concat.apply([], [Array.from(arrivo.keys())]).length) { return; }

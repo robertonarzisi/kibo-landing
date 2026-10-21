@@ -53,3 +53,13 @@ Fail-loud: un segnaposto senza valore fa fallire il render, mai una pagina mezza
 
 Il progetto è documentato in `KIBO/progetti/landing/` del repository privato
 `robertonarzisi/Kibo-Flyness-Agenti`.
+
+## Tracciamento (dal 21/10/2026)
+
+Ogni pagina carica `assets/consenso.js`: un banner cookie che, **solo dopo «Accetta»**, avvia Google Analytics 4
+(`G-R4MME0PVZR`, la proprietà di www.kibotours.com: in GA4 le landing si distinguono per host `go.kibotours.com`)
+e il Meta Pixel `501692673520339` (lo stesso del sito). Eventi: `page_view`/`PageView`, `view_item`/`ViewContent`
+sulle pagine viaggio, `select_content`/`ClickPrenota` sul bottone Prenota. Il modulo di prenotazione è su Tally:
+il lead vero non si conta qui. La scelta resta in `localStorage` per 365 giorni e si cambia da `/cookie/`
+(informativa cookie). Il tag sta in `templates/viaggio.html` e `templates/indice.html` (il Landing Builder n8n li
+legge da GitHub, quindi vale anche per le pagine future) ed è stato inserito nelle pagine già pubblicate.
