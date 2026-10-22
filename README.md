@@ -71,5 +71,6 @@ Le landing pubblicate in `viaggi/` sono indicizzabili: `robots.txt` permette tut
 Ogni landing ha `<link rel="canonical">` su se stessa (template `viaggio.html`); la home indice non è più noindex e ha il
 canonical sull'hub «Partenze di gruppo» di kibotours.com (`/partenze-di-gruppo/`, pagina 6491), che elenca le stesse
 partenze e le collega. Le anteprime restano noindex (renderer: `landing_status != pubblicata`; il noindex fisso nel Code node
-del builder vale solo per le pagine «ritirate»). Search Console: proprietà `https://go.kibotours.com/` da verificare con
-il tag HTML (Roberto) e sitemap da inviare.
+del builder vale solo per le pagine «ritirate»). Search Console: proprietà `https://go.kibotours.com/` VERIFICATA il 22/10/2026 (meta
+`google-site-verification` nei template e nelle pagine, da non togliere) e sitemap inviata; credenziale Google n8n
+«Search Console KiRun» con scope webmasters + siteverification.
