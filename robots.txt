@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Disallow: /anteprima/
+Allow: /
+
+Sitemap: https://go.kibotours.com/sitemap.xml

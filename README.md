@@ -63,3 +63,13 @@ sulle pagine viaggio, `select_content`/`ClickPrenota` sul bottone Prenota. Il mo
 il lead vero non si conta qui. La scelta resta in `localStorage` per 365 giorni e si cambia da `/cookie/`
 (informativa cookie). Il tag sta in `templates/viaggio.html` e `templates/indice.html` (il Landing Builder n8n li
 legge da GitHub, quindi vale anche per le pagine future) ed è stato inserito nelle pagine già pubblicate.
+
+## Indicizzazione (dal 22/10/2026, decisione di Roberto)
+
+Le landing pubblicate in `viaggi/` sono indicizzabili: `robots.txt` permette tutto tranne `/anteprima/` e dichiara
+`sitemap.xml` (generata da `scripts/sitemap.py`, da rilanciare dopo ogni pubblicazione insieme a `render_index.py`).
+Ogni landing ha `<link rel="canonical">` su se stessa (template `viaggio.html`); la home indice non è più noindex e ha il
+canonical sull'hub «Partenze di gruppo» di kibotours.com (`/partenze-di-gruppo/`, pagina 6491), che elenca le stesse
+partenze e le collega. Le anteprime restano noindex (renderer: `landing_status != pubblicata`; il noindex fisso nel Code node
+del builder vale solo per le pagine «ritirate»). Search Console: proprietà `https://go.kibotours.com/` da verificare con
+il tag HTML (Roberto) e sitemap da inviare.
