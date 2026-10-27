@@ -284,6 +284,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "thailandia-bangkok-chiang-mai-2027": {
+        "kicker": "THAILANDIA · GUIDA IN ITALIANO",
+        "title": ["Da Bangkok", "a Chiang Mai"],
+        "info1": "Ayutthaya, Sukhothai, Phayao e Chiang Rai",
+        "info2": "47 partenze di martedì · da 1.265 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.55,
+        "ribbon": "PARTENZE DI MARTEDÌ",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
