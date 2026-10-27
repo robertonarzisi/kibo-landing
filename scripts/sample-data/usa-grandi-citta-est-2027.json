@@ -1,0 +1,58 @@
+{
+  "_nota": "Dati parametrici del package Travel Compositor 7646242 «Le Grandi città dell'Est - Da New York a New York» (tour in pullman della costa est a date fisse, base 2 adulti in doppia, 8 giorni / 7 notti). SI PUBBLICA SOLO LA MODALITÀ Italian Speaking Guide (accompagnatore turistico per tutto il tour e guida parlante italiano). PREZZO: 1.532 € a persona in doppia su tutte le 6 date, deciso da Roberto il 27/10/2026 dal listino della modalità italiana letto nel back office TC (alcune date erano a 1.506 €: uniformate a 1.532 per evitare confusione, differenza minima). Non è passato per soglia/armonizza di prezzi.py (soglia avrebbe dato 1.525): è la cifra indicata da Roberto. Il calendario TC letto via API resta quello della modalità inglese (1.503,36 / 1.529,45 per data) e non va usato. È già prezzo di vendita TC, NON si ricarica (regola package TC). Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi; trasferimenti aeroportuali esclusi all'arrivo e alla partenza.",
+  "oggi": "2026-10-27",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Grandi%20citt%C3%A0%20dell%27Est%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "USA-2027-GCE8",
+    "nome_commerciale": "Le grandi città dell'Est, da New York a New York: Niagara, Washington e Philadelphia",
+    "destinazione": "New York, Finger Lakes, Cascate del Niagara (Canada), Lancaster e la Pennsylvania Dutch Country, Gettysburg, Washington DC, Philadelphia",
+    "notti": 7,
+    "quota_da": 1532,
+    "landing_status": "pronta_per_verifica",
+    "supplemento_singola": null,
+    "partenze": [
+      {
+        "data": "2027-05-01",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      },
+      {
+        "data": "2027-06-12",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      },
+      {
+        "data": "2027-07-24",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      },
+      {
+        "data": "2027-07-31",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      },
+      {
+        "data": "2027-08-28",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      },
+      {
+        "data": "2027-09-11",
+        "prezzo": 1532,
+        "prezzo_listino": 1532
+      }
+    ],
+    "partenze_note": "6 partenze a date fisse nel 2027: 1 maggio, 12 giugno, 24 luglio, 31 luglio, 28 agosto e 11 settembre, con arrivo a New York di sabato",
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 7646242,
+      "modalita_pubblicata": "Italian Speaking Guide",
+      "prezzo_fonte": "listino modalità italiana letto da Roberto nel back office TC, 27/10/2026 (uniformato a 1.532 su tutte le date)",
+      "aggiornato": "2026-10-27"
+    },
+    "tc_package_id": 7646242
+  }
+}

@@ -295,6 +295,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "usa-grandi-citta-est-2027": {
+        "kicker": "STATI UNITI · GUIDA IN ITALIANO",
+        "title": ["Le grandi città", "dell'Est"],
+        "info1": "New York, Niagara, Washington e Philadelphia",
+        "info2": "6 partenze 2027 · 1.532 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.45,
+        "ribbon": "DA NEW YORK A NEW YORK",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
