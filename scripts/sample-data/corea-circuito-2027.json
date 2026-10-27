@@ -1,0 +1,1358 @@
+{
+  "_nota": "Dati parametrici del package Travel Compositor 46627479 «Circuito Coreano 3*» (viaggio individuale in treno a date libere, base 2 adulti in doppia, alberghi 3 stelle più una notte in hanok a Jeonju). Il calendario TC letto il 27/10/2026 ha 282 date giornaliere dal 27/10/2026 al 23/09/2027 con il prezzo di vendita pubblico a persona (da 1.088,61 a 1.617,72): è già il prezzo di vendita, NON si ricarica. Qui le 266 date dal 12/11/2026 (giorno della newsletter e dei post) al 23/09/2027: le 16 dal 27/10 all'11/11 precedono l'uscita e restano fuori, come l'ottobre del Giappone Est-Ovest. Prezzo per data = prezzi.armonizza di kibo-catalogo (gruppi entro ±4 % dalla mediana → mediana, poi soglia psicologica: 7 gruppi, 1.125 / 1.195 / 1.255 / 1.315 / 1.385 / 1.495 / 1.615) con il tetto della soglia del listino della singola data, mai sopra il listino (il tetto scatta su 108 date, come per Mauritius e Rajasthan): 21 livelli finali da 1.085 a 1.615; prezzo_listino conserva il valore TC. ATTENZIONE: prezzi.py lanciato da shell su questo file riapplicherebbe l'armonizzazione SENZA il tetto. quota_da = 1.085 (1° marzo 2027). Con più di 12 date render.py mostra da solo la quota minima per mese di partenza (nov 2026 1.195, dic 1.185, gen 2027 1.195, feb 1.095, mar 1.085, apr 1.225, mag 1.175, giu 1.125, lug 1.125, ago 1.175, set 1.225) e il conteggio delle date: non serve quote_per_mese; date_testo è solo il ripiego se non restano date future. La quota varia molto dentro lo stesso mese (dicembre 1.185 → 1.615 il 23/12; febbraio 1.095 → 1.385 l'11-12/02; marzo 1.085 → 1.315 a fine mese; aprile 1.225 → 1.385 l'1 e l'8/04): il listino mostra il minimo del mese, la quota per la data si conferma a parte. Cinquanta date del periodo di vendita (operatività tutti i giorni secondo la scheda TC) non hanno prezzo nel calendario: 18, 22 e 24–29/12/2026; 29/01–07/02, 22 e 26/02, 20–30/04, 2, 10 e 30/05, 03/06, 9 e 13/08, 04–16/09/2027: quotare su richiesta. Supplemento singola non presente nel package: su richiesta. Il programma giorno per giorno TC dà 11 giorni / 10 notti (9 in albergo + 1 in hanok) e la scheda conta 10 notti, mentre «il prezzo comprende» dice 10 notti in albergo + 1 in hanok: da chiarire col fornitore, qui notti = 10 come il programma. Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi.",
+  "oggi": "2026-10-27",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Corea%20del%20Sud%20in%20treno%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "KOR-2027-CC11",
+    "nome_commerciale": "Corea del Sud in treno: Seoul, Gyeongju, Busan e Jeonju",
+    "destinazione": "Seoul, Gyeongju, Busan, Jeonju",
+    "notti": 10,
+    "quota_da": 1085,
+    "landing_status": "pronta_per_verifica",
+    "supplemento_singola": null,
+    "partenze_note": "tutti i giorni fino al 23 settembre 2027, anche in due",
+    "date_testo": "date libere, nov 2026 – set 2027",
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 46627479,
+      "external_reference": null,
+      "aggiornato": "2026-10-27"
+    },
+    "tc_package_id": 46627479,
+    "partenze": [
+      {
+        "data": "2026-11-12",
+        "prezzo": 1315,
+        "prezzo_listino": 1367.09
+      },
+      {
+        "data": "2026-11-13",
+        "prezzo": 1315,
+        "prezzo_listino": 1345.57
+      },
+      {
+        "data": "2026-11-14",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2026-11-15",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-11-16",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-11-17",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2026-11-18",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2026-11-19",
+        "prezzo": 1315,
+        "prezzo_listino": 1337.97
+      },
+      {
+        "data": "2026-11-20",
+        "prezzo": 1315,
+        "prezzo_listino": 1331.65
+      },
+      {
+        "data": "2026-11-21",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2026-11-22",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2026-11-23",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-11-24",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-11-25",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2026-11-26",
+        "prezzo": 1315,
+        "prezzo_listino": 1337.97
+      },
+      {
+        "data": "2026-11-27",
+        "prezzo": 1255,
+        "prezzo_listino": 1301.27
+      },
+      {
+        "data": "2026-11-28",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2026-11-29",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2026-11-30",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2026-12-01",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-12-02",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2026-12-03",
+        "prezzo": 1315,
+        "prezzo_listino": 1337.97
+      },
+      {
+        "data": "2026-12-04",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2026-12-05",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2026-12-06",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2026-12-07",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2026-12-08",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2026-12-09",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2026-12-10",
+        "prezzo": 1315,
+        "prezzo_listino": 1360.76
+      },
+      {
+        "data": "2026-12-11",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2026-12-12",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2026-12-13",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2026-12-14",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2026-12-15",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2026-12-16",
+        "prezzo": 1375,
+        "prezzo_listino": 1382.28
+      },
+      {
+        "data": "2026-12-17",
+        "prezzo": 1495,
+        "prezzo_listino": 1500.0
+      },
+      {
+        "data": "2026-12-19",
+        "prezzo": 1385,
+        "prezzo_listino": 1403.8
+      },
+      {
+        "data": "2026-12-20",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2026-12-21",
+        "prezzo": 1315,
+        "prezzo_listino": 1360.76
+      },
+      {
+        "data": "2026-12-23",
+        "prezzo": 1615,
+        "prezzo_listino": 1617.72
+      },
+      {
+        "data": "2026-12-30",
+        "prezzo": 1455,
+        "prezzo_listino": 1463.29
+      },
+      {
+        "data": "2026-12-31",
+        "prezzo": 1495,
+        "prezzo_listino": 1513.92
+      },
+      {
+        "data": "2027-01-01",
+        "prezzo": 1385,
+        "prezzo_listino": 1448.1
+      },
+      {
+        "data": "2027-01-02",
+        "prezzo": 1315,
+        "prezzo_listino": 1353.16
+      },
+      {
+        "data": "2027-01-03",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-01-04",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-01-05",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-01-06",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2027-01-07",
+        "prezzo": 1315,
+        "prezzo_listino": 1331.65
+      },
+      {
+        "data": "2027-01-08",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-01-09",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-01-10",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-01-11",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-01-12",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-01-13",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-01-14",
+        "prezzo": 1315,
+        "prezzo_listino": 1331.65
+      },
+      {
+        "data": "2027-01-15",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-01-16",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-01-17",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-01-18",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-01-19",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-01-20",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-01-21",
+        "prezzo": 1315,
+        "prezzo_listino": 1331.65
+      },
+      {
+        "data": "2027-01-22",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-01-23",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-01-24",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-01-25",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-01-26",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-01-27",
+        "prezzo": 1255,
+        "prezzo_listino": 1301.27
+      },
+      {
+        "data": "2027-01-28",
+        "prezzo": 1375,
+        "prezzo_listino": 1382.28
+      },
+      {
+        "data": "2027-02-08",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2027-02-09",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-02-10",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-02-11",
+        "prezzo": 1385,
+        "prezzo_listino": 1396.2
+      },
+      {
+        "data": "2027-02-12",
+        "prezzo": 1385,
+        "prezzo_listino": 1396.2
+      },
+      {
+        "data": "2027-02-13",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-02-14",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-02-15",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-02-16",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-02-17",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-02-18",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-02-19",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2027-02-20",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-02-21",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-02-23",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-02-24",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-02-25",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-02-27",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-02-28",
+        "prezzo": 1095,
+        "prezzo_listino": 1103.8
+      },
+      {
+        "data": "2027-03-01",
+        "prezzo": 1085,
+        "prezzo_listino": 1088.61
+      },
+      {
+        "data": "2027-03-02",
+        "prezzo": 1095,
+        "prezzo_listino": 1096.2
+      },
+      {
+        "data": "2027-03-03",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-03-04",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-03-05",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-03-06",
+        "prezzo": 1155,
+        "prezzo_listino": 1162.03
+      },
+      {
+        "data": "2027-03-07",
+        "prezzo": 1095,
+        "prezzo_listino": 1111.39
+      },
+      {
+        "data": "2027-03-08",
+        "prezzo": 1095,
+        "prezzo_listino": 1111.39
+      },
+      {
+        "data": "2027-03-09",
+        "prezzo": 1125,
+        "prezzo_listino": 1125.32
+      },
+      {
+        "data": "2027-03-10",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-03-11",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-03-12",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-03-13",
+        "prezzo": 1155,
+        "prezzo_listino": 1162.03
+      },
+      {
+        "data": "2027-03-14",
+        "prezzo": 1125,
+        "prezzo_listino": 1125.32
+      },
+      {
+        "data": "2027-03-15",
+        "prezzo": 1115,
+        "prezzo_listino": 1117.72
+      },
+      {
+        "data": "2027-03-16",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-03-17",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-03-18",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-03-19",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-03-20",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-03-21",
+        "prezzo": 1165,
+        "prezzo_listino": 1168.35
+      },
+      {
+        "data": "2027-03-22",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-03-23",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-03-24",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-03-25",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2027-03-26",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-03-27",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-03-28",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2027-03-29",
+        "prezzo": 1255,
+        "prezzo_listino": 1301.27
+      },
+      {
+        "data": "2027-03-30",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-03-31",
+        "prezzo": 1315,
+        "prezzo_listino": 1353.16
+      },
+      {
+        "data": "2027-04-01",
+        "prezzo": 1375,
+        "prezzo_listino": 1382.28
+      },
+      {
+        "data": "2027-04-02",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2027-04-03",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-04-04",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-04-05",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-04-06",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-04-07",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-04-08",
+        "prezzo": 1385,
+        "prezzo_listino": 1389.87
+      },
+      {
+        "data": "2027-04-09",
+        "prezzo": 1315,
+        "prezzo_listino": 1374.68
+      },
+      {
+        "data": "2027-04-10",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-04-11",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-04-12",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-04-13",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-04-14",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2027-04-15",
+        "prezzo": 1315,
+        "prezzo_listino": 1331.65
+      },
+      {
+        "data": "2027-04-16",
+        "prezzo": 1315,
+        "prezzo_listino": 1337.97
+      },
+      {
+        "data": "2027-04-17",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-04-18",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-04-19",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-05-01",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-05-03",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-05-04",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-05-05",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-05-06",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-05-07",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-05-08",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-05-09",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-05-11",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-05-12",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-05-13",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-05-14",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-05-15",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-05-16",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-05-17",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-05-18",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-05-19",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-05-20",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-05-21",
+        "prezzo": 1235,
+        "prezzo_listino": 1243.04
+      },
+      {
+        "data": "2027-05-22",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-05-23",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-05-24",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-05-25",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-05-26",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-05-27",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-05-28",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-05-29",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-05-31",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-06-01",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-06-02",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-06-04",
+        "prezzo": 1255,
+        "prezzo_listino": 1301.27
+      },
+      {
+        "data": "2027-06-05",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-06-06",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-06-07",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-06-08",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-06-09",
+        "prezzo": 1235,
+        "prezzo_listino": 1243.04
+      },
+      {
+        "data": "2027-06-10",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-06-11",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-06-12",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-06-13",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-06-14",
+        "prezzo": 1165,
+        "prezzo_listino": 1168.35
+      },
+      {
+        "data": "2027-06-15",
+        "prezzo": 1165,
+        "prezzo_listino": 1168.35
+      },
+      {
+        "data": "2027-06-16",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-06-17",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-06-18",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-06-19",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-06-20",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-06-21",
+        "prezzo": 1145,
+        "prezzo_listino": 1154.43
+      },
+      {
+        "data": "2027-06-22",
+        "prezzo": 1145,
+        "prezzo_listino": 1154.43
+      },
+      {
+        "data": "2027-06-23",
+        "prezzo": 1165,
+        "prezzo_listino": 1168.35
+      },
+      {
+        "data": "2027-06-24",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-06-25",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-06-26",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-06-27",
+        "prezzo": 1125,
+        "prezzo_listino": 1146.84
+      },
+      {
+        "data": "2027-06-28",
+        "prezzo": 1125,
+        "prezzo_listino": 1146.84
+      },
+      {
+        "data": "2027-06-29",
+        "prezzo": 1125,
+        "prezzo_listino": 1146.84
+      },
+      {
+        "data": "2027-06-30",
+        "prezzo": 1155,
+        "prezzo_listino": 1162.03
+      },
+      {
+        "data": "2027-07-01",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-07-02",
+        "prezzo": 1165,
+        "prezzo_listino": 1168.35
+      },
+      {
+        "data": "2027-07-03",
+        "prezzo": 1145,
+        "prezzo_listino": 1154.43
+      },
+      {
+        "data": "2027-07-04",
+        "prezzo": 1125,
+        "prezzo_listino": 1132.91
+      },
+      {
+        "data": "2027-07-05",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-07-06",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-07-07",
+        "prezzo": 1155,
+        "prezzo_listino": 1162.03
+      },
+      {
+        "data": "2027-07-08",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-07-09",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-07-10",
+        "prezzo": 1155,
+        "prezzo_listino": 1162.03
+      },
+      {
+        "data": "2027-07-11",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-07-12",
+        "prezzo": 1125,
+        "prezzo_listino": 1132.91
+      },
+      {
+        "data": "2027-07-13",
+        "prezzo": 1125,
+        "prezzo_listino": 1140.51
+      },
+      {
+        "data": "2027-07-14",
+        "prezzo": 1175,
+        "prezzo_listino": 1175.95
+      },
+      {
+        "data": "2027-07-15",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-07-16",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-07-17",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-07-18",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-07-19",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-07-20",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-07-21",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-07-22",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-07-23",
+        "prezzo": 1255,
+        "prezzo_listino": 1272.15
+      },
+      {
+        "data": "2027-07-24",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-07-25",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-07-26",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-07-27",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-07-28",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-07-29",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      },
+      {
+        "data": "2027-07-30",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-07-31",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-08-01",
+        "prezzo": 1235,
+        "prezzo_listino": 1235.44
+      },
+      {
+        "data": "2027-08-02",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-08-03",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-08-04",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-08-05",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-08-06",
+        "prezzo": 1315,
+        "prezzo_listino": 1322.78
+      },
+      {
+        "data": "2027-08-07",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-08-08",
+        "prezzo": 1255,
+        "prezzo_listino": 1279.75
+      },
+      {
+        "data": "2027-08-10",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-08-11",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-08-12",
+        "prezzo": 1255,
+        "prezzo_listino": 1293.67
+      },
+      {
+        "data": "2027-08-14",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-08-15",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-08-16",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-08-17",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-08-18",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-08-19",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-08-20",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-08-21",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-08-22",
+        "prezzo": 1175,
+        "prezzo_listino": 1183.54
+      },
+      {
+        "data": "2027-08-23",
+        "prezzo": 1185,
+        "prezzo_listino": 1191.14
+      },
+      {
+        "data": "2027-08-24",
+        "prezzo": 1195,
+        "prezzo_listino": 1197.47
+      },
+      {
+        "data": "2027-08-25",
+        "prezzo": 1195,
+        "prezzo_listino": 1213.92
+      },
+      {
+        "data": "2027-08-26",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-08-27",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-08-28",
+        "prezzo": 1255,
+        "prezzo_listino": 1256.96
+      },
+      {
+        "data": "2027-08-29",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-08-30",
+        "prezzo": 1195,
+        "prezzo_listino": 1221.52
+      },
+      {
+        "data": "2027-08-31",
+        "prezzo": 1195,
+        "prezzo_listino": 1206.33
+      },
+      {
+        "data": "2027-09-01",
+        "prezzo": 1225,
+        "prezzo_listino": 1227.85
+      },
+      {
+        "data": "2027-09-02",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-09-03",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-09-17",
+        "prezzo": 1315,
+        "prezzo_listino": 1315.19
+      },
+      {
+        "data": "2027-09-18",
+        "prezzo": 1255,
+        "prezzo_listino": 1286.08
+      },
+      {
+        "data": "2027-09-19",
+        "prezzo": 1245,
+        "prezzo_listino": 1250.63
+      },
+      {
+        "data": "2027-09-20",
+        "prezzo": 1235,
+        "prezzo_listino": 1243.04
+      },
+      {
+        "data": "2027-09-21",
+        "prezzo": 1235,
+        "prezzo_listino": 1243.04
+      },
+      {
+        "data": "2027-09-22",
+        "prezzo": 1255,
+        "prezzo_listino": 1264.56
+      },
+      {
+        "data": "2027-09-23",
+        "prezzo": 1295,
+        "prezzo_listino": 1308.86
+      }
+    ]
+  }
+}

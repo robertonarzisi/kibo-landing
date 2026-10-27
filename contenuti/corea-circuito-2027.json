@@ -1,0 +1,137 @@
+{
+ "_stato": "BOZZA del 27/10/2026 — pronta_per_verifica; contenuto Oriente della newsletter del 12/11/2026, post social giovedì 12/11/2026. Testo in voce Kibo riscritto dal package Travel Compositor 46627479 «Circuito Coreano 3*» (il testo TC non si pubblica com'è; dati TC letti il 27/10/2026). In attesa dell'approvazione di Roberto. DA CHIARIRE COL FORNITORE PRIMA DI PUBBLICARE: il programma giorno per giorno TC è di 11 giorni / 10 notti (Seoul 3, Gyeongju 1, Busan 3, hanok a Jeonju 1, Seoul 2 = 9 notti in albergo + 1 in hanok) e la scheda TC conta 10 notti, mentre la voce «il prezzo comprende» dice «10 notti in albergo 3* + 1 notte in hanok» (= 11 notti): la landing segue il programma giorno per giorno; se il fornitore conferma 11 notti vanno rifatti durata, giorni, incluso e grafiche. La carta T-Money compresa è caricata con 30.000 won (dato del package): la cifra non è nel testo per la regola «nessun importo nel contenuto editoriale», da decidere se mostrarla. Foto hero: assets/hero/corea-circuito-2027.jpg, scelta e caricata dalla sessione principale (il render funziona anche senza).",
+ "slug": "corea-circuito-2027",
+ "area": "oriente",
+ "titolo": "Corea del Sud in treno: Seoul, Gyeongju, Busan e Jeonju",
+ "eyebrow": "Corea del Sud · viaggio individuale 2027 in treno, si parte ogni giorno",
+ "strillo": "Undici giorni tra Seoul, Gyeongju, Busan e Jeonju con i treni già prenotati: tre notti nella capitale, una a Gyeongju tra i tumuli dei re Silla, tre a Busan sul mare, una in hanok a Jeonju, le ultime due di nuovo a Seoul. Si parte qualsiasi giorno, anche in due; la quota dipende dalla data.",
+ "intro_titolo": "Il giro della Corea del Sud in treno, con l'ossatura del viaggio già pronta",
+ "intro": [
+  "Un viaggio individuale di 11 giorni e 10 notti che fa il giro della Corea del Sud in treno, da Seoul a Seoul: la capitale per tre notti, con i palazzi della dinastia Joseon, i vicoli di Bukchon e i mercati; Gyeongju per una notte, con il tempio di Bulguksa, la grotta di Seokguram e il parco dei tumuli dei re Silla; Busan per tre notti, tra le spiagge di Haeundae e Gwangalli, il villaggio di Gamcheon e il mercato del pesce di Jagalchi; Jeonju per una notte in hanok, la casa tradizionale coreana, nella città del bibimbap; e di nuovo Seoul per le ultime due notti, con Myeongdong, Gangnam e il fiume Cheonggyecheon. I treni tra una tappa e l'altra sono tutti compresi: Seoul–Gyeongju, Gyeongju–Busan, Busan–Jeonju e Jeonju–Seoul.",
+  "La formula è quella del viaggio individuale organizzato: alberghi 3 stelle con colazione già prenotati a Seoul, Gyeongju e Busan, la notte in hanok a Jeonju, i quattro treni, il trasferimento in bus limousine tra l'aeroporto di Incheon e il centro di Seoul all'arrivo e alla partenza, la carta T-Money con il primo credito già caricato per muoversi in città, il pocket wi-fi che si ritira in aeroporto e, durante il viaggio, un servizio clienti in inglese. Le giornate sono libere, con i nostri suggerimenti di visita per ogni città. Si parte qualsiasi giorno fino al 23 settembre 2027, anche in due, e la quota cambia con la data: più alta tra metà dicembre e Capodanno, più bassa a marzo e tra fine giugno e luglio. I voli dall'Italia non sono compresi: li quotiamo insieme al viaggio."
+ ],
+ "durata_label": "11 giorni / 10 notti in Corea del Sud",
+ "fatti_extra": [
+  {
+   "etichetta": "Formula",
+   "valore": "individuale, si parte anche in due"
+  },
+  {
+   "etichetta": "Notti",
+   "valore": "3 a Seoul, 1 a Gyeongju, 3 a Busan, 1 in hanok a Jeonju, 2 a Seoul"
+  },
+  {
+   "etichetta": "Treni",
+   "valore": "Seoul–Gyeongju, Gyeongju–Busan, Busan–Jeonju, Jeonju–Seoul"
+  }
+ ],
+ "giorni": [
+  {
+   "giorno": "1",
+   "titolo": "Arrivo a Seoul",
+   "testo": "Arrivo all'aeroporto di Incheon, dove si ritira il pocket wi-fi che resta con voi per tutto il viaggio, e trasferimento in centro con il bus limousine. Notte a Seoul."
+  },
+  {
+   "giorno": "2",
+   "titolo": "Seoul: i palazzi Joseon e Bukchon",
+   "testo": "Colazione in hotel e giornata libera; per muovervi in città avete la carta T-Money, compresa e già caricata. Il nostro suggerimento, per chi ama storia e tradizioni: i cinque grandi palazzi della dinastia Joseon (Gyeongbokgung, Changdeokgung, Changgyeonggung, Deoksugung e Gyeonghuigung), il santuario di Jongmyo e i vicoli tranquilli di Bukchon Hanok Village, dove le case tradizionali convivono con le botteghe degli artigiani. Notte a Seoul."
+  },
+  {
+   "giorno": "3",
+   "titolo": "Seoul: Insadong, la Torre N e i mercati",
+   "testo": "Colazione in hotel e seconda giornata libera. Si può cominciare da Insadong, il mercato tradizionale dell'artigianato coreano (ceramiche, abiti tradizionali, carta coreana), e dai caffè di Ikseon-dong ricavati in antichi hanok; poi la salita alla Torre N per la vista sulla città e un tratto della vecchia muraglia di Seoul. Per mangiare, i mercati di Gwangjang e Namdaemun: bibimbap, kimchi e tteokbokki. Notte a Seoul."
+  },
+  {
+   "giorno": "4",
+   "titolo": "Seoul – Gyeongju in treno",
+   "testo": "Colazione in hotel e treno per Gyeongju, compreso. Tempo libero: il tempio di Bulguksa e la grotta di Seokguram con il grande Buddha in meditazione, l'osservatorio di Cheomseongdae, tra i più antichi dell'Asia orientale, il Museo Nazionale con la storia della Corea fino ai re Silla e il parco dei tumuli di Daereungwon, con le tombe dei sovrani sotto le colline erbose; chi ha tempo arriva al lago Bomun, al monte Namsan o al villaggio storico di Yangdong, patrimonio UNESCO, con le case dai tetti di paglia. Notte a Gyeongju."
+  },
+  {
+   "giorno": "5",
+   "titolo": "Gyeongju – Busan in treno",
+   "testo": "Colazione in hotel e treno per Busan, compreso. Tempo libero sul mare: i panorami di Haeundae, la costa di Jeoryeong, le spiagge di Gwangalli e Haeundae e il parco di Taejongdae, un'oasi verde in mezzo alla città. Notte a Busan."
+  },
+  {
+   "giorno": "6",
+   "titolo": "Busan: Gamcheon, Beomeosa e Nampo-dong",
+   "testo": "Colazione in hotel e giornata libera. Il suggerimento è il villaggio di Gamcheon, con le case colorate sulla collina che gli hanno dato il soprannome di «Machu Picchu di Busan», poi il tempio Beomeosa sulle alture del monte Geumjeongsan e il quartiere vivace di Nampo-dong. Per capire la guerra di Corea, di cui la città porta le tracce: il cimitero delle Nazioni Unite e il museo della guerra. Notte a Busan."
+  },
+  {
+   "giorno": "7",
+   "titolo": "Busan: il mercato di Jagalchi e l'arte",
+   "testo": "Colazione in hotel e giornata libera. Per i sapori, il mercato del pesce di Jagalchi e i piatti della città: i milmyeon, noodles freddi in brodo piccante, i gwamegi, pesce essiccato, e gli hotteok, frittelle dolci con miele e sesamo. Per chi ama l'arte, musei, gallerie di arte contemporanea e installazioni urbane; durante l'anno la città ospita festival come il Busan International Film Festival e la Biennale. Notte a Busan."
+  },
+  {
+   "giorno": "8",
+   "titolo": "Busan – Jeonju, notte in hanok",
+   "testo": "Colazione in hotel e treno per Jeonju, compreso. Tempo libero in una delle culle della cucina coreana: qui si assaggia il bibimbap. Da vedere il quartiere delle case tradizionali, il villaggio murale di Jaman con i dipinti lungo i vicoli, la scuola confuciana fondata sotto la dinastia Joseon e il santuario di Gyeonggijeon, che custodisce l'unico ritratto del fondatore della dinastia conservato in Corea del Sud; per chi segue le serie coreane, i luoghi delle riprese di Twenty-Five Twenty-One. Notte in hanok, la casa tradizionale coreana, con il letto in stile futon."
+  },
+  {
+   "giorno": "9",
+   "titolo": "Jeonju – Seoul in treno",
+   "testo": "Treno per Seoul, compreso (nell'hanok i pasti non sono compresi). Tempo libero: Myeongdong per i cosmetici coreani, le strade eleganti di Gangnam, il centro commerciale Starfield COEX e il mercato dell'elettronica di Yongsan. Notte a Seoul."
+  },
+  {
+   "giorno": "10",
+   "titolo": "Seoul: Seongsu, Cheonggyecheon e Dongdaemun",
+   "testo": "Colazione in hotel e giornata libera, per una Seoul meno ovvia: il quartiere di Seongsu, ex zona industriale oggi piena di caffè e negozi, la passeggiata lungo il fiume Cheonggyecheon, l'architettura del Dongdaemun Design Plaza, il parco divertimenti Lotte World e la Lotte Tower, la torre più alta della città. Notte a Seoul."
+  },
+  {
+   "giorno": "11",
+   "titolo": "Seoul – Italia",
+   "testo": "Colazione in hotel e trasferimento in bus limousine all'aeroporto di Incheon per il volo di rientro. Termine dei servizi."
+  }
+ ],
+ "incluso": [
+  "10 pernottamenti in camera doppia: alberghi 3 stelle (classificazione locale) con prima colazione a Seoul (3 notti più le ultime 2), Gyeongju (1) e Busan (3), e la notte in hanok a Jeonju",
+  "La notte in hanok a Jeonju, la casa tradizionale coreana, con letto in stile futon; pasti esclusi",
+  "Treni Seoul–Gyeongju, Gyeongju–Busan, Busan–Jeonju e Jeonju–Seoul",
+  "Trasferimenti tra l'aeroporto di Incheon (ICN) e il centro di Seoul in bus limousine, all'arrivo e alla partenza",
+  "Carta T-Money per metropolitana e autobus, con il primo credito già caricato",
+  "Pocket wi-fi illimitato per tutto il viaggio (uno per pratica), da ritirare in aeroporto all'arrivo",
+  "Servizio clienti in inglese durante il viaggio"
+ ],
+ "non_incluso": [
+  "Voli internazionali Italia–Seoul–Italia, con le tasse aeroportuali: li quotiamo insieme al viaggio",
+  "Autorizzazione elettronica K-ETA, obbligatoria dal 2026: si richiede online prima della partenza, con costo a parte",
+  "Pranzi e cene, e i pasti nella notte in hanok; bevande",
+  "Visite, ingressi ed escursioni: le giornate sono libere e i luoghi indicati nel programma sono suggerimenti",
+  "Trasferimenti tra gli hotel e le stazioni",
+  "Trasferimenti da e per l'aeroporto di Gimpo (GMP), se il volo atterra o parte da lì",
+  "Ricariche della carta T-Money durante il viaggio",
+  "Tasse di soggiorno, da pagare in loco",
+  "Mance e spese personali",
+  "Assicurazione medico, bagaglio e annullamento, facoltativa",
+  "Tutto ciò che non è indicato tra i servizi compresi"
+ ],
+ "sistemazione_titolo": "Gli alberghi e l'hanok",
+ "sistemazione": [
+  "Alberghi 3 stelle (classificazione locale): a Seoul il Venue G, a Gyeongju il GG Tourist Hotel o il Commodore Hotel, a Busan il GNB Hotel; a Jeonju l'hanok Gaeunchae. Strutture indicate o equivalenti.",
+  "Camere doppie con colazione; la disposizione dei letti, matrimoniale o due letti singoli, non si può garantire. Nell'hanok si dorme sul letto in stile futon e i pasti non sono compresi. Per la camera singola chiedeteci la quota."
+ ],
+ "voli_testo": "Il viaggio comprende i treni e i trasferimenti tra l'aeroporto di Incheon e il centro di Seoul, ma non i voli dall'Italia: li quotiamo insieme al viaggio per la data che scegliete, con arrivo a Seoul-Incheon il giorno 1 e rientro dallo stesso aeroporto il giorno 11.",
+ "documenti_testo": "Passaporto valido e autorizzazione elettronica K-ETA, da richiedere online prima della partenza (il costo non è compreso). Le condizioni di ingresso le verifichiamo alla prenotazione e ve le confermiamo per iscritto.",
+ "condizioni_extra": [
+  {
+   "titolo": "Date e quote",
+   "testo": "Si parte qualsiasi giorno fino al 23 settembre 2027, su base due persone. La quota è a persona in camera doppia e dipende dalla data di partenza: il listino mostra, per ogni mese, la quota più bassa. Le partenze più care sono quelle tra metà dicembre e Capodanno; costano di più anche alcune date di fine gennaio, di metà febbraio e dei primi giorni di aprile. Le quote più basse sono nella prima metà di marzo, poi a fine febbraio, a fine giugno e nella prima metà di luglio. Per alcune date (il 18, il 22 e dal 24 al 29 dicembre 2026; dal 29 gennaio al 7 febbraio, il 22 e il 26 febbraio, dal 20 al 30 aprile, il 2, il 10 e il 30 maggio, il 3 giugno, il 9 e il 13 agosto e dal 4 al 16 settembre 2027) la quota si calcola su richiesta. La quota della vostra data la confermiamo per iscritto insieme ai voli, prima di qualsiasi impegno."
+  },
+  {
+   "titolo": "Le giornate libere",
+   "testo": "Il programma non prevede visite organizzate: le giornate sono a disposizione e i luoghi indicati giorno per giorno sono i nostri suggerimenti, da raggiungere per conto proprio. I treni tra una città e l'altra sono compresi; gli spostamenti tra gli hotel e le stazioni si fanno per conto proprio, e in città c'è la carta T-Money."
+  },
+  {
+   "titolo": "Aeroporti e trasferimenti",
+   "testo": "I trasferimenti compresi collegano l'aeroporto di Incheon (ICN) e il centro di Seoul in bus limousine, all'arrivo e alla partenza. Se il volo atterra o parte dall'aeroporto di Gimpo (GMP), il trasferimento non è compreso."
+  },
+  {
+   "titolo": "T-Money e wi-fi",
+   "testo": "La carta T-Money, compresa, vale su metropolitana e autobus ed è consegnata con un primo credito già caricato; le ricariche successive sono a vostro carico. Il pocket wi-fi, uno per pratica, si ritira all'aeroporto di Incheon all'arrivo e vale per tutto il viaggio."
+  },
+  {
+   "titolo": "Da pagare sul posto",
+   "testo": "Le tasse di soggiorno degli alberghi si pagano in loco."
+  }
+ ],
+ "meta_description": "Corea del Sud in treno con Kibo: 11 giorni e 10 notti tra Seoul, Gyeongju, Busan e Jeonju, con i treni compresi e una notte in hanok. Viaggio individuale a date libere fino a settembre 2027, si parte anche in due, voli esclusi."
+}

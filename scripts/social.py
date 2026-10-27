@@ -306,6 +306,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "corea-circuito-2027": {
+        "kicker": "VIAGGIO INDIVIDUALE IN TRENO",
+        "title": ["La Corea del Sud", "in treno"],
+        "info1": "Seoul, Gyeongju, Busan e Jeonju",
+        "info2": "Si parte anche in due · da 1.085 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "ribbon": "SI PARTE OGNI GIORNO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
