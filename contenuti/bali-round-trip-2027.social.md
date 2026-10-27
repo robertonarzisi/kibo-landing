@@ -29,7 +29,7 @@ un villaggio balinese con il pranzo in una casa tradizionale e la foresta delle 
 Sangeh, da Ubud.
 
 Tour a date fisse: trenta partenze di martedì e di sabato dal 27 aprile al 12 ottobre 2027,
-anche in due. Veicoli privati con aria condizionata, guida locale nelle escursioni, colazioni e
+anche in due. Veicoli privati con aria condizionata, guida locale parlante italiano nelle escursioni, colazioni e
 quattro pranzi compresi, hotel di categoria Superior.
 
 6 giorni / 5 notti · da 655 € a persona in doppia, la quota dipende dalla data di partenza;
@@ -40,7 +40,7 @@ Programma completo e quote per mese al link in bio.
 
 ## Post Facebook (con grafica post)
 
-**Bali Round Trip: il giro dell'isola in sei giorni — tour a date fisse, trenta partenze di martedì e sabato dal 27 aprile al 12 ottobre 2027**
+**Bali Round Trip: il giro dell'isola in sei giorni — tour a date fisse con guida in italiano, trenta partenze di martedì e sabato dal 27 aprile al 12 ottobre 2027**
 
 Il giro di Bali in sei giorni e cinque notti, da Seminyak a Ubud passando per il nord e l'est
 dell'isola. Il giorno 2 si parte alle 8 per il tempio di Tanah Lot nell'ora con meno turisti,
@@ -55,7 +55,7 @@ giorno il trasferimento all'aeroporto, oppure a Sanur, Nusa Dua, Kuta, Uluwatu o
 chi vuole fermarsi qualche giorno al mare.
 
 Tour a date fisse, su base due persone: veicoli privati con aria condizionata, guida locale
-nelle escursioni, tutti gli ingressi del programma, trasferimenti da e per l'aeroporto, cinque
+parlante italiano nelle escursioni, tutti gli ingressi del programma, trasferimenti da e per l'aeroporto, cinque
 colazioni e quattro pranzi in ristoranti locali con cucina indonesiana, cinque notti in hotel di
 categoria Superior. Trenta partenze di martedì e di sabato dal 27 aprile al 12 ottobre 2027.
 
@@ -74,7 +74,7 @@ Per la quota con i voli dalla vostra città scriveteci a booking@kibotours.com.
   695 il 31/08. Nei social sempre e solo «da 655 €» con «la quota dipende dalla data di
   partenza»: mai le quote alte in un post. Se cambia il calendario TC, rigenerare grafica e
   testi.
-- **LINGUA DELLA GUIDA: BLOCCO DA SCIOGLIERE PRIMA DELLA PUBBLICAZIONE.** La modalità venduta
+- **LINGUA DELLA GUIDA: decisione di Roberto del 27/10: si scrive «guida parlante italiano»** (il package lo dice in uno dei due blocchi della modalità Superior; conferma scritta del fornitore ancora da chiedere). Nota storica del blocco: La modalità venduta
   è la Superior. Nel testo italiano del package la stessa modalità è descritta due volte: «Escursioni
   con guida locale parlante italiano» (blocco «Categorie Superiore, Deluxe») e «Escursioni con
   guida locale parlante inglese o italiano» (blocco «Categorie Superior, Deluxe»); nella versione

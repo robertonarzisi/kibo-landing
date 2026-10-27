@@ -241,7 +241,7 @@ VIAGGI = {
         "cta": "",
     },
     "bali-round-trip-2027": {
-        "kicker": "TOUR 2027 · PARTENZE FISSE",
+        "kicker": "TOUR 2027 · GUIDA IN ITALIANO",
         "title": ["Bali", "Round Trip"],
         "info1": "Tanah Lot, Lovina, Besakih, Candidasa e Ubud",
         "info2": "Martedì e sabato · da 655 € a persona",
