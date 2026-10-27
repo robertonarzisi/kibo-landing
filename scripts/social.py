@@ -273,6 +273,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "malesia-singapore-penang-2027": {
+        "kicker": "TOUR A DATE FISSE · GUIDA IN ITALIANO",
+        "title": ["Da Singapore", "a Penang"],
+        "info1": "Via Malacca, Kuala Lumpur e Cameron Highlands",
+        "info2": "Partenze di domenica · 1.675 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "ribbon": "MALESIA",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
