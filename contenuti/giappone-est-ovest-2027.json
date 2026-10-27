@@ -1,0 +1,134 @@
+{
+ "_stato": "BOZZA del 27/10/2026 — piano social n. 28 (anticipato dal 29/10 al 27/10 al posto delle Filippine, scartate perché con guide in inglese), newsletter del 27/10/2026. Testo in voce Kibo riscritto dal package Travel Compositor 46627509 «Il Giappone da Est a Ovest: circuito individuale 3*» (il testo TC non si pubblica com'è; dati TC del 07/10/2026). In attesa dell'approvazione di Roberto. Foto hero: il sentiero dei torii del Fushimi Inari a Kyoto, foto Wikimedia Commons «20181110 Fushimi Inari Torii 13», licenza CC0.jpg; il render funziona anche senza).",
+ "slug": "giappone-est-ovest-2027",
+ "area": "oriente",
+ "titolo": "Il Giappone da Est a Ovest",
+ "eyebrow": "Giappone · viaggio individuale 2027 in treno, si parte ogni giorno",
+ "strillo": "Undici giorni da Tokyo a Osaka passando per Hakone, Kyoto e Hiroshima, con i treni e i pass già prenotati: tre notti nella capitale, una in ryokan a Hakone con la cena, tre a Kyoto, due a Hiroshima a un traghetto da Miyajima, l'ultima a Osaka. Si parte qualsiasi giorno, anche in due; la quota dipende dalla data.",
+ "intro_titolo": "Da Tokyo a Osaka in treno, con l'ossatura del viaggio già pronta",
+ "intro": [
+  "Un viaggio individuale di 11 giorni e 10 notti che attraversa il Giappone da est a ovest, lungo la linea che unisce le città per cui ci si va: Tokyo per tre notti; Hakone con una notte in ryokan, tra il lago Ashi e la valle vulcanica di Owakudani; Kyoto per tre notti, con Arashiyama, Fushimi Inari e Gion; Hiroshima per due, con il Parco del Memoriale della Pace e l'isola di Miyajima; e una notte a Osaka, da cui si riparte. Gli spostamenti tra una tappa e l'altra sono tutti in treno e sono compresi: l'Hakone Free Pass da Tokyo, lo Shinkansen da Odawara a Kyoto, il Kansai Hiroshima Area Pass che porta a Hiroshima, a Osaka e, l'ultimo giorno, all'aeroporto del Kansai.",
+  "La formula è quella del viaggio individuale organizzato: alberghi 3 stelle con colazione già prenotati in ogni tappa, treni e pass compresi, il trasferimento dall'aeroporto di Tokyo con la navetta condivisa, il pocket wi-fi che vi aspetta alla reception il primo giorno e, durante il viaggio, un servizio clienti in inglese. Le giornate sono libere, con i nostri suggerimenti di visita per ogni città. Si parte qualsiasi giorno fino al 20 settembre 2027, anche in due, e la quota cambia con la data: più alta nelle settimane dei ciliegi in fiore, più bassa d'inverno e all'inizio dell'estate. I voli dall'Italia non sono compresi: li quotiamo insieme al viaggio."
+ ],
+ "durata_label": "11 giorni / 10 notti in Giappone",
+ "fatti_extra": [
+  {
+   "etichetta": "Formula",
+   "valore": "individuale, si parte anche in due"
+  },
+  {
+   "etichetta": "Notti",
+   "valore": "3 a Tokyo, 1 in ryokan a Hakone, 3 a Kyoto, 2 a Hiroshima, 1 a Osaka"
+  },
+  {
+   "etichetta": "Treni e pass",
+   "valore": "Hakone Free Pass, Shinkansen Odawara–Kyoto, Kansai Hiroshima Area Pass"
+  }
+ ],
+ "giorni": [
+  {
+   "giorno": "1",
+   "titolo": "Arrivo a Tokyo",
+   "testo": "Arrivo all'aeroporto di Tokyo e trasferimento in hotel con la navetta condivisa. Alla reception vi aspetta il pocket wi-fi: si ritira il primo giorno e resta con voi fino alla fine del viaggio. Notte a Tokyo."
+  },
+  {
+   "giorno": "2",
+   "titolo": "Tokyo: Asakusa e la vecchia Tokyo",
+   "testo": "Colazione in hotel e giornata libera. Il nostro suggerimento: Asakusa, il quartiere tradizionale con il grande tempio Senso-ji e il parco lungo il fiume Sumida, poi una passeggiata a Yanaka, che i giapponesi chiamano «la vecchia Tokyo». Notte a Tokyo."
+  },
+  {
+   "giorno": "3",
+   "titolo": "Tokyo: Meiji-jingu, Harajuku e Shibuya",
+   "testo": "Colazione in hotel e seconda giornata libera. Si può cominciare dal santuario Meiji-jingu e proseguire a piedi verso Harajuku e il viale di Omotesando, per finire nel quartiere di Shibuya. Notte a Tokyo."
+  },
+  {
+   "giorno": "4",
+   "titolo": "Tokyo – Hakone, notte in ryokan",
+   "testo": "Colazione in hotel e partenza per Hakone con l'Hakone Free Pass, compreso. Tempo libero: il santuario Hakone-jinja, la traversata del lago Ashi in barca, la funivia che sale alla valle vulcanica di Owakudani e alle sue fumarole. Cena e notte in ryokan, l'albergo tradizionale giapponese, in camera di tipo occidentale o giapponese con il futon."
+  },
+  {
+   "giorno": "5",
+   "titolo": "Hakone – Kyoto in Shinkansen",
+   "testo": "Colazione e partenza per Kyoto: da Odawara si sale sullo Shinkansen. Tempo libero, e il nostro consiglio è Arashiyama: la foresta di bambù di Sagano, il parco delle scimmie di Iwatayama, il tempio Tenryu-ji e, più a nord, i vicoli tradizionali fino al piccolo tempio Gio-ji. Notte a Kyoto."
+  },
+  {
+   "giorno": "6",
+   "titolo": "Kyoto: Fushimi Inari e Uji",
+   "testo": "Colazione in hotel e giornata libera. Il suggerimento è il santuario shintoista di Fushimi Inari, con le migliaia di torii rossi che salgono nel bosco; verso sud, Uji, la città del tè, con il tempio Byodo-in. Notte a Kyoto."
+  },
+  {
+   "giorno": "7",
+   "titolo": "Kyoto: Gion, Kodai-ji e Kiyomizu-dera",
+   "testo": "Colazione in hotel e giornata libera; oggi si attiva il Kansai Hiroshima Area Pass, che da domani vi porta a Hiroshima, a Osaka e all'aeroporto. Da vedere il quartiere di Gion, dove con un po' di fortuna si incrocia una geisha, la pagoda del tempio Hokan-ji, il Kodai-ji e il Kiyomizu-dera. Notte a Kyoto."
+  },
+  {
+   "giorno": "8",
+   "titolo": "Kyoto – Hiroshima",
+   "testo": "Colazione in hotel e treno per Hiroshima con il Kansai Hiroshima Area Pass. Giornata libera: il Parco del Memoriale della Pace e il suo museo, una visita che tocca e che aiuta a capire la storia del paese. Notte a Hiroshima."
+  },
+  {
+   "giorno": "9",
+   "titolo": "Hiroshima: l'isola di Miyajima",
+   "testo": "Colazione in hotel e giornata libera. Il suggerimento è l'isola sacra di Miyajima: cervi in libertà, templi tranquilli, sentieri nel bosco e il grande torii «galleggiante» del santuario di Itsukushima, uno dei luoghi più emblematici del Giappone. La tassa di visita all'isola si paga allo sportello del traghetto. Notte a Hiroshima."
+  },
+  {
+   "giorno": "10",
+   "titolo": "Hiroshima – Osaka",
+   "testo": "Colazione in hotel e treno per Osaka con il pass. Giornata libera: i quartieri di Umeda, Namba e Shinsaibashi per lo shopping, oppure la gita a Minoh e al tempio Katsuo-ji, con le sue migliaia di daruma. Notte a Osaka."
+  },
+  {
+   "giorno": "11",
+   "titolo": "Osaka – Italia",
+   "testo": "Colazione in hotel. Con il Kansai Hiroshima Area Pass si raggiunge in treno l'aeroporto del Kansai per il volo di rientro. Termine dei servizi."
+  }
+ ],
+ "incluso": [
+  "10 pernottamenti in camera doppia con prima colazione: alberghi 3 stelle a Tokyo (3 notti), Kyoto (3), Hiroshima (2) e Osaka (1) e la notte in ryokan a Hakone",
+  "A Hakone la notte in ryokan è in mezza pensione (cena e colazione, bevande escluse), in camera di tipo occidentale o tradizionale giapponese con il futon",
+  "Hakone Free Pass per raggiungere Hakone da Tokyo",
+  "Treno Shinkansen da Odawara (Hakone) a Kyoto",
+  "Kansai Hiroshima Area Pass: Kyoto–Hiroshima, Hiroshima–Osaka e, l'ultimo giorno, il treno dal centro di Osaka all'aeroporto del Kansai",
+  "Trasferimento dall'aeroporto di Tokyo all'hotel con navetta condivisa",
+  "Pocket wi-fi illimitato per tutto il viaggio (uno per pratica)",
+  "Servizio clienti in inglese durante il viaggio"
+ ],
+ "non_incluso": [
+  "Voli internazionali Italia–Tokyo e Osaka–Italia, con le tasse aeroportuali: li quotiamo insieme al viaggio",
+  "Pranzi e cene, tranne la cena in ryokan a Hakone; bevande",
+  "Visite, ingressi ed escursioni: le giornate sono libere e i luoghi indicati nel programma sono suggerimenti",
+  "Trasferimenti tra gli hotel e le stazioni",
+  "Spedizione del bagaglio da Tokyo a Kyoto, disponibile su richiesta",
+  "Trasferimento dal centro di Osaka agli aeroporti di Itami o Kobe, se il volo di rientro parte da lì",
+  "Tasse di soggiorno, da pagare in loco",
+  "Tassa di visita a Miyajima, da pagare in loco allo sportello del traghetto",
+  "Mance e spese personali",
+  "Assicurazione medico, bagaglio e annullamento, facoltativa",
+  "Tutto ciò che non è indicato tra i servizi compresi"
+ ],
+ "sistemazione_titolo": "Gli alberghi e il ryokan",
+ "sistemazione": [
+  "Alberghi 3 stelle: a Tokyo il Comfort Hotel Tokyo Higashi Nihonbashi, a Kyoto Il Verde Kyoto, a Hiroshima il Daiwa Roynet Hiroshima, a Osaka il WBF Namba Motomachi; a Hakone il ryokan Ichinoyu Honkan. Strutture indicate o equivalenti.",
+  "Camere doppie con colazione; la disposizione dei letti, matrimoniale o due letti singoli, non si può garantire. In ryokan la camera può essere di tipo occidentale o tradizionale giapponese con il futon, e la cena è compresa (bevande escluse). Per la camera singola chiedeteci la quota."
+ ],
+ "voli_testo": "Il viaggio comprende i treni, i pass e il trasferimento dall'aeroporto di Tokyo, ma non i voli dall'Italia: li quotiamo insieme al viaggio per la data che scegliete, con arrivo a Tokyo il giorno 1 e rientro dall'aeroporto del Kansai, a Osaka, il giorno 11.",
+ "documenti_testo": "Passaporto valido per tutta la durata del soggiorno; i cittadini italiani entrano oggi in Giappone senza visto per soggiorni turistici fino a 90 giorni. Le condizioni di ingresso le verifichiamo alla prenotazione e ve le confermiamo per iscritto.",
+ "condizioni_extra": [
+  {
+   "titolo": "Date e quote",
+   "testo": "Si parte qualsiasi giorno fino al 20 settembre 2027, su base due persone. La quota è a persona in camera doppia e dipende dalla data di partenza: il listino mostra, per ogni mese, la quota più bassa. Le partenze più care sono quelle della fioritura dei ciliegi, dalla seconda metà di marzo ai primi di aprile 2027, e aprile resta il mese più caro dell'anno; costano di più anche la metà di novembre, con i colori dell'autunno, la settimana di Natale e la prima di agosto. Le quote più basse sono in gennaio e febbraio, da fine maggio a fine giugno e nell'ultima settimana di agosto. Per alcune date (dal 29 al 31 dicembre 2026, dal 23 al 25 aprile, dal 15 al 18 luglio e dal 28 luglio al 2 agosto 2027) la quota si calcola su richiesta. La quota della vostra data la confermiamo per iscritto insieme ai voli, prima di qualsiasi impegno."
+  },
+  {
+   "titolo": "Le giornate libere",
+   "testo": "Il programma non prevede visite organizzate: le giornate sono a disposizione e i luoghi indicati giorno per giorno sono i nostri suggerimenti, da raggiungere per conto proprio. Treni e pass tra una città e l'altra sono compresi; gli spostamenti tra gli hotel e le stazioni si fanno per conto proprio."
+  },
+  {
+   "titolo": "Bagaglio e wi-fi",
+   "testo": "La spedizione del bagaglio da Tokyo a Kyoto non è compresa: si può aggiungere su richiesta, con quota a parte. Il pocket wi-fi, uno per pratica, si ritira alla reception dell'hotel di Tokyo il giorno di arrivo e vale per tutto il viaggio."
+  },
+  {
+   "titolo": "Da pagare sul posto",
+   "testo": "Le tasse di soggiorno degli alberghi e la tassa di visita all'isola di Miyajima si pagano in loco, la seconda allo sportello del traghetto."
+  }
+ ],
+ "meta_description": "Il Giappone da Est a Ovest con Kibo: 11 giorni e 10 notti da Tokyo a Osaka passando per Hakone, Kyoto e Hiroshima, in treno con i pass compresi e una notte in ryokan. Viaggio individuale a date libere fino a settembre 2027, si parte anche in due, voli esclusi."
+}

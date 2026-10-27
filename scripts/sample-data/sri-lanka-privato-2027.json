@@ -1,0 +1,102 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 17179402 «Tour privato in Sri Lanka di 7 giorni / 6 notti in italiano» (tour privato a date libere, base 2 adulti in doppia, hotel di categoria Standard, autista-guida parlante italiano per tutto il tour, pensione completa dalla cena del giorno 1 alla colazione del giorno 7). Il calendario TC letto il 20/10/2026 ha 164 date, una per ogni giorno dal 18/11/2026 al 30/04/2027, con il prezzo di vendita pubblico a persona su tre livelli: è già il prezzo di vendita, NON si ricarica, e si porta solo a soglia psicologica con prezzi.py di kibo-catalogo (923,69 → 915; 1.047,16 → 1.045; 1.126,19 → 1.125; i tre livelli distano più del 4% tra loro e l'armonizzazione non li fonde). Le fasce per periodo sono in fasce_quota. Quote per mese = minimo del mese (come nella landing Vietnam da sud al centro): dicembre 2026 e gennaio 2027 mostrano 915, ma le partenze dal 21 al 31/12/2026 e dal 1 al 15/01/2027 costano di più e si confermano a parte. Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi; supplemento singola non presente nel package: su richiesta.",
+ "oggi": "2026-10-27",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Sri%20Lanka%20tour%20privato%202027",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "LKA-2027-PRV7",
+  "nome_commerciale": "Sri Lanka, tour privato in italiano",
+  "destinazione": "Habarana, Sigiriya, Polonnaruwa, Dambulla, Matale, Kandy, Pinnawala, Nuwara Eliya, Kitulgala, Colombo",
+  "notti": 6,
+  "partenze": [],
+  "partenze_note": "ogni giorno dal 18 novembre 2026 al 30 aprile 2027, anche in due",
+  "supplemento_singola": null,
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 17179402,
+   "aggiornato": "2026-10-20"
+  },
+  "quota_da": 915,
+  "date_testo": "date libere, 18 nov 2026 – 30 apr 2027",
+  "landing_status": "pronta_per_verifica",
+  "tc_package_id": 17179402,
+  "quote_per_mese": [
+   {
+    "mese": "novembre 2026",
+    "prezzo": 915
+   },
+   {
+    "mese": "dicembre 2026",
+    "prezzo": 915
+   },
+   {
+    "mese": "gennaio 2027",
+    "prezzo": 915
+   },
+   {
+    "mese": "febbraio 2027",
+    "prezzo": 1045
+   },
+   {
+    "mese": "marzo 2027",
+    "prezzo": 1045
+   },
+   {
+    "mese": "aprile 2027",
+    "prezzo": 915
+   }
+  ],
+  "fasce_quota": [
+   {
+    "dal": "2026-11-18",
+    "al": "2026-12-20",
+    "prezzo": 915,
+    "prezzo_listino": 923.69
+   },
+   {
+    "dal": "2026-12-21",
+    "al": "2026-12-24",
+    "prezzo": 1125,
+    "prezzo_listino": 1126.19
+   },
+   {
+    "dal": "2026-12-25",
+    "al": "2026-12-27",
+    "prezzo": 1045,
+    "prezzo_listino": 1047.16
+   },
+   {
+    "dal": "2026-12-28",
+    "al": "2026-12-31",
+    "prezzo": 1125,
+    "prezzo_listino": 1126.19
+   },
+   {
+    "dal": "2027-01-01",
+    "al": "2027-01-15",
+    "prezzo": 1045,
+    "prezzo_listino": 1047.16
+   },
+   {
+    "dal": "2027-01-16",
+    "al": "2027-01-31",
+    "prezzo": 915,
+    "prezzo_listino": 923.69
+   },
+   {
+    "dal": "2027-02-01",
+    "al": "2027-03-31",
+    "prezzo": 1045,
+    "prezzo_listino": 1047.16
+   },
+   {
+    "dal": "2027-04-01",
+    "al": "2027-04-30",
+    "prezzo": 915,
+    "prezzo_listino": 923.69
+   }
+  ]
+ }
+}

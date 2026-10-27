@@ -1,0 +1,40 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 46627509 «Il Giappone da Est a Ovest: circuito individuale 3*» (viaggio individuale a date libere, base 2 adulti in doppia, alberghi 3 stelle più una notte in ryokan). Il calendario TC letto il 07/10/2026 ha 312 date giornaliere dal 28/10/2026 al 20/09/2027 con il prezzo di vendita pubblico a persona (da 1.416,46 a 2.236,71): è già il prezzo di vendita, NON si ricarica. Quote per mese = minimo del mese portato a soglia psicologica con prezzi.py di kibo-catalogo (giù ai 5 €, mai multiplo di 10), come nella landing Vietnam da sud al centro; quota_da = 1.415 (febbraio e giugno 2027). Ottobre 2026 (28–31/10, minimo 1.795) non è nel listino: le date precedono l'uscita dei post del 27/10. La quota varia molto dentro lo stesso mese (marzo 1.535 → 2.235 e aprile 1.715 → 2.175 per la fioritura dei ciliegi, picco 22/03–04/04; novembre 2026 fino a 1.955 a metà mese; settimana di Natale fino a 1.995; prima settimana di agosto 2027 fino a 1.865; la Golden Week non fa picco): il listino mostra il minimo del mese, la quota per la data si conferma a parte. Sedici date del periodo non hanno prezzo nel calendario TC (29–31/12/2026; 23–25/04, 15–18/07, 28/07–02/08/2027): quotare su richiesta. Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi.",
+ "oggi": "2026-10-27",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Giappone%20da%20Est%20a%20Ovest%202027",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "JPN-2027-EO11",
+  "nome_commerciale": "Il Giappone da Est a Ovest",
+  "destinazione": "Tokyo, Hakone, Kyoto, Hiroshima, Osaka",
+  "notti": 10,
+  "partenze": [],
+  "partenze_note": "tutti i giorni fino al 20 settembre 2027, anche in due",
+  "supplemento_singola": null,
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 46627509,
+   "external_reference": null,
+   "aggiornato": "2026-10-07"
+  },
+  "quota_da": 1415,
+  "date_testo": "date libere, nov 2026 – set 2027",
+  "landing_status": "pronta_per_verifica",
+  "tc_package_id": 46627509,
+  "quote_per_mese": [
+   {"mese": "novembre 2026", "prezzo": 1645},
+   {"mese": "dicembre 2026", "prezzo": 1545},
+   {"mese": "gennaio 2027", "prezzo": 1435},
+   {"mese": "febbraio 2027", "prezzo": 1415},
+   {"mese": "marzo 2027", "prezzo": 1535},
+   {"mese": "aprile 2027", "prezzo": 1715},
+   {"mese": "maggio 2027", "prezzo": 1445},
+   {"mese": "giugno 2027", "prezzo": 1415},
+   {"mese": "luglio 2027", "prezzo": 1475},
+   {"mese": "agosto 2027", "prezzo": 1435},
+   {"mese": "settembre 2027", "prezzo": 1495}
+  ]
+ }
+}
