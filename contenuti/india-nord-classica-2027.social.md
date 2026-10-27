@@ -5,7 +5,7 @@
 > `assets/hero/india-nord-classica-2027.jpg`) dopo l'inserimento della voce `india-nord-classica-2027`
 > nel dizionario `VIAGGI`.
 > **Nessuna pubblicazione senza approvazione di Roberto** (tabella `Contenuti Social`,
-> record IND-2027-CNI10-IG-01 e IND-2027-CNI10-FB-01, data prevista giovedì 29/10/2026, orario da
+> record IND-2027-CNI10-IG-01 e IND-2027-CNI10-FB-01, data prevista martedì 10/11/2026 alle 11:00 (riprogrammata il 27/10: primo contenuto, Oriente, della newsletter del 10/11/2026; in origine giovedì 29/10/2026, orario da
 > allineare all'uscita della newsletter del 29/10, di cui sarebbe il primo contenuto; è la
 > riserva di Bali Round Trip, che esce solo se il fornitore conferma la guida in italiano).
 > Landing: https://go.kibotours.com/viaggi/india-nord-classica-2027/

@@ -317,6 +317,7 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "namibia-fly-drive-2027": {"kicker": "NAMIBIA · FLY & DRIVE 2027", "title": ["La Namibia", "al volante"], "info1": "Kalahari, Sossusvlei, Swakopmund ed Etosha", "info2": "12 giorni, auto compresa · da 3.385 € a persona", "focus_x": 0.5, "focus_y": 0.5, "ribbon": "SI PARTE OGNI GIORNO", "ribbon_style": "evidenza", "cta": ""},
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],

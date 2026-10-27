@@ -1,0 +1,1484 @@
+{
+  "_nota": "Dati parametrici del fly & drive Namibia 2027 (12 giorni / 11 notti: Gocheganas 1, Kalahari 1, Sossusvlei 2, Swakopmund 2, Twyfelfontein 2, Etosha 2, Windhoek 1) costruito il 27/10/2026 dal programma 2026 del corrispondente di Windhoek, che sta nel repo privato kibo-catalogo (lavoro/dropbox-namibia, Dropbox corrispondenti): il nome del corrispondente e i suoi costi restano FUORI da questo repo. Il tariffario del programma vale 15/01–31/10/2026 (bassa 15/01–30/06, alta 01/07–31/10) e non esiste ancora un tariffario 2027: per decisione di Roberto (27/10/2026) le quote 2027 sono una STIMA = costi 2026 +10 % (listino scaduto più peso del cambio), poi regola corrispondenti (markup 25 %, cambio BCE del giorno, soglia psicologica), con le stesse stagioni spostate di un anno. Nella quota, sempre per scelta di Roberto, c'è l'auto a noleggio Toyota Corolla Cross 2x4 o similare per 11 giorni (tariffa giornaliera del noleggiatore partner, zero excess super cover, bassa/alta come il programma) divisa per due persone. Quota a persona in doppia: 3.385 € bassa stagione (290 date giornaliere, 15/01–31/10/2027: 167 in bassa, 123 in alta), 3.665 € alta; supplemento singola = supplemento camera singola del programma più la metà dell'auto non condivisa: 1.455 € bassa, 1.645 € alta (in sample-data il valore di bassa con la nota). Il dollaro namibiano non è quotato dalla BCE: è agganciato alla pari al rand sudafricano, quindi il cambio è quello BCE del rand (18,6046 del 27/10/2026). Quote indicative fino alla riconferma della programmazione 2027 (condizione in pagina). Con più di 12 date render.py mostra la quota minima per mese e il conteggio delle date. Voli dall'Italia esclusi. Scala penali e pagamenti del corrispondente riportati nel contenuto editoriale: da validare da Roberto.",
+  "oggi": "2026-10-27",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Namibia%20fly%20%26%20drive%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "NAM-2027-SN12",
+    "nome_commerciale": "Namibia in fly & drive: Kalahari, Sossusvlei, Swakopmund, Damaraland ed Etosha",
+    "destinazione": "Gocheganas, Kalahari, Sossusvlei, Swakopmund, Twyfelfontein, Etosha, Windhoek",
+    "notti": 11,
+    "quota_da": 3385,
+    "landing_status": "pronta_per_verifica",
+    "supplemento_singola": 1455,
+    "supplemento_singola_nota": "viaggiando da soli, con l'auto non divisa; dal 1º luglio 1.645 €",
+    "partenze_note": "ogni giorno dal 15 gennaio al 31 ottobre 2027, anche in due",
+    "date_testo": "date libere, 15 gennaio – 31 ottobre 2027",
+    "cambio": {
+      "valuta": "NAD",
+      "tasso": 18.6046,
+      "data": "2026-10-27",
+      "fonte": "BCE, cambio del rand sudafricano: il dollaro namibiano è agganciato al rand alla pari",
+      "tolleranza_pct": 5
+    },
+    "fonte": {
+      "sistema": "kibo-catalogo",
+      "documento": "programma fly & drive 2026 (12 giorni / 11 notti) con tariffario 15/01–31/10/2026 e tariffe auto del corrispondente, ricevuti via Dropbox corrispondenti il 30/03/2026; quote 2027 stimate il 27/10/2026",
+      "aggiornato": "2026-10-27"
+    },
+    "partenze": [
+      {
+        "data": "2027-01-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-29",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-30",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-01-31",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-01",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-02",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-03",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-04",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-05",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-06",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-07",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-08",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-09",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-10",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-11",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-12",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-13",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-14",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-02-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-01",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-02",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-03",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-04",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-05",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-06",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-07",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-08",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-09",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-10",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-11",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-12",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-13",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-14",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-29",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-30",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-03-31",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-01",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-02",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-03",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-04",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-05",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-06",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-07",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-08",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-09",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-10",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-11",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-12",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-13",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-14",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-29",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-04-30",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-01",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-02",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-03",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-04",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-05",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-06",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-07",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-08",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-09",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-10",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-11",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-12",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-13",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-14",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-29",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-30",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-05-31",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-01",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-02",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-03",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-04",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-05",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-06",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-07",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-08",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-09",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-10",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-11",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-12",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-13",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-14",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-15",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-16",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-17",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-18",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-19",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-20",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-21",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-22",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-23",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-24",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-25",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-26",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-27",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-28",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-29",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-06-30",
+        "prezzo": 3385,
+        "stagione": "bassa"
+      },
+      {
+        "data": "2027-07-01",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-02",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-03",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-04",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-05",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-06",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-07",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-08",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-09",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-10",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-11",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-12",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-13",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-14",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-15",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-16",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-17",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-18",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-19",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-20",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-21",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-22",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-23",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-24",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-25",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-26",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-27",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-28",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-29",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-30",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-07-31",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-01",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-02",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-03",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-04",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-05",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-06",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-07",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-08",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-09",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-10",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-11",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-12",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-13",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-14",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-15",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-16",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-17",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-18",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-19",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-20",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-21",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-22",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-23",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-24",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-25",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-26",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-27",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-28",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-29",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-30",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-08-31",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-01",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-02",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-03",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-04",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-05",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-06",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-07",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-08",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-09",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-10",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-11",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-12",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-13",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-14",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-15",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-16",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-17",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-18",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-19",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-20",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-21",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-22",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-23",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-24",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-25",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-26",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-27",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-28",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-29",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-09-30",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-01",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-02",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-03",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-04",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-05",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-06",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-07",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-08",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-09",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-10",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-11",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-12",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-13",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-14",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-15",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-16",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-17",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-18",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-19",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-20",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-21",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-22",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-23",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-24",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-25",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-26",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-27",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-28",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-29",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-30",
+        "prezzo": 3665,
+        "stagione": "alta"
+      },
+      {
+        "data": "2027-10-31",
+        "prezzo": 3665,
+        "stagione": "alta"
+      }
+    ]
+  }
+}
