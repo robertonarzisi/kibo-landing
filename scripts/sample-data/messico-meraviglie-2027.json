@@ -1,0 +1,166 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 7102365 «Meraviglie del Messico» (tour a date fisse, modalità «Partenza di gruppo con guida parlante Italiano», base 2 adulti in doppia). Calendario TC letto il 27/10/2026: 28 lunedì dal 07/12/2026 al 06/12/2027 (nessuna data a gennaio 2027), due livelli di prezzo di vendita pubblico a persona (prezzo_listino): è già il prezzo di vendita, NON si ricarica; si applica la sola soglia psicologica di prezzi.py (kibo-catalogo), senza armonizzazione alla mediana: 1.956,47 → 1.955 per la partenza del 07/12/2026, 2.035,86 → 2.035 per le 27 date del 2027. Con più di 12 date render.py mostra la quota per mese di partenza. Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi; volo interno Città del Messico–Tuxtla Gutiérrez escluso; notte finale a Cancún/Riviera Maya esclusa; supplemento singola non nel package (su richiesta).",
+ "oggi": "2026-10-27",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Meraviglie%20del%20Messico%202027",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "MEX-2027-MER8",
+  "nome_commerciale": "Meraviglie del Messico: Città del Messico, Chiapas e Yucatán in otto giorni",
+  "destinazione": "Città del Messico, Tuxtla Gutiérrez, San Cristóbal de las Casas, Palenque, Campeche, Uxmal, Mérida, Chichén Itzá",
+  "notti": 7,
+  "quota_da": 1955,
+  "landing_status": "pronta_per_verifica",
+  "supplemento_singola": null,
+  "partenze": [
+   {
+    "data": "2026-12-07",
+    "prezzo": 1955,
+    "prezzo_listino": 1956.47
+   },
+   {
+    "data": "2027-02-08",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-02-22",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-03-08",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-03-22",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-04-05",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-04-19",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-05-03",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-05-17",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-05-31",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-06-14",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-06-28",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-07-12",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-07-19",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-07-26",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-08-02",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-08-09",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-08-16",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-08-23",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-09-06",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-09-20",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-10-04",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-10-18",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-10-25",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-11-01",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-11-08",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-11-22",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   },
+   {
+    "data": "2027-12-06",
+    "prezzo": 2035,
+    "prezzo_listino": 2035.86
+   }
+  ],
+  "partenze_note": "28 lunedì dal 7 dicembre 2026 al 6 dicembre 2027, nessuna a gennaio; la data è l'arrivo a Città del Messico",
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 7102365,
+   "aggiornato": "2026-10-27"
+  },
+  "tc_package_id": 7102365
+ }
+}

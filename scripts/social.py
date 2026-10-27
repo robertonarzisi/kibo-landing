@@ -262,6 +262,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "messico-meraviglie-2027": {
+        "kicker": "TOUR 2027 A DATE FISSE",
+        "title": ["Meraviglie", "del Messico"],
+        "info1": "Città del Messico, Chiapas e Yucatán",
+        "info2": "Partenze di lunedì · da 1.955 € a persona",
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "ribbon": "GUIDA IN ITALIANO",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
