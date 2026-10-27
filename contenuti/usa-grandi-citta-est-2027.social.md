@@ -4,7 +4,7 @@
 > da generare con `scripts/social.py` dalla hero (`assets/hero/usa-grandi-citta-est-2027.jpg`)
 > dopo l'inserimento della voce `usa-grandi-citta-est-2027` nel dizionario `VIAGGI`.
 > **Nessuna pubblicazione senza approvazione di Roberto** (tabella `Contenuti Social`,
-> record USA-2027-GCE8-IG-01 e USA-2027-GCE8-FB-01, data prevista giovedì 05/11/2026 11:00,
+> record USA-2027-GCE8-IG-01 e USA-2027-GCE8-FB-01, data prevista venerdì 06/11/2026 10:00 (secondo contenuto della newsletter del 05/11: il giovedì alle 11:00 esce la Malesia),
 > contenuto «resto del mondo» della newsletter del 05/11).
 > Landing: https://go.kibotours.com/viaggi/usa-grandi-citta-est-2027/
 > Quota: 1.532 € a persona in doppia, uguale su tutte le 6 date (decisione di Roberto del 27/10/2026, vedi Note operative).
