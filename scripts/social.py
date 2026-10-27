@@ -251,6 +251,17 @@ VIAGGI = {
         "ribbon_style": "evidenza",
         "cta": "",
     },
+    "india-nord-classica-2027": {
+        "kicker": "TOUR 2027 · GUIDA IN ITALIANO",
+        "title": ["India del Nord", "classica"],
+        "info1": "Delhi, Varanasi, Khajuraho, Agra e Jaipur",
+        "info2": "Partenze ogni lunedì · da 1.955 € a persona",
+        "focus_x": 0.55,
+        "focus_y": 0.5,
+        "ribbon": "PARTENZE OGNI LUNEDÌ",
+        "ribbon_style": "evidenza",
+        "cta": "",
+    },
     "vietnam-2027-03": {
         "kicker": "PARTENZA DI GRUPPO · 5–22 MARZO 2027",
         "title": ["Vietnam", "autentico"],
