@@ -71,7 +71,7 @@ def ordinamento(date_label):
 
 
 def raccogli():
-    """Legge i viaggi dalle pagine PUBBLICATE. Le anteprima non entrano mai in home.
+    """Legge i viaggi dalle pagine PUBBLICATE (senza tag noindex). Le anteprima non entrano mai in home.
 
     ATTENZIONE: in `viaggi/` non ci sono solo i viaggi in vendita. Un viaggio portato a
     `ritirata` lascia li' la sua pagina di cortesia ("Questa pagina non e' piu' attiva"),
@@ -83,6 +83,11 @@ def raccogli():
     for indice in sorted((RADICE / "viaggi").glob("*/index.html")):
         pagina = indice.read_text(encoding="utf-8")
         if 'class="in-breve"' not in pagina:
+            continue
+        # Pagine noindex = landing_status diverso da `pubblicata` (pronta_per_verifica resa in
+        # viaggi/ dalle sessioni, o ritirata): in home entrano solo le pubblicate, come fa il
+        # builder con il filtro Airtable (29/10/2026).
+        if "noindex" in pagina.split("</head>", 1)[0]:
             continue
         titolo = re.search(r"<h1>(.*?)</h1>", pagina, re.S)
         strillo = re.search(r'<p class="strillo">(.*?)</p>', pagina, re.S)

@@ -1,262 +1,262 @@
 {
- "_nota": "Dati parametrici del package Travel Compositor 54802284 «Thailandia, tour con accompagnatore locale, Full Version 7 notti» (tour collettivo in van o bus con guida locale parlante italiano per tutto il tour, base 2 adulti in doppia, hotel di categoria Standard, 7 colazioni + 5 pranzi in corso di visita + 1 cena a Sukhothai, bevande escluse, ingressi compresi). Calendario TC letto il 27/10/2026: 47 date, TUTTE DI MARTEDÌ, dal 03/11/2026 al 19/10/2027 (non tutti i martedì: mancano il 17/11 e il 15/12/2026, il 18/05 e il 27/07/2027), con il prezzo di vendita pubblico a persona su due livelli: è già il prezzo di vendita, NON si ricarica, si porta solo a soglia psicologica con prezzi.py di kibo-catalogo (1.269,29 → 1.265 in 44 date; 1.295,79 → 1.295 il 29/12/2026, il 23/02/2027 e il 07/09/2027). Niente armonizzazione ±4 %, che fonderebbe i due livelli a 1.265: solo soglia, come per Sri Lanka e Bali. Le 47 partenze sono elencate una per una (come per le Gemme del Siam): sopra le 12 date render.py mostra da solo la quota «da» per mese di partenza (minimo del mese) e il conteggio delle date, quindi non serve quote_per_mese esplicito; date_testo è solo il ripiego se non restano date future. Nessun costo netto del fornitore in questo file. Voli dall'Italia e volo da Chiang Mai a fine tour esclusi; supplemento singola non presente nel package: su richiesta. Nota: nel package TC il blocco del tour porta l'etichetta di modalità «Short Version 6 Notti», ma nome, programma (8 giorni) e hotel (7 notti) sono quelli della Full Version 7 notti: da chiarire con il fornitore prima della pubblicazione.",
- "oggi": "2026-10-27",
- "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Thailandia%20da%20Bangkok%20a%20Chiang%20Mai%202027",
- "cta_label": "Richiedi la quota",
- "contact_url": "https://www.kibotours.com",
- "viaggio": {
-  "tipo": "catalogo",
-  "trip_id": "THA-2027-BCM8",
-  "nome_commerciale": "Thailandia, da Bangkok a Chiang Mai",
-  "destinazione": "Bangkok, Damnoen Saduak, Ayutthaya, Kamphaeng Phet, Sukhothai, Phrae, Phayao, Chiang Rai, Chiang Mai",
-  "notti": 7,
-  "quota_da": 1265,
-  "landing_status": "pronta_per_verifica",
-  "supplemento_singola": null,
-  "partenze": [
-   {
-    "data": "2026-11-03",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-11-10",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-11-24",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-12-01",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-12-08",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-12-22",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2026-12-29",
-    "prezzo": 1295,
-    "prezzo_listino": 1295.79
-   },
-   {
-    "data": "2027-01-05",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-01-12",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-01-19",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-01-26",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-02-02",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-02-09",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-02-16",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-02-23",
-    "prezzo": 1295,
-    "prezzo_listino": 1295.79
-   },
-   {
-    "data": "2027-03-02",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-03-09",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-03-16",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-03-23",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-03-30",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-04-06",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-04-13",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-04-20",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-04-27",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-05-04",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-05-11",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-05-25",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-06-01",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-06-08",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-06-15",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-06-22",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-06-29",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-07-06",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-07-13",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-07-20",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-08-03",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-08-10",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-08-17",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-08-24",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-08-31",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-09-07",
-    "prezzo": 1295,
-    "prezzo_listino": 1295.79
-   },
-   {
-    "data": "2027-09-14",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-09-21",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-09-28",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-10-05",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-10-12",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   },
-   {
-    "data": "2027-10-19",
-    "prezzo": 1265,
-    "prezzo_listino": 1269.29
-   }
-  ],
-  "partenze_note": "47 partenze di martedì dal 3 novembre 2026 al 19 ottobre 2027",
-  "date_testo": "partenze di martedì, 3 nov 2026 – 19 ott 2027",
-  "fonte": {
-   "sistema": "travelcompositor",
-   "package_id": 54802284,
-   "aggiornato": "2026-10-27"
-  },
-  "tc_package_id": 54802284
- }
+  "_nota": "Dati parametrici del package Travel Compositor 54802284 «Thailandia, tour con accompagnatore locale, Full Version 7 notti» (tour collettivo in van o bus con guida locale parlante italiano per tutto il tour, base 2 adulti in doppia, hotel di categoria Standard, 7 colazioni + 5 pranzi in corso di visita + 1 cena a Sukhothai, bevande escluse, ingressi compresi). Calendario TC letto il 27/10/2026: 47 date, TUTTE DI MARTEDÌ, dal 03/11/2026 al 19/10/2027 (non tutti i martedì: mancano il 17/11 e il 15/12/2026, il 18/05 e il 27/07/2027), con il prezzo di vendita pubblico a persona su due livelli: è già il prezzo di vendita, NON si ricarica, si porta solo a soglia psicologica con prezzi.py di kibo-catalogo (1.269,29 → 1.265 in 44 date; 1.295,79 → 1.295 il 29/12/2026, il 23/02/2027 e il 07/09/2027). Niente armonizzazione ±4 %, che fonderebbe i due livelli a 1.265: solo soglia, come per Sri Lanka e Bali. Le 47 partenze sono elencate una per una (come per le Gemme del Siam): sopra le 12 date render.py mostra da solo la quota «da» per mese di partenza (minimo del mese) e il conteggio delle date, quindi non serve quote_per_mese esplicito; date_testo è solo il ripiego se non restano date future. Nessun costo netto del fornitore in questo file. Voli dall'Italia e volo da Chiang Mai a fine tour esclusi; supplemento singola non presente nel package: su richiesta. Nota: nel package TC il blocco del tour porta l'etichetta di modalità «Short Version 6 Notti», ma nome, programma (8 giorni) e hotel (7 notti) sono quelli della Full Version 7 notti: da chiarire con il fornitore prima della pubblicazione.",
+  "oggi": "2026-10-27",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Thailandia%20da%20Bangkok%20a%20Chiang%20Mai%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "THA-2027-BCM8",
+    "nome_commerciale": "Thailandia, da Bangkok a Chiang Mai",
+    "destinazione": "Bangkok, Damnoen Saduak, Ayutthaya, Kamphaeng Phet, Sukhothai, Phrae, Phayao, Chiang Rai, Chiang Mai",
+    "notti": 7,
+    "quota_da": 1265,
+    "landing_status": "pubblicata",
+    "supplemento_singola": null,
+    "partenze": [
+      {
+        "data": "2026-11-03",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-11-10",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-11-24",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-12-01",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-12-08",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-12-22",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2026-12-29",
+        "prezzo": 1295,
+        "prezzo_listino": 1295.79
+      },
+      {
+        "data": "2027-01-05",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-01-12",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-01-19",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-01-26",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-02-02",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-02-09",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-02-16",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-02-23",
+        "prezzo": 1295,
+        "prezzo_listino": 1295.79
+      },
+      {
+        "data": "2027-03-02",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-03-09",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-03-16",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-03-23",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-03-30",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-04-06",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-04-13",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-04-20",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-04-27",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-05-04",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-05-11",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-05-25",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-06-01",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-06-08",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-06-15",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-06-22",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-06-29",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-07-06",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-07-13",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-07-20",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-08-03",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-08-10",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-08-17",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-08-24",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-08-31",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-09-07",
+        "prezzo": 1295,
+        "prezzo_listino": 1295.79
+      },
+      {
+        "data": "2027-09-14",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-09-21",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-09-28",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-10-05",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-10-12",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      },
+      {
+        "data": "2027-10-19",
+        "prezzo": 1265,
+        "prezzo_listino": 1269.29
+      }
+    ],
+    "partenze_note": "47 partenze di martedì dal 3 novembre 2026 al 19 ottobre 2027",
+    "date_testo": "partenze di martedì, 3 nov 2026 – 19 ott 2027",
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 54802284,
+      "aggiornato": "2026-10-27"
+    },
+    "tc_package_id": 54802284
+  }
 }

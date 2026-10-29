@@ -1,176 +1,176 @@
 {
- "_nota": "Dati parametrici del package Travel Compositor 8404662 «Bali Round Trip (Martedì e Sabato)» (tour a date fisse di 6 giorni / 5 notti, base 2 adulti in doppia, modalità Superior degli alberghi, escursioni con guida locale: la lingua NON è garantita dal package, vedi _stato del contenuto editoriale). Il calendario TC (dati del 07/10/2026, riletto identico il 27/10/2026) ha 30 date dal 27/04/2027 al 12/10/2027, tutte di martedì o di sabato (non tutti i martedì e i sabati del periodo: solo quelle a calendario), con il prezzo di vendita pubblico a persona su sei livelli: è già il prezzo di vendita, NON si ricarica, e si porta solo a soglia psicologica con prezzi.soglia di kibo-catalogo (664,56 → 655; 691,14 → 685; 699,37 → 695; 724,05 → 715; 728,48 → 725; 736,71 → 735; niente armonizzazione, che fonderebbe i livelli in due soli). Con più di 12 date render.py mostra la quota minima per mese di partenza: agosto 2027 esce a 695 per la sola partenza del 31/08, le altre di agosto sono 735 (fino al 24) e 725 (il 28). Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi; supplemento singola non presente nel package: su richiesta.",
- "oggi": "2026-10-27",
- "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Bali%20Round%20Trip%202027",
- "cta_label": "Richiedi la quota",
- "contact_url": "https://www.kibotours.com",
- "viaggio": {
-  "tipo": "catalogo",
-  "trip_id": "IDN-2027-BRT6",
-  "nome_commerciale": "Bali Round Trip: il giro dell'isola in sei giorni",
-  "destinazione": "Seminyak, Tanah Lot, Jatiluwih, Bedugul, Munduk, Lovina, Buleleng, Kintamani, Besakih, Candidasa, Goa Lawah, Tampaksiring, Ubud, Sangeh",
-  "notti": 5,
-  "quota_da": 655,
-  "landing_status": "pronta_per_verifica",
-  "supplemento_singola": null,
-  "partenze": [
-   {
-    "data": "2027-04-27",
-    "prezzo": 655,
-    "prezzo_listino": 664.56
-   },
-   {
-    "data": "2027-05-11",
-    "prezzo": 655,
-    "prezzo_listino": 664.56
-   },
-   {
-    "data": "2027-05-29",
-    "prezzo": 655,
-    "prezzo_listino": 664.56
-   },
-   {
-    "data": "2027-06-08",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-06-19",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-06-26",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-06-29",
-    "prezzo": 715,
-    "prezzo_listino": 724.05
-   },
-   {
-    "data": "2027-07-03",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-06",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-10",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-13",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-17",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-20",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-24",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-07-31",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-03",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-07",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-10",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-14",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-17",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-21",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-24",
-    "prezzo": 735,
-    "prezzo_listino": 736.71
-   },
-   {
-    "data": "2027-08-28",
-    "prezzo": 725,
-    "prezzo_listino": 728.48
-   },
-   {
-    "data": "2027-08-31",
-    "prezzo": 695,
-    "prezzo_listino": 699.37
-   },
-   {
-    "data": "2027-09-04",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-09-11",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-09-21",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-09-28",
-    "prezzo": 685,
-    "prezzo_listino": 691.14
-   },
-   {
-    "data": "2027-10-05",
-    "prezzo": 655,
-    "prezzo_listino": 664.56
-   },
-   {
-    "data": "2027-10-12",
-    "prezzo": 655,
-    "prezzo_listino": 664.56
-   }
-  ],
-  "partenze_note": "30 date fisse di martedì e di sabato, dal 27 aprile al 12 ottobre 2027, su base 2 persone",
-  "fonte": {
-   "sistema": "travelcompositor",
-   "package_id": 8404662,
-   "aggiornato": "2026-10-27"
-  },
-  "tc_package_id": 8404662
- }
+  "_nota": "Dati parametrici del package Travel Compositor 8404662 «Bali Round Trip (Martedì e Sabato)» (tour a date fisse di 6 giorni / 5 notti, base 2 adulti in doppia, modalità Superior degli alberghi, escursioni con guida locale: la lingua NON è garantita dal package, vedi _stato del contenuto editoriale). Il calendario TC (dati del 07/10/2026, riletto identico il 27/10/2026) ha 30 date dal 27/04/2027 al 12/10/2027, tutte di martedì o di sabato (non tutti i martedì e i sabati del periodo: solo quelle a calendario), con il prezzo di vendita pubblico a persona su sei livelli: è già il prezzo di vendita, NON si ricarica, e si porta solo a soglia psicologica con prezzi.soglia di kibo-catalogo (664,56 → 655; 691,14 → 685; 699,37 → 695; 724,05 → 715; 728,48 → 725; 736,71 → 735; niente armonizzazione, che fonderebbe i livelli in due soli). Con più di 12 date render.py mostra la quota minima per mese di partenza: agosto 2027 esce a 695 per la sola partenza del 31/08, le altre di agosto sono 735 (fino al 24) e 725 (il 28). Nessun costo netto del fornitore in questo file. Voli dall'Italia esclusi; supplemento singola non presente nel package: su richiesta.",
+  "oggi": "2026-10-27",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Bali%20Round%20Trip%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "IDN-2027-BRT6",
+    "nome_commerciale": "Bali Round Trip: il giro dell'isola in sei giorni",
+    "destinazione": "Seminyak, Tanah Lot, Jatiluwih, Bedugul, Munduk, Lovina, Buleleng, Kintamani, Besakih, Candidasa, Goa Lawah, Tampaksiring, Ubud, Sangeh",
+    "notti": 5,
+    "quota_da": 655,
+    "landing_status": "pubblicata",
+    "supplemento_singola": null,
+    "partenze": [
+      {
+        "data": "2027-04-27",
+        "prezzo": 655,
+        "prezzo_listino": 664.56
+      },
+      {
+        "data": "2027-05-11",
+        "prezzo": 655,
+        "prezzo_listino": 664.56
+      },
+      {
+        "data": "2027-05-29",
+        "prezzo": 655,
+        "prezzo_listino": 664.56
+      },
+      {
+        "data": "2027-06-08",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-06-19",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-06-26",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-06-29",
+        "prezzo": 715,
+        "prezzo_listino": 724.05
+      },
+      {
+        "data": "2027-07-03",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-06",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-10",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-13",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-17",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-20",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-24",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-07-31",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-03",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-07",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-10",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-14",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-17",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-21",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-24",
+        "prezzo": 735,
+        "prezzo_listino": 736.71
+      },
+      {
+        "data": "2027-08-28",
+        "prezzo": 725,
+        "prezzo_listino": 728.48
+      },
+      {
+        "data": "2027-08-31",
+        "prezzo": 695,
+        "prezzo_listino": 699.37
+      },
+      {
+        "data": "2027-09-04",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-09-11",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-09-21",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-09-28",
+        "prezzo": 685,
+        "prezzo_listino": 691.14
+      },
+      {
+        "data": "2027-10-05",
+        "prezzo": 655,
+        "prezzo_listino": 664.56
+      },
+      {
+        "data": "2027-10-12",
+        "prezzo": 655,
+        "prezzo_listino": 664.56
+      }
+    ],
+    "partenze_note": "30 date fisse di martedì e di sabato, dal 27 aprile al 12 ottobre 2027, su base 2 persone",
+    "fonte": {
+      "sistema": "travelcompositor",
+      "package_id": 8404662,
+      "aggiornato": "2026-10-27"
+    },
+    "tc_package_id": 8404662
+  }
 }
