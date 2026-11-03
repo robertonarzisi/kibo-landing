@@ -1,0 +1,41 @@
+# Kibo Tours · Partenze di gruppo
+
+> Kibo Tours (kibotours.com) è un tour operator di Biella: viaggi di gruppo con guida o accompagnamento in italiano, tour a date garantite e viaggi su misura, soprattutto in Oriente, Americhe, Medio Oriente e Africa. Su go.kibotours.com ci sono le schede dei viaggi in vendita, con itinerario, cosa è incluso e quote.
+
+## Viaggi in vendita
+
+- [Bali Round Trip: il giro dell'isola in sei giorni](https://go.kibotours.com/viaggi/bali-round-trip-2027/): 6 giorni / 5 notti a Bali, aprile 2027 – ottobre 2027, da € 655 a persona
+- [Cambogia classica: Phnom Penh, Angkor e il lago Tonle Sap](https://go.kibotours.com/viaggi/cambogia-classica-2027/): 8 giorni / 7 notti in Cambogia, date libere, ott 2026 – ott 2027, da € 1.115 a persona
+- [Cina con Guilin: Pechino, Xi'an, Guilin e Shanghai](https://go.kibotours.com/viaggi/cina-guilin-2027/): 12 giorni / 9 notti in Cina, marzo 2027 – dicembre 2027, da € 1.835 a persona
+- [Cina classica in dieci giorni: Pechino, Xi'an e Shanghai](https://go.kibotours.com/viaggi/cina-pechino-xian-shanghai-2027/): 10 giorni / 7 notti in Cina, marzo 2027 – dicembre 2027, da € 1.355 a persona
+- [Costa Rica: Tortuguero, Arenal, Monteverde e Manuel Antonio in dodici giorni](https://go.kibotours.com/viaggi/costa-rica-classico-2027/): 12 giorni / 11 notti in Costa Rica, date libere, ott 2026 – ott 2027, da € 1.455 a persona
+- [Emirati: Dubai, Al Ain e Abu Dhabi, dal deserto ai fiordi del Musandam](https://go.kibotours.com/viaggi/emirati-dubai-abu-dhabi-2027/): 8 giorni / 7 notti negli Emirati, date libere, ott 2026 – ott 2027, da € 1.545 a persona
+- [Il Giappone da Est a Ovest](https://go.kibotours.com/viaggi/giappone-est-ovest-2027/): 11 giorni / 10 notti in Giappone, date libere, nov 2026 – set 2027, da € 1.415 a persona
+- [Giappone Kokoro: Tokyo, Kyoto, Kanazawa e Shirakawa-go in dieci giorni](https://go.kibotours.com/viaggi/giappone-kokoro-2027/): 10 giorni / 9 notti in Giappone, aprile 2027 – novembre 2027, da € 2.195 a persona
+- [Tokyo, Kyoto, Osaka e le spiagge di Okinawa](https://go.kibotours.com/viaggi/giappone-okinawa-2027/): 13 giorni / 12 notti in Giappone, date libere, 6 ott 2026 – 18 set 2027, da € 1.645 a persona
+- [Triangolo d'oro: Delhi, Jaipur e Agra in sei giorni con guida in italiano](https://go.kibotours.com/viaggi/india-triangolo-oro-2027/): 6 giorni / 5 notti in India, novembre 2026 – dicembre 2027, da € 1.045 a persona
+- [Malesia, da Singapore a Penang](https://go.kibotours.com/viaggi/malesia-singapore-penang-2027/): 6 giorni / 5 notti, da Singapore a Penang, novembre 2026 – marzo 2027, da € 1.675 a persona
+- [Le meraviglie di Mauritius: sette notti al mare a Balaclava e il tour del sud dell'isola](https://go.kibotours.com/viaggi/mauritius-meraviglie-2027/): 8 giorni / 7 notti a Mauritius, novembre 2026 – ottobre 2027, da € 1.015 a persona
+- [Messico classico: dalla capitale al Chiapas e allo Yucatán](https://go.kibotours.com/viaggi/messico-classico-2027/): 10 giorni / 9 notti in Messico, gennaio 2027 – dicembre 2027, da € 2.485 a persona
+- [Meraviglie del Messico: Città del Messico, Chiapas e Yucatán in otto giorni](https://go.kibotours.com/viaggi/messico-meraviglie-2027/): 8 giorni / 7 notti in Messico, dicembre 2026 – dicembre 2027, da € 1.955 a persona
+- [Una settimana a New York, con la città già in tasca](https://go.kibotours.com/viaggi/new-york-inverno-2026-27/): 8 giorni / 7 notti a New York, date libere, 15 ott 2026 – 22 mar 2027, da € 1.265 a persona
+- [La Mela di Kibo: Manhattan, Harlem, Brooklyn e la Statua della Libertà in sei giorni](https://go.kibotours.com/viaggi/new-york-per-mano-2026-27/): 6 giorni / 5 notti a New York, novembre 2026 – gennaio 2027, da € 1.775 a persona
+- [Oman classico: Muscat, le montagne, il deserto e la costa in otto giorni](https://go.kibotours.com/viaggi/oman-classico-2027/): 8 giorni / 7 notti in Oman, novembre 2026 – ottobre 2027, da € 1.095 a persona
+- [Playa del Carmen all inclusive](https://go.kibotours.com/viaggi/playa-del-carmen-2027-02/): 9 giorni / 7 notti, 18–26 febbraio 2027, da € 2.790 a persona
+- [Sri Lanka, tour privato in italiano](https://go.kibotours.com/viaggi/sri-lanka-privato-2027/): 7 giorni / 6 notti nello Sri Lanka, date libere, 18 nov 2026 – 30 apr 2027, da € 915 a persona
+- [Capodanno in Thailandia con Zof](https://go.kibotours.com/viaggi/thailandia-2026-12/): 12 giorni / 9 notti in hotel, 29 dicembre 2026 – 9 gennaio 2027, da € 2.950 a persona
+- [Thailandia, da Bangkok a Chiang Mai](https://go.kibotours.com/viaggi/thailandia-bangkok-chiang-mai-2027/): 8 giorni / 7 notti in Thailandia, novembre 2026 – ottobre 2027, da € 1.265 a persona
+- [Le gemme del Siam: dal fiume Kwai a Chiang Mai in sette giorni](https://go.kibotours.com/viaggi/thailandia-gemme-del-siam/): 7 giorni / 6 notti, novembre 2026 – ottobre 2027, da € 995 a persona
+- [Thailandia, quattro isole in dodici giorni: Krabi, Koh Lanta, Phi Phi e Phuket](https://go.kibotours.com/viaggi/thailandia-isole-2027/): 12 giorni / 11 notti in Thailandia, date libere, ott 2026 – ott 2027, da € 875 a persona
+- [Le grandi città dell'Est, da New York a New York: Niagara, Washington e Philadelphia](https://go.kibotours.com/viaggi/usa-grandi-citta-est-2027/): 8 giorni / 7 notti tra Stati Uniti e Canada, maggio 2027 – settembre 2027, da € 1.532 a persona
+- [Western Trails: l'Ovest americano in nove giorni, dal Grand Canyon a Las Vegas](https://go.kibotours.com/viaggi/usa-western-trails-2027/): 9 giorni / 8 notti negli Stati Uniti, luglio 2027 – settembre 2027, da € 1.765 a persona
+- [Uzbekistan classico: Khiva, Bukhara e Samarcanda](https://go.kibotours.com/viaggi/uzbekistan-classico-2027/): 8 giorni / 7 notti in Uzbekistan, 101 partenze, nov 2026 – dic 2027, da € 1.155 a persona
+- [Vietnam da nord a sud: Hanoi, la baia di Halong, Hue, Hoi An e Saigon](https://go.kibotours.com/viaggi/vietnam-nord-sud-2027/): 9 giorni / 8 notti in Vietnam, date libere, ott 2026 – ott 2027, da € 1.075 a persona
+- [Vietnam da sud al centro: Saigon, il Mekong, Hanoi, la baia di Halong, Hue e Hoi An](https://go.kibotours.com/viaggi/vietnam-sud-centro-2027/): 9 giorni / 8 notti in Vietnam, date libere, nov 2026 – ott 2027, da € 1.165 a persona
+
+## Kibo Tours
+
+- [Sito Kibo Tours](https://www.kibotours.com/)
+- [Partenze di gruppo](https://www.kibotours.com/partenze-di-gruppo/)
+- [Contatti](https://www.kibotours.com/contatti/): +39 015 252 2999, Piazza Martiri della Libertà 3, 13900 Biella
+- [KiRun, viaggi per maratone dello stesso gruppo](https://ki-run.it/)

@@ -498,6 +498,10 @@ def render(model):
     residui = re.findall(r"{{\w+}}", tpl)
     if residui:
         raise SystemExit(f"segnaposto non sostituiti: {residui}")
+    if not model.get("template"):
+        # GEO (03/11/2026): JSON-LD TouristTrip/Offer/TravelAgency + paragrafo «In breve», ricavati dalla pagina stessa
+        from geo import arricchisci
+        tpl = arricchisci(tpl)
     return tpl
 
 
