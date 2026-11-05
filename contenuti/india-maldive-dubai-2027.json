@@ -1,15 +1,15 @@
 {
-  "_stato": "05/11/2026 — itinerario replicabile su misura (India Nord + Kandima + Dubai) dalla traccia di Roberto; PUBBLICATA su sua indicazione. Quota «a partire da» 1.999 € indicata da Roberto il 05/11 (provvisoria, non calcolata). Hotel indicati da Roberto, Dubai = Paramount Hotel Business Bay; colazione in tutti gli alberghi; guide italiano/inglese; pesca al tramonto e isola locale facoltative. 05/11 sera: aggiunta l'alternativa Maldive SIS Tourist Villa a Mathiveri (isola locale) su richiesta di Roberto.",
+  "_stato": "05/11/2026 — itinerario replicabile su misura (India Nord + Kandima + Dubai) dalla traccia di Roberto; PUBBLICATA su sua indicazione. Quota «a partire da» 1.999 € indicata da Roberto il 05/11 (provvisoria, non calcolata). Hotel indicati da Roberto, Dubai = Paramount Hotel Business Bay; colazione in tutti gli alberghi; guide italiano/inglese; pesca al tramonto e isola locale facoltative. 05/11 sera: aggiunta l'alternativa Maldive SIS Tourist Villa a Mathiveri (isola locale) su richiesta di Roberto. 05/11: opzioni separate, prezzi di Roberto da 1.999 € opzione 2 Mathiveri e da 2.999 € opzione 1 Kandima (in sample-data, viaggio.opzioni).",
   "slug": "india-maldive-dubai-2027",
   "area": "oriente",
   "titolo": "India del Nord, Maldive e Dubai: dal Taj Mahal all'oceano",
-  "eyebrow": "India · Maldive · Dubai · viaggio su misura con date libere",
-  "strillo": "Ventidue giorni in tre mondi: Delhi, Agra e Jaipur in auto privata, con guide e incontri veri, dal Taj Mahal all'alba alla cena in casa di una famiglia del Rajasthan; poi una settimana alle Maldive, in villa sulla spiaggia a Kandima o su un'isola locale a Mathiveri; infine Dubai, dal Burj Khalifa alla cena tra i canali di Marina. Si parte quando volete, anche in due.",
+  "eyebrow": "India · Maldive · Dubai · su misura con date libere, due opzioni alle Maldive",
+  "strillo": "Ventidue giorni in tre mondi: Delhi, Agra e Jaipur in auto privata, con guide e incontri veri, dal Taj Mahal all'alba alla cena in casa di una famiglia del Rajasthan; poi una settimana alle Maldive, a scelta tra il resort di Kandima in villa sulla spiaggia e l'isola locale di Mathiveri; infine Dubai, dal Burj Khalifa alla cena tra i canali di Marina. Si parte quando volete, anche in due.",
   "intro_titolo": "L'India più intensa, il silenzio dell'oceano, la città del futuro",
   "intro": [
     "Si parte dall'India del Nord, la più ricca di storia: Delhi con i suoi otto secoli di imperi, Agra e il monumento all'amore più famoso al mondo, Jaipur con i palazzi rosa dei maharaja. Il periodo migliore va da ottobre a marzo, finito il monsone; tra ottobre e novembre il Paese festeggia Diwali, la festa delle luci.",
     "In India viaggiate sempre in auto privata con autista: niente pullman di gruppo, niente treni con i bagagli. Le visite principali sono guidate, in italiano o in inglese, e accanto ai monumenti ci sono le esperienze che fanno capire il Paese: la passeggiata con i ragazzi di strada di Delhi, lo street food di Old Delhi, la stampa dei tessuti a Bagru, la cucina in famiglia a Jaipur.",
-    "Poi una settimana alle Maldive, in due versioni: il resort di Kandima, nell'atollo di Dhaalu, in villa sulla spiaggia e in pensione completa, oppure una guesthouse sull'isola locale di Mathiveri, per vivere l'arcipelago in mezzo ai maldiviani. Il finale è a Dubai, la città passata in cinquant'anni dalle barche dei pescatori di perle al grattacielo più alto della Terra."
+    "Poi una settimana alle Maldive, in due opzioni. Opzione 1: il resort di Kandima, nell'atollo di Dhaalu, in villa sulla spiaggia e in pensione completa. Opzione 2: una guesthouse sull'isola locale di Mathiveri, per vivere l'arcipelago in mezzo ai maldiviani, con un budget più leggero. Il finale è a Dubai, la città passata in cinquant'anni dalle barche dei pescatori di perle al grattacielo più alto della Terra."
   ],
   "durata_label": "22 giorni / 21 notti, di cui una in volo",
   "fatti_extra": [
@@ -27,11 +27,11 @@
     },
     {
       "etichetta": "Maldive",
-      "valore": "due versioni: resort a Kandima in villa sulla spiaggia, pensione completa, oppure guesthouse sull'isola locale di Mathiveri, con colazione"
+      "valore": "opzione 1: Kandima, resort, villa sulla spiaggia in pensione completa · opzione 2: Mathiveri, isola locale, guesthouse con colazione"
     },
     {
       "etichetta": "Alberghi",
-      "valore": "The Dream Hotel (Delhi), Aman Homestay (Agra), Le Fort Homestay (Jaipur), hotel ad Aerocity, Kandima Maldives in villa sulla spiaggia oppure SIS Tourist Villa a Mathiveri, Paramount Hotel a Business Bay (Dubai)"
+      "valore": "The Dream Hotel (Delhi), Aman Homestay (Agra), Le Fort Homestay (Jaipur), hotel ad Aerocity, alle Maldive Kandima (opzione 1) o SIS Tourist Villa a Mathiveri (opzione 2), Paramount Hotel a Business Bay (Dubai)"
     },
     {
       "etichetta": "Pasti",
@@ -101,17 +101,22 @@
     {
       "giorno": "12",
       "titolo": "Da Delhi alle Maldive",
-      "testo": "Trasferimento in aeroporto la mattina presto e volo per Malé. Nell'avvicinamento compaiono i primi atolli: anelli di sabbia e corallo con il turchese della laguna dentro e il blu dell'oceano fuori. A Malé l'assistenza del resort vi accompagna al volo interno per l'atollo di Dhaalu, 35-40 minuti a bassa quota, e da lì un motoscafo vi porta a Kandima in un quarto d'ora. Arrivo nel pomeriggio. Chi sceglie l'alternativa dell'isola locale prosegue invece in motoscafo per Mathiveri, nell'atollo di Alif Alif: circa un'ora e mezza o due di navigazione."
+      "testo": "Trasferimento in aeroporto la mattina presto e volo per Malé. Nell'avvicinamento compaiono i primi atolli: anelli di sabbia e corallo con il turchese della laguna dentro e il blu dell'oceano fuori. Da Malé si prosegue secondo l'opzione scelta. Opzione 1, Kandima: l'assistenza del resort vi accompagna al volo interno per l'atollo di Dhaalu, 35-40 minuti a bassa quota, e da lì un motoscafo vi porta al resort in un quarto d'ora. Opzione 2, Mathiveri: motoscafo per l'atollo di Alif Alif, circa un'ora e mezza o due di navigazione. In entrambi i casi si arriva nel pomeriggio: i voli interni e i motoscafi viaggiano solo di giorno, per questo il volo da Delhi parte al mattino."
     },
     {
       "giorno": "13–18",
-      "titolo": "Una settimana alle Maldive: Kandima, o un'isola locale",
-      "testo": "Sette notti in villa sulla spiaggia in pensione completa a Kandima, nell'atollo di Dhaalu, su una delle isole più lunghe delle Maldive: circa 3 km di sabbia. È un resort vivace e informale, con una piscina tra le più lunghe del Paese, più ristoranti, spa e centro sub; la villa ha l'accesso diretto alla spiaggia e la laguna davanti. Le giornate sono vostre: snorkeling sul reef, kayak, un massaggio, un libro sotto la palma. Due esperienze facoltative che vi proponiamo. La pesca al tramonto su un dhoni, la barca tradizionale, con la lenza a mano come fanno da secoli i pescatori maldiviani. E la visita a un'isola locale, per vedere la vita dell'arcipelago fuori dai resort: case di corallo, moschee, bambini in bicicletta, gli hedhikaa del pomeriggio a base di tonno e cocco. Sulle isole abitate si coprono spalle e ginocchia e non si beve alcol, servito solo nei resort. Qualche curiosità: le Maldive sono 1.192 isole in 26 atolli, ne sono abitate circa duecento, e il punto più alto del Paese è a circa 2,4 metri sul mare. «Atollo» è l'unica parola della lingua maldiviana entrata in tutte le lingue del mondo. In alternativa a Kandima si può scegliere SIS Tourist Villa a Mathiveri, una piccola guesthouse su un'isola abitata dai maldiviani: tutti i dettagli più sotto, alla voce «Le Maldive su un'isola locale»."
+      "titolo": "Opzione 1 · Kandima, resort in villa sulla spiaggia",
+      "testo": "Sette notti in villa sulla spiaggia in pensione completa a Kandima, nell'atollo di Dhaalu, su una delle isole più lunghe delle Maldive: circa 3 km di sabbia. È un resort vivace e informale, con una piscina tra le più lunghe del Paese, più ristoranti, spa e centro sub; la villa ha l'accesso diretto alla spiaggia e la laguna davanti. Le giornate sono vostre: snorkeling sul reef, kayak, un massaggio, un libro sotto la palma. Due esperienze facoltative che vi proponiamo: la pesca al tramonto su un dhoni, la barca tradizionale, con la lenza a mano come fanno da secoli i pescatori maldiviani; e la visita a un'isola locale, per vedere la vita dell'arcipelago fuori dai resort. Qualche curiosità: le Maldive sono 1.192 isole in 26 atolli, ne sono abitate circa duecento, e il punto più alto del Paese è a circa 2,4 metri sul mare. «Atollo» è l'unica parola della lingua maldiviana entrata in tutte le lingue del mondo."
+    },
+    {
+      "giorno": "13–18",
+      "titolo": "Opzione 2 · Mathiveri, guesthouse su un'isola locale",
+      "testo": "Sette notti a SIS Tourist Villa, una guesthouse di una decina di camere con aria condizionata e ristorante su Mathiveri, un'isola di pescatori dell'atollo di Alif Alif, a nord di Ari. Qui le Maldive si vivono in mezzo ai maldiviani: il porto, le moschee, le case di corallo, i bambini in bicicletta, il pesce appena sbarcato. La guesthouse è vicina alla «bikini beach», la spiaggia riservata ai turisti dove il costume è ammesso. Sul resto dell'isola valgono le usanze locali: spalle e ginocchia coperte e niente alcol, che sulle isole abitate non si vende. La colazione è compresa; pranzi e cene si fanno alla guesthouse o nei locali del paese. Le uscite in barca verso il reef, i banchi di sabbia e le isole disabitate si organizzano sul posto, giorno per giorno, e sono facoltative. È l'opzione per chi preferisce l'autenticità e un budget più leggero al comfort del resort."
     },
     {
       "giorno": "19",
       "titolo": "Dalle Maldive a Dubai",
-      "testo": "Rientro a Malé (in motoscafo e volo interno da Kandima, in motoscafo da Mathiveri), poi volo per Dubai con arrivo in serata. Trasferimento al Paramount Hotel di Business Bay, il quartiere di torri affacciato sul Dubai Water Canal, il canale inaugurato nel 2016 che porta il mare fin nel centro. Dubai nasce nel 1833, quando la famiglia Al Maktoum si stabilì sulle rive del Creek. Per un secolo visse di pesca, commercio e perle, con tuffatori in apnea fino a venti metri. Il petrolio arrivò nel 1966 e gli Emirati Arabi Uniti nacquero nel 1971, ma la vera scommessa della città è stata un'altra: commercio, porto, turismo, finanza e voli, fino a diventare il crocevia tra Europa, Asia e Africa."
+      "testo": "Rientro a Malé, in motoscafo e volo interno da Kandima (opzione 1) o in motoscafo da Mathiveri (opzione 2), poi volo per Dubai con arrivo in serata. Trasferimento al Paramount Hotel di Business Bay, il quartiere di torri affacciato sul Dubai Water Canal, il canale inaugurato nel 2016 che porta il mare fin nel centro. Dubai nasce nel 1833, quando la famiglia Al Maktoum si stabilì sulle rive del Creek. Per un secolo visse di pesca, commercio e perle, con tuffatori in apnea fino a venti metri. Il petrolio arrivò nel 1966 e gli Emirati Arabi Uniti nacquero nel 1971, ma la vera scommessa della città è stata un'altra: commercio, porto, turismo, finanza e voli, fino a diventare il crocevia tra Europa, Asia e Africa."
     },
     {
       "giorno": "20",
@@ -131,20 +136,21 @@
   ],
   "incluso": [
     "Voli internazionali in classe economica Milano–Dubai–Delhi, Delhi–Malé, Malé–Dubai e Dubai–Milano, con le tasse aeroportuali",
-    "21 notti negli alberghi indicati: The Dream Hotel a Delhi (4), Aman Homestay ad Agra (2), Le Fort Homestay a Jaipur (3), hotel ad Aerocity (1), alle Maldive Kandima in villa sulla spiaggia oppure SIS Tourist Villa a Mathiveri (7), Paramount Hotel a Business Bay, Dubai (3)",
-    "Colazione in tutti gli alberghi; a Kandima pensione completa",
+    "21 notti negli alberghi indicati: The Dream Hotel a Delhi (4), Aman Homestay ad Agra (2), Le Fort Homestay a Jaipur (3), hotel ad Aerocity (1), 7 alle Maldive secondo l'opzione scelta, Paramount Hotel a Business Bay, Dubai (3)",
+    "Colazione in tutti gli alberghi",
     "Tutti i trasferimenti in India con auto privata e autista, compresi Delhi–Agra, Agra–Jaipur con le soste a Fatehpur Sikri e Abhaneri, e Jaipur–Delhi",
     "Visite guidate di Delhi antica e nuova, Agra con il Taj Mahal all'alba, Fatehpur Sikri e Jaipur, con guide locali in italiano o in inglese",
     "Passeggiata nei quartieri di Delhi con le guide di un'associazione locale e tour dello street food di Old Delhi",
     "Laboratorio di stampa a blocchi di legno e lezione di cucina con cena in famiglia a Jaipur",
-    "Trasferimenti alle Maldive: per Kandima volo interno e motoscafo, per Mathiveri motoscafo, andata e ritorno da Malé",
+    "Opzione 1, Kandima: villa sulla spiaggia in pensione completa; volo interno e motoscafo da Malé e ritorno",
+    "Opzione 2, Mathiveri: SIS Tourist Villa con colazione; motoscafo da Malé e ritorno",
     "A Dubai: trasferimenti, visita guidata della città nuova con salita al Burj Khalifa, crociera con cena tra i canali di Dubai Marina"
   ],
   "non_incluso": [
     "Visto elettronico per l'India",
     "Ingressi ai monumenti non indicati",
-    "Escursioni facoltative alle Maldive: a Kandima la pesca al tramonto e la visita a un'isola locale; a Mathiveri le uscite in barca organizzate sull'isola",
-    "A Mathiveri pranzi e cene",
+    "Escursioni facoltative alle Maldive: con l'opzione 1 la pesca al tramonto e la visita a un'isola locale; con l'opzione 2 le uscite in barca organizzate sull'isola",
+    "Con l'opzione 2, pranzi e cene a Mathiveri",
     "Bevande fuori dalla pensione completa, mance ed extra personali",
     "Assicurazione medico, bagaglio e annullamento, consigliata",
     "Tutto quanto non indicato alla voce «La quota comprende»"
@@ -152,14 +158,10 @@
   "sistemazione_titolo": "Gli alberghi",
   "sistemazione": [
     "In India si dorme in case e alberghi scelti per stare vicino alla vita delle città: The Dream Hotel a Delhi, l'Aman Homestay ad Agra e Le Fort Homestay a Jaipur, dove l'ospitalità è quella di una famiglia indiana. L'ultima notte è ad Aerocity, a pochi minuti dall'aeroporto di Delhi, per prendere con calma il volo del mattino per Malé.",
-    "Alle Maldive, due possibilità. Kandima: villa sulla spiaggia con accesso diretto alla sabbia, pensione completa. Oppure SIS Tourist Villa a Mathiveri, una guesthouse di una decina di camere con aria condizionata e ristorante, vicino alla spiaggia dell'isola dove è ammesso il costume, con colazione. A Dubai il Paramount Hotel a Business Bay, sul Dubai Water Canal, a pochi minuti dal Burj Khalifa e dalle fontane. Colazione inclusa in tutti gli alberghi. Strutture indicate o similari, da confermare alla prenotazione."
+    "Alle Maldive, due opzioni. Opzione 1, Kandima: villa sulla spiaggia con accesso diretto alla sabbia, pensione completa. Opzione 2, SIS Tourist Villa a Mathiveri: guesthouse di una decina di camere con aria condizionata e ristorante, vicino alla spiaggia dell'isola dove è ammesso il costume, con colazione. A Dubai il Paramount Hotel a Business Bay, sul Dubai Water Canal, a pochi minuti dal Burj Khalifa e dalle fontane. Colazione inclusa in tutti gli alberghi. Strutture indicate o similari, da confermare alla prenotazione."
   ],
   "documenti_testo": "Passaporto con almeno sei mesi di validità dalla data di rientro e due pagine libere. India: visto elettronico (e-Tourist Visa) da richiedere online sul sito ufficiale del governo indiano qualche settimana prima della partenza; vi aiutiamo noi con la procedura. Maldive: visto turistico gratuito all'arrivo, con la dichiarazione di ingresso IMUGA da compilare online nei giorni prima del volo. Emirati Arabi Uniti: per i cittadini italiani il visto turistico è gratuito e si ottiene all'arrivo.",
   "condizioni_extra": [
-    {
-      "titolo": "Le Maldive su un'isola locale: Mathiveri",
-      "testo": "Al posto del resort si può vivere la settimana alle Maldive su un'isola abitata. Mathiveri è un'isola di pescatori dell'atollo di Alif Alif, a nord di Ari, raggiungibile da Malé in motoscafo in circa un'ora e mezza o due: per prendere l'ultimo motoscafo del giorno bisogna atterrare a Malé entro il primo pomeriggio, ed è per questo che il volo da Delhi parte al mattino. Si dorme a SIS Tourist Villa, una guesthouse di una decina di camere vicino alla «bikini beach», la spiaggia riservata ai turisti dove il costume è ammesso. Sul resto dell'isola valgono le usanze locali: spalle e ginocchia coperte, niente alcol, che sulle isole abitate non si vende, e il venerdì a mezzogiorno la preghiera ferma il paese. In cambio si sta in mezzo alla vita vera delle Maldive, tra il porto, le moschee e le case di corallo, si mangia il pesce dei pescatori del villaggio e le escursioni in barca verso il reef, i banchi di sabbia e le isole disabitate si organizzano sul posto, giorno per giorno. È la scelta giusta per chi preferisce l'autenticità e un budget più leggero al comfort del resort."
-    },
     {
       "titolo": "Clima e abbigliamento",
       "testo": "India del Nord: la stagione migliore va da ottobre a marzo, con giornate di sole; tra dicembre e gennaio le notti a Delhi e in Rajasthan sono fresche. Vestiti leggeri che coprano spalle e ginocchia, come richiesto in templi e moschee, un foulard per le signore, qualcosa di caldo per la sera in inverno e calze leggere per il marmo, perché si entra scalzi. Maldive: caldo tutto l'anno e mare intorno ai 28 gradi; la stagione più secca va da dicembre ad aprile. Dubai: da novembre a marzo giornate piacevoli, d'estate oltre 40 gradi; centri commerciali e auto sono molto climatizzati, serve una felpa leggera."

@@ -249,13 +249,22 @@ def build_catalogo(dati, contenuto, oggi, warnings):
     if not future:
         warnings.append("nessuna partenza futura nei dati parametrici: pagina senza date")
     prezzi = [p["prezzo"] for p in future if p.get("prezzo")]
-    quota_da = min(prezzi) if prezzi else vg.get("quota_da")
+    # Itinerari con varianti (es. stessa India con due soggiorni mare diversi, 05/11/2026):
+    # viaggio.opzioni = [{nome, prezzo, unita?}] → una riga «quota» per opzione al posto della
+    # riga unica; la quota «da» della testata e della home è la più bassa.
+    opzioni = [o for o in (vg.get("opzioni") or []) if o.get("nome") and o.get("prezzo")]
+    quota_da = min(prezzi) if prezzi else (min(o["prezzo"] for o in opzioni) if opzioni
+                                           else vg.get("quota_da"))
     if not quota_da:
         warnings.append("quota_da assente: pagina senza prezzo (quota su richiesta)")
 
     price_rows = []
     voli_inclusi = bool(vg.get("voli_inclusi"))
-    if quota_da:
+    for o in opzioni:
+        price_rows.append({"nome": o["nome"] + (", voli inclusi" if voli_inclusi else ""),
+                           "unita": o.get("unita") or "a partire da, a persona in camera doppia",
+                           "prezzo": o["prezzo"], "quota": True})
+    if quota_da and not opzioni:
         price_rows.append({"nome": ("Quota a persona" if len(future) == 1 else "Quota a partire da") + (", voli inclusi" if voli_inclusi else ""),
                            "unita": ("a persona in camera doppia, voli dall'Italia, tasse aeroportuali e "
                                      "servizi a terra inclusi" if voli_inclusi else

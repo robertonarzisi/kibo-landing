@@ -1,5 +1,5 @@
 {
-  "_nota": "Dati parametrici dell'itinerario su misura replicabile India Nord + Kandima + Dubai (22 giorni / 21 notti), 05/11/2026. Quota «a partire da» 1.999 € a persona indicata da Roberto il 05/11/2026, provvisoria e non calcolata da tariffe. Date libere.",
+  "_nota": "Dati parametrici dell'itinerario su misura replicabile India Nord + Kandima + Dubai (22 giorni / 21 notti), 05/11/2026. Quota «a partire da» 1.999 € a persona indicata da Roberto il 05/11/2026, provvisoria e non calcolata da tariffe. Date libere. 05/11/2026 sera: due opzioni Maldive con prezzi «a partire da» di Roberto: Kandima 2.999 €, Mathiveri 1.999 € (provvisori).",
   "oggi": "2026-11-05",
   "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20India%2C%20Maldive%20e%20Dubai",
   "cta_label": "Richiedi la quota",
@@ -15,6 +15,16 @@
     "partenze_note": "date libere su richiesta, anche in due",
     "partenze": [],
     "quota_da": 1999,
-    "date_testo": "date libere"
+    "date_testo": "date libere",
+    "opzioni": [
+      {
+        "nome": "Opzione 1 · Maldive a Kandima, resort in pensione completa",
+        "prezzo": 2999
+      },
+      {
+        "nome": "Opzione 2 · Maldive a Mathiveri, isola locale con colazione",
+        "prezzo": 1999
+      }
+    ]
   }
 }
