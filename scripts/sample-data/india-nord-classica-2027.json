@@ -11,7 +11,7 @@
   "destinazione": "Delhi, Varanasi, Prayagraj, Khajuraho, Orchha, Agra, Fatehpur Sikri, Jaipur",
   "notti": 9,
   "quota_da": 1955,
-  "landing_status": "pronta_per_verifica",
+  "landing_status": "pubblicata",
   "supplemento_singola": null,
   "partenze": [
    {"data": "2026-11-30", "prezzo": 1955, "prezzo_listino": 1961.92},
