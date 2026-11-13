@@ -67,7 +67,7 @@ def leggi(pagina):
     f["prezzo"] = int(m.group(1).replace(".", "")) if m else None
     f["sold_out"] = bool(re.search(r'<a class="cta"[^>]*>\s*Sold out', pagina))
     f["giorni"] = [(testo(h), testo(p)) for h, p in re.findall(
-        r'<li><span class="punto"></span><span class="giorno">[^<]*</span><h3>(.*?)</h3><p>(.*?)</p></li>', pagina, re.S)]
+        r'<li><span class="punto"></span><span class="giorno">[^<]*</span><h3>(.*?)</h3><p>(.*?)</p>(?:<figure class="foto-tappa">.*?</figure>)?</li>', pagina, re.S)]
     return f
 
 

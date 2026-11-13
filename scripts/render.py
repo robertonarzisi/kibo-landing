@@ -72,6 +72,24 @@ def periodo_partenze(prima, ultima):
     return f"{mese_anno(prima)} – {mese_anno(ultima)}"
 
 
+def foto_tappa(slug, g):
+    """Foto facoltativa di una giornata (05/11/2026): giorni[].foto = nome file in
+    assets/foto/<slug>/, giorni[].didascalia facoltativa. Fail-loud se il file manca."""
+    nome = g.get("foto")
+    if not nome:
+        return ""
+    f = REPO / "assets" / "foto" / slug / nome
+    if not f.is_file():
+        raise SystemExit(f"foto mancante: {f}")
+    from PIL import Image
+    with Image.open(f) as im:
+        w, h = im.size
+    alt = g.get("didascalia") or g.get("titolo") or ""
+    cap = f'<figcaption>{esc(g["didascalia"])}</figcaption>' if g.get("didascalia") else ""
+    return (f'<figure class="foto-tappa"><img src="/assets/foto/{esc(slug)}/{esc(nome)}" '
+            f'alt="{esc(alt)}" width="{w}" height="{h}" loading="lazy" decoding="async">{cap}</figure>')
+
+
 def durata_giorni(inizio, fine):
     yi, mi, di = (int(x) for x in inizio.split("-"))
     yf, mf, df = (int(x) for x in fine.split("-"))
@@ -439,7 +457,8 @@ def render(model):
     for g in model["giorni"]:
         etichetta = f"Giorno {g['giorno']}" if g.get("giorno") else ""
         tappe.append(f'<li><span class="punto"></span><span class="giorno">{esc(etichetta)}</span>'
-                     f'<h3>{esc(g.get("titolo") or "")}</h3><p>{esc(g.get("testo") or "")}</p></li>')
+                     f'<h3>{esc(g.get("titolo") or "")}</h3><p>{esc(g.get("testo") or "")}</p>'
+                     f'{foto_tappa(model["slug"], g)}</li>')
 
     conds = "".join(
         f"<details><summary>{esc(t)}</summary><p>{esc(c)}</p></details>"

@@ -200,6 +200,16 @@ h3 { font-family: var(--font-testo); font-weight: 500; }
 }
 .timeline h3 { font-size: 1.0625rem; margin: 0.1rem 0 0.25rem; }
 .timeline p { margin: 0; font-size: 0.9375rem; }
+.timeline .foto-tappa { margin: 0.85rem 0 0; }
+.timeline .foto-tappa img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+.timeline .foto-tappa figcaption { font-size: 0.8125rem; color: var(--secondario); margin-top: 0.35rem; }
 
 /* ---------- Incluso / non incluso ---------- */
 
