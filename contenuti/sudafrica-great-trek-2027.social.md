@@ -44,6 +44,6 @@ Testo in grafica. Sticker link alla landing.
 ## Note operative
 
 - Guida in inglese: eccezione esplicita di Roberto (12/11/2026) alla regola «guida in italiano».
-- Pagamenti e penali: il listino del corrispondente non li riporta. In pagina sono rimandati alla conferma scritta. **Da definire con Roberto** prima di pubblicare (`landing_status` = `pubblicata`).
+- Pagamenti e penali: in pagina il rimando alle condizioni generali di vendita su www.kibotours.com/condizioni-generali-di-vendita/ (decisione di Roberto, 13/11/2026).
 - Tassa locale di 4.200 rand: in pagina c'è il controvalore indicativo al cambio BCE del 12/11/2026 (18,5219 → circa 225 €).
 - Direzione Sud (Cascate Vittoria → Città del Capo, 7 partenze, stesso prezzo): non in pagina, si può offrire su richiesta.
