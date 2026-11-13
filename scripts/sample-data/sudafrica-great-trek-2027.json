@@ -1,0 +1,32 @@
+{
+  "_nota": "Dati parametrici del Great Trek 2027 in direzione Nord (codice tour GTN: Città del Capo → Cascate Vittoria, 20 giorni / 19 notti, 15 in campo tendato mobile con servizio completo), costruito il 13/11/2026 dal programma e dal listino 2027 del corrispondente sudafricano (tariffario per tour operator in euro), che stanno nel repo privato kibo-catalogo (lavoro/sudafrica): il nome del corrispondente e i suoi costi restano FUORI da questo repo. Scelta di Roberto del 13/11/2026: Great Trek Città del Capo → Cascate Vittoria, con il campo mobile in primo piano; guida in inglese per sua eccezione esplicita del 12/11. Quote = netti 2027 in euro × 1,25, soglia psicologica (regola corrispondenti, niente cambio: il listino è già in euro). Due fasce: partenze gennaio–giugno 2.935 €, luglio–dicembre 3.295 €; supplemento singola 155 € tutto l'anno. Sei partenze in direzione Nord, garantite con 4 partecipanti, massimo 16. Fuori quota la tassa locale per parchi e attività di 4.200 rand a persona, da pagare in contanti alla guida il primo giorno (≈ 225 € al cambio BCE del 12/11/2026, 18,5219). Voli dall'Italia esclusi (arrivo a Città del Capo, partenza dalle Cascate Vittoria). Pagamenti e penali del corrispondente non presenti nel listino: in pagina rimandati alla conferma scritta, DA DEFINIRE con Roberto.",
+  "oggi": "2026-11-13",
+  "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Great%20Trek%20Citt%C3%A0%20del%20Capo%20-%20Cascate%20Vittoria%202027",
+  "cta_label": "Richiedi la quota",
+  "contact_url": "https://www.kibotours.com",
+  "viaggio": {
+    "tipo": "catalogo",
+    "trip_id": "ZAF-2027-GT20",
+    "nome_commerciale": "Great Trek: da Città del Capo alle Cascate Vittoria in campo tendato mobile",
+    "destinazione": "Città del Capo, Namaqualand, Augrabies, Kgalagadi, Fish River Canyon, Sossusvlei, Swakopmund, Spitzkoppe, Etosha, Delta dell'Okavango, Chobe, Cascate Vittoria",
+    "notti": 19,
+    "quota_da": 2935,
+    "landing_status": "pronta_per_verifica",
+    "supplemento_singola": 155,
+    "partenze_note": "6 partenze nel 2027, garantite con almeno 4 partecipanti, gruppo di massimo 16",
+    "date_testo": "6 partenze, febbraio – novembre 2027",
+    "fonte": {
+      "sistema": "kibo-catalogo",
+      "documento": "programma «La grande Avventura (The Great Trek) – Direzione Nord» 2027 e listino 2027 per tour operator in euro del corrispondente sudafricano, da Dropbox corrispondenti (oceano indiano 2026-2027)",
+      "aggiornato": "2026-11-13"
+    },
+    "partenze": [
+      {"data": "2027-02-13", "prezzo": 2935, "nota": "rientro dalle Cascate Vittoria il 4 marzo"},
+      {"data": "2027-04-03", "prezzo": 2935, "nota": "rientro dalle Cascate Vittoria il 22 aprile"},
+      {"data": "2027-05-15", "prezzo": 2935, "nota": "rientro dalle Cascate Vittoria il 3 giugno"},
+      {"data": "2027-07-03", "prezzo": 3295, "nota": "rientro dalle Cascate Vittoria il 22 luglio"},
+      {"data": "2027-09-18", "prezzo": 3295, "nota": "rientro dalle Cascate Vittoria il 7 ottobre; Namaqualand nella stagione dei fiori"},
+      {"data": "2027-11-06", "prezzo": 3295, "nota": "rientro dalle Cascate Vittoria il 25 novembre"}
+    ]
+  }
+}
