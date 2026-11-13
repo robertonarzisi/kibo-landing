@@ -1,0 +1,118 @@
+{
+ "_nota": "Dati parametrici del package Travel Compositor 28317161 «Isaan (Thailandia del Nordest) e fiume Mekong, Tour per Piccoli Gruppi» (rif. esterno 36371), letti via API il 13/11/2026. 4 giorni / 3 notti da Bangkok (partenza dall'albergo alle 7) a Udon Thani; piccoli gruppi di massimo 8; 18 partenze di martedì 12/01 → 26/10/2027. Guida: TC dice inglese di base, italiano su richiesta; per decisione di Roberto (12/11/2026) si pubblica con guida in italiano — da confermare con il fornitore a ogni prenotazione (possibile supplemento). Quota = prezzo di vendita TC 837,41 con soglia: 835 € tutte le date. Voli, notte a Bangkok prima del tour e trasferimento da Udon Thani esclusi. Singola su richiesta. Newsletter di martedì 01/12/2026, unico contenuto.",
+ "oggi": "2026-11-13",
+ "cta_url": "mailto:booking@kibotours.com?subject=Richiesta%20quota%20-%20Thailandia%20Isaan%20e%20Mekong",
+ "cta_label": "Richiedi la quota",
+ "contact_url": "https://www.kibotours.com",
+ "viaggio": {
+  "tipo": "catalogo",
+  "trip_id": "THA-2027-IS4",
+  "nome_commerciale": "Thailandia dell'Isaan e il Mekong: da Bangkok a Udon Thani in piccolo gruppo",
+  "destinazione": "Lopburi, Khao Kho, Chiang Khan, Nong Khai, Udon Thani",
+  "notti": 3,
+  "partenze": [
+   {
+    "data": "2027-01-12",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-01-26",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-02-09",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-02-23",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-03-09",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-03-23",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-04-27",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-05-11",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-05-25",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-06-08",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-06-22",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-07-13",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-07-27",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-08-10",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-08-24",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-09-07",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-09-21",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   },
+   {
+    "data": "2027-10-26",
+    "prezzo": 835,
+    "prezzo_listino": 837.41
+   }
+  ],
+  "partenze_note": "18 partenze di martedì nel 2027, in piccoli gruppi di massimo 8 persone",
+  "supplemento_singola": null,
+  "fonte": {
+   "sistema": "travelcompositor",
+   "package_id": 28317161,
+   "external_reference": "36371",
+   "aggiornato": "2026-11-13"
+  },
+  "date_testo": "18 partenze, gen – ott 2027",
+  "landing_status": "pronta_per_verifica",
+  "quota_da": 835,
+  "tc_package_id": 28317161
+ }
+}
