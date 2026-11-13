@@ -1,0 +1,63 @@
+{
+  "_stato": "BOZZA del 13/11/2026 — pronta_per_verifica; contenuto della newsletter di giovedì 19/11/2026 (un solo contenuto per newsletter, palinsesto di Roberto del 12/11), post social giovedì 19/11. Testo in voce Kibo riscritto dal package Travel Compositor 26119134 «Il cuore del Giappone» (tour «Easy Tokyo & Kyoto», categoria Standard; il testo TC non si pubblica com'è; dati letti il 13/11/2026). Prodotto diverso dal «Giappone Kokoro» già pubblicato (10 giorni, corrispondente Dropbox). Guida in italiano nei giorni 2 e 4. Supplemento singola non in TC: su richiesta. Pagamenti e penali: rimando alle condizioni generali di vendita Kibo (regola di Roberto del 13/11). Hero: Padiglione d'Oro (Kinkaku-ji), Wikimedia Commons «Den gyllene paviljongen, Kyoto, Japan (Unsplash)», licenza CC0. In attesa dell'approvazione di Roberto.",
+  "slug": "giappone-cuore-tokyo-kyoto-2027",
+  "area": "oriente",
+  "titolo": "Il cuore del Giappone: Tokyo e Kyoto in sette giorni",
+  "eyebrow": "Giappone · Tokyo e Kyoto con guida in italiano, 75 partenze",
+  "strillo": "Tre notti a Tokyo e tre a Kyoto, con due giornate di visita accompagnate da una guida in italiano, lo Shinkansen tra le due città, il bagaglio spedito a parte e i giorni liberi per esplorare con la tessera dei trasporti già carica. Il primo Giappone, fatto bene e senza fretta, con 75 partenze da gennaio 2027 ad aprile 2028, anche in due.",
+  "intro_titolo": "Le due anime del Giappone, con la guida dove serve e il tempo per sé",
+  "intro": [
+    "Tokyo e Kyoto sono il punto di partenza giusto per chi va in Giappone la prima volta: la capitale di oggi, con il santuario Meiji, Harajuku, Asakusa e la vista su Shinjuku dall'alto, e la capitale antica, con il Padiglione d'Oro, il giardino zen del Ryoan-ji e le case da tè di Gion. Le due giornate di visita sono con una guida in italiano; le altre sono libere, per seguire i propri interessi, con i nostri suggerimenti e la tessera IC dei trasporti già caricata con 5.000 yen.",
+    "Il viaggio è organizzato in ogni passaggio delicato: all'arrivo un assistente in lingua italiana vi accompagna dall'aeroporto all'albergo di Tokyo con i mezzi pubblici e vi aiuta al check-in; da Tokyo a Kyoto si va con lo Shinkansen in seconda classe con posto riservato, mentre la valigia viaggia separata con il corriere. Per tutto il soggiorno c'è un'assistenza telefonica in italiano. I voli dall'Italia li quotiamo insieme al viaggio."
+  ],
+  "durata_label": "7 giorni / 6 notti in Giappone",
+  "fatti_extra": [
+    {"etichetta": "Formula", "valore": "tour con partenze programmate, visite guidate in italiano e giornate libere, si parte anche in due"},
+    {"etichetta": "Notti", "valore": "3 a Tokyo, 3 a Kyoto"},
+    {"etichetta": "Guida", "valore": "in italiano nei giorni 2 e 4, assistente in italiano all'arrivo, assistenza telefonica in italiano"},
+    {"etichetta": "Treno", "valore": "Shinkansen Tokyo–Kyoto in seconda classe con posto riservato, bagaglio spedito a parte"}
+  ],
+  "giorni": [
+    {"giorno": "1", "titolo": "Arrivo a Tokyo", "testo": "Dopo il controllo passaporti e il ritiro dei bagagli, un assistente in lingua italiana vi accompagna dall'aeroporto all'albergo con i mezzi pubblici, vi dà le prime informazioni e vi aiuta al check-in (camere disponibili dalle 15). Assistenza all'arrivo e trasferimento possono essere condivisi con altri partecipanti del tour. Notte a Tokyo."},
+    {"giorno": "2", "titolo": "Tokyo con la guida in italiano", "testo": "Giornata intera di visita con la guida. Si comincia dal Meiji Jingu, il grande santuario shintoista, e si passeggia per Harajuku, il quartiere della moda e dei negozi più originali. Poi Asakusa, con il Senso-ji, il tempio più antico della città, e il viale di botteghe tradizionali di Nakamise-dori. Si finisce a Shinjuku, sulla terrazza panoramica del Palazzo del Governo Metropolitano, a 202 metri, progettato da Kenzo Tange. Rientro in albergo per conto proprio. Notte a Tokyo."},
+    {"giorno": "3", "titolo": "Tokyo, giornata libera", "testo": "Giornata a disposizione per scoprire Tokyo a modo vostro, con la tessera IC per metropolitana e treni. Notte a Tokyo."},
+    {"giorno": "4", "titolo": "Shinkansen per Kyoto e visita della città", "testo": "Al mattino si parte per conto proprio con lo Shinkansen, in seconda classe con posto riservato, e si arriva a Kyoto nel primo pomeriggio; la valigia viaggia separata con il corriere, quindi basta un bagaglio a mano per la prima notte. Nella hall dell'albergo vi aspetta la guida in italiano per la visita dell'antica capitale: il Padiglione d'Oro del Kinkaku-ji, il tempio simbolo della città reso celebre dal romanzo di Yukio Mishima, il Ryoan-ji con il suo giardino zen di rocce, che non si riescono mai a vedere tutte insieme da un solo punto, e una passeggiata a Gion, il quartiere delle case da tè dove a volte si incontrano le maiko, le apprendiste geisha. Notte a Kyoto."},
+    {"giorno": "5", "titolo": "Kyoto, giornata libera: Nara e Fushimi", "testo": "Giornata a disposizione. Con la tessera IC è facile raggiungere Nara, la prima capitale stabile del Giappone, e il santuario di Fushimi Inari, con le sue gallerie di torii rossi. Notte a Kyoto."},
+    {"giorno": "6", "titolo": "Kyoto, giornata libera", "testo": "Un'altra giornata libera a Kyoto. Vi suggeriamo il tempio Kiyomizu-dera e il Sanjusangen-do, con le sue 1.001 statue di legno della dea Kannon; oppure, con la tessera IC, Uji, la città del tè verde con il tempio Byodo-in, patrimonio UNESCO, o il lago Biwa, il più grande del Giappone. Notte a Kyoto."},
+    {"giorno": "7", "titolo": "Partenza da Kyoto", "testo": "Colazione (non servita né rimborsata se il volo di rientro parte troppo presto) e trasferimento all'aeroporto per conto proprio, in treno con la tessera IC o con il limousine bus, a pagamento. Le camere vanno lasciate entro le 11."}
+  ],
+  "incluso": [
+    "6 notti in camera doppia con letti separati, in camere di stile occidentale da almeno 19 m²: 3 al Sunshine City Prince Hotel di Tokyo e 3 all'Ala Hotel Kyoto, o similari",
+    "6 colazioni",
+    "Assistente in lingua italiana dall'aeroporto di Tokyo all'albergo il giorno 1, con trasferimento in mezzi pubblici",
+    "Visite guidate in italiano di Tokyo (giorno 2) e di Kyoto (giorno 4)",
+    "Shinkansen Tokyo–Kyoto in seconda classe con posto riservato (giorno 4)",
+    "Trasporto separato di una valigia a persona da Tokyo a Kyoto",
+    "Tessera IC ricaricabile per i trasporti, con 5.000 yen di credito",
+    "Assistenza telefonica in italiano per tutto il soggiorno"
+  ],
+  "non_incluso": [
+    "Voli dall'Italia a Tokyo e da Osaka Kansai all'Italia, con le tasse aeroportuali: li quotiamo insieme al viaggio",
+    "Trasferimento da Kyoto all'aeroporto di Kansai il giorno 7",
+    "Assistenza notturna per arrivi fuori dagli orari dei mezzi pubblici (con taxi a parte)",
+    "Pasti diversi dalle colazioni, bevande",
+    "Visite e attività facoltative",
+    "Bagagli oltre il primo nel trasporto Tokyo–Kyoto",
+    "Assicurazione medico-bagaglio-annullamento: la quotiamo a parte",
+    "Mance, spese personali e tutto quanto non indicato alla voce «la quota comprende»"
+  ],
+  "sistemazione_titolo": "Gli alberghi",
+  "sistemazione": [
+    "Sunshine City Prince Hotel a Tokyo, nel quartiere di Ikebukuro, e Ala Hotel Kyoto, o strutture similari. Camere doppie di stile occidentale, con due letti separati: il letto matrimoniale non è garantito e si conferma solo al check-in, secondo disponibilità.",
+    "Su richiesta il viaggio si può fare in categoria superiore, con camere più ampie: ve la quotiamo a parte."
+  ],
+  "voli_testo": "La quota comprende i servizi a terra, non i voli: li quotiamo insieme al viaggio per la data che scegliete, con arrivo a Tokyo il giorno 1 e ripartenza dall'aeroporto di Osaka Kansai il giorno 7. Se il volo arriva fuori dagli orari dei mezzi pubblici, l'assistenza notturna e il taxi sono a parte.",
+  "documenti_testo": "Passaporto valido per tutta la durata del soggiorno. Per i cittadini italiani in viaggio turistico non serve il visto. Le condizioni di ingresso le verifichiamo alla prenotazione e ve le confermiamo per iscritto.",
+  "condizioni_extra": [
+    {"titolo": "Partenze e quote", "testo": "75 partenze dal 5 gennaio 2027 al 18 aprile 2028, quasi tutte di martedì, anche in due. La quota è a persona in camera doppia e cambia con il periodo: più alta da metà marzo ad aprile, la stagione dei ciliegi, e da metà ottobre a inizio dicembre, quella del foliage. Il listino mostra la quota più bassa di ogni mese: nei mesi a cavallo vi confermiamo la quota della vostra data."},
+    {"titolo": "Le giornate libere", "testo": "I giorni 3, 5 e 6 sono a disposizione: i luoghi indicati sono i nostri suggerimenti, da raggiungere per conto proprio con la tessera IC. Visite guidate e attività facoltative si possono prenotare prima della partenza, con quote a parte."},
+    {"titolo": "Camera singola", "testo": "Il supplemento per la camera singola si quota su richiesta."},
+    {"titolo": "Pagamenti e penali applicate in caso di cancellazione", "testo": "Per acconto, saldo e penali di cancellazione valgono le condizioni generali di vendita di Kibo, pubblicate su www.kibotours.com/condizioni-generali-di-vendita/."}
+  ],
+  "meta_description": "Il cuore del Giappone con Kibo: 7 giorni tra Tokyo e Kyoto, con visite guidate in italiano, Shinkansen, bagaglio spedito a parte e giornate libere con la tessera dei trasporti. 75 partenze da gennaio 2027 ad aprile 2028, anche in due."
+}
